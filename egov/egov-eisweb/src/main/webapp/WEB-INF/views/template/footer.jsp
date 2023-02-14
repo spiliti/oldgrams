@@ -47,5 +47,5 @@
   --%>
 
 <footer class="main">
-    Powered by <a href="http://egovernments.org/" target="_blank">eGovernments Foundation</a>
+    Powered by <a href="http://zm4a.org/" target="_blank">Pamodzi Technologies/ITM Consult</a>
 </footer>
