@@ -241,7 +241,7 @@ end shuller's edit -->
         <google.zxing.version>3.3.3</google.zxing.version>
         <recaptcha.version>0.0.8</recaptcha.version>
         <jcaptcha.version>2.0-alpha-1</jcaptcha.version>
-        <javaxt.core.version>1.7.8</javaxt.core.version>
+        <javaxt.core.version>1.12.0</javaxt.core.version>
         <pdfbox.version>2.0.12</pdfbox.version>
         <bouncycastle.version>1.60</bouncycastle.version>
         <!-- Plugin dependency versions-->
