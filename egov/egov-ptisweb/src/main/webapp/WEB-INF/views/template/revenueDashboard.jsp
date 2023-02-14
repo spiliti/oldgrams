@@ -153,7 +153,7 @@
 		</nav>
 		<tiles:insertAttribute name="body"/>
 		<footer class="footer">
-		   <div style="margin-top: 20px;padding: 5px 19px;font-size: 12px;background: #F1F2F3;">Powered by <a href="http://zm4a.org/" target="_blank">Pamodzi Tech Solutions</a></div>
+		   <div style="margin-top: 20px;padding: 5px 19px;font-size: 12px;background: #F1F2F3;">Powered by <a href="http://egovernments.org/" target="_blank">eGovernments Foundation</a></div>
 		</footer>
 	</body>
 	<script src="<cdn:url value='/resources/global/js/bootstrap/bootstrap.js' context='/egi'/>"></script>
