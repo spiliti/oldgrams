@@ -123,10 +123,20 @@
             <id>JBoss Repository</id>
             <url>https://repository.jboss.org/nexus/content/repositories/thirdparty-releases/</url>
         </repository>
+<!-- Shuller's edit
         <repository>
             <id>JSPRESSO</id>
             <url>http://repository.jspresso.org/maven2/</url>
         </repository>
+end shuller's edit -->
+  
+<!-- Start of shuller's edit -->
+   	<repository>
+     		<id>javaxt.com</id>
+     		<url>http://www.javaxt.com/maven</url>
+   	</repository>
+<!-- End of shuller's  edit-->
+
     </repositories>
 
     <pluginRepositories>
@@ -265,7 +275,7 @@
         <module>egov-demand</module>
         <module>egov-ptis</module>
         <module>egov-adtax</module>
-        <module>egov-wtms</module>
+        <module>egov-wtms</module> 
         <module>egov-tl</module>
         <!-- <module>egov-bpa</module> -->
         <module>egov-commonsweb</module>
@@ -281,7 +291,7 @@
         <module>egov-collectionweb</module>
         <module>egov-ptisweb</module>
         <module>egov-adtaxweb</module>
-        <module>egov-wtmsweb</module>
+        <module>egov-wtmsweb</module> 
         <module>egov-dashboardweb</module>
         <module>egov-tlweb</module>
         <!-- <module>egov-bpaweb</module> -->
@@ -304,6 +314,15 @@
 
     <dependencyManagement>
         <dependencies>
+
+<!-- Shuller edit -->
+	   <dependency>
+  		<groupId>org.apache.maven.shared</groupId>
+ 		 <artifactId>maven-dependency-tree</artifactId>
+ 		 <version>3.2.0</version>
+	    </dependency>
+<!-- end Shuller's edit -->
+ 
             <dependency>
                 <groupId>org.elasticsearch</groupId>
                 <artifactId>elasticsearch</artifactId>
