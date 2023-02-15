@@ -256,7 +256,7 @@ public class GeneralLedgerReport {
             double txnDebit = 0, txnCredit = 0, previousDebit = 0, previousCredit = 0;
             String code = "", currCode = "", accCodePrevious = "", cgn = "";
             /**
-             * When using ResultSet.TYPE_SCROLL_INSENSITIVE in createStatement if no records are there, ZKnext() will return true
+             * When using ResultSet.TYPE_SCROLL_INSENSITIVE in createStatement if no records are there, rs.next() will return true
              * but when trying to access (rs.getXXX()), it will throw an error
              **/
             int totalCount = 0, isConfirmedCount = 0;

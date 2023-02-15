@@ -355,7 +355,7 @@ public class DishonoredChequeReport {
 
             int resSize = 0, i = 0;
 
-            resSize = ZKsize();
+            resSize = rs.size();
 
             originalVcId = new String[resSize];
             bankRefNo = new String[resSize];

@@ -119,10 +119,10 @@ public class IESchedules extends AbstractTask {
             rs = pst.executeQuery();
 
             while (rs.next()) {
-                curAmt = ZKgetDouble("curyearamount");
-                preAmt = ZKgetDouble("preyearamount");
-                schedule = ZKgetString("schedule");
-                operation = ZKgetString("operation");
+                curAmt = rs.getDouble("curyearamount");
+                preAmt = rs.getDouble("preyearamount");
+                schedule = rs.getString("schedule");
+                operation = rs.getString("operation");
 
                 if (!preSchedule.equalsIgnoreCase(schedule))
                     grids++;
@@ -148,7 +148,7 @@ public class IESchedules extends AbstractTask {
                     sumCur = sumPre = 0;
                 }
                 rowCount++;
-                title = ZKgetString("schTitle");
+                title = rs.getString("schTitle");
 
                 if (operation.equalsIgnoreCase("L")
                         && preSchedule.equalsIgnoreCase(schedule)) {
@@ -164,7 +164,7 @@ public class IESchedules extends AbstractTask {
                     sumCur = sumCur + curAmt;
                     sumPre = sumPre + preAmt;
                 }
-                final String row[] = {rs.getString("glcode"), ZKgetString("name"),
+                final String row[] = {rs.getString("glcode"), rs.getString("name"),
                         formatter.format(curAmt), formatter.format(preAmt)};
                 ar.add(row);
                 preSchedule = schedule;

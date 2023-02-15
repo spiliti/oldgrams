@@ -216,7 +216,7 @@
 					<rightPen lineWidth="1.0"/>
 				</box>
 				<textElement textAlignment="Center" verticalAlignment="Middle"/>
-				<text><![CDATA[Amount(Rs.)]]></text>
+				<text><![CDATA[Amount (ZK)]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="680" y="0" width="72" height="30" uuid="b8d93760-bbc0-40a0-9e55-573a561354a4"/>

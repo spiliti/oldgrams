@@ -134,7 +134,7 @@ public class SchemeUtilizationReport {
                 LOGGER.info("AFTER EXECUTE PROCEDURE for Opening Balance");
 
             final ResultSet rs = (ResultSet) cstmt.getObject(1);
-            final ResultSetMetaData rsmd = ZKgetMetaData();
+            final ResultSetMetaData rsmd = rs.getMetaData();
             final int columnCount = rsmd.getColumnCount();
 
             if (LOGGER.isInfoEnabled())
@@ -154,14 +154,14 @@ public class SchemeUtilizationReport {
                 for (int j = 0; j < dynamicColumn; j++) {
                     // if(LOGGER.isInfoEnabled()) LOGGER.info("dynamicColumn amount--->"+rs.getString(j+1));
                     // Here dynamic Column is starting from "1",that's why we have to start dynamic Column count from "1" onwards.
-                    amt = ZKgetString(j + 1);
+                    amt = rs.getString(j + 1);
                     if (amt == null)
                         amt = "0.00";
                     columnLabel = rsmd.getColumnName(j + 1);
                     data.put(columnLabel, formatAmtTwoDecimal(amt));
                 }// for
                 if (LOGGER.isInfoEnabled())
-                    LOGGER.info("scheme total--->" + ZKgetString("SCHAMT"));
+                    LOGGER.info("scheme total--->" + rs.getString("SCHAMT"));
                 if (rs.getString("SCHAMT") != null)
                     data.put("schemetotal", formatAmtTwoDecimal(rs.getString("SCHAMT")));
                 else

@@ -273,7 +273,7 @@ public class CashBook {
             BigDecimal chequecreditTotal = new BigDecimal("0.00");
             String code = "", vhType = "", funcCode = "", bgtCode = "", srcOfFinance = "", cgn = "", currVhDate, purposeid = "";
             /**
-             * When using ResultSet.TYPE_SCROLL_INSENSITIVE in createStatement if no records are there, ZKnext() will return true
+             * When using ResultSet.TYPE_SCROLL_INSENSITIVE in createStatement if no records are there, rs.next() will return true
              * but when trying to access (rs.getXXX()), it will throw an error
              **/
             int totalCount = 0, isConfirmedCount = 0;
