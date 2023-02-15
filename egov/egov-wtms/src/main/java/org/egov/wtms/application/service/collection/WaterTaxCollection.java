@@ -415,7 +415,7 @@ public class WaterTaxCollection extends TaxCollection {
                     }
                     if (LOGGER.isDebugEnabled())
                         LOGGER.debug("Persisted demand and receipt details for tax : " .concat(reason)  .concat(" installment : ") 
-                                .concat(instDesc)  .concat(" with receipt No : ")  .concat(billRcptInfo.getReceiptNum())  .concat(" for Rs. ") 
+                                .concat(instDesc)  .concat(" with receipt No : ")  .concat(billRcptInfo.getReceiptNum())  .concat(" for ZK ") 
                                 .concat(rcptAccInfo.getCrAmount().toString()) );
                 }
 

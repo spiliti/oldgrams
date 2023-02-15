@@ -202,7 +202,7 @@
 			<staticText>
 				<reportElement x="80" y="47" width="445" height="30" uuid="2f5399f6-2902-4f74-bab4-32e306a3c461"/>
 				<textElement textAlignment="Justified"/>
-				<text><![CDATA[2. If the service is not closed on or before the due date, Rs. 50/- will be paid for each day of delay as compensation.]]></text>
+				<text><![CDATA[2. If the service is not closed on or before the due date, ZK 50/- will be paid for each day of delay as compensation.]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="80" y="80" width="445" height="20" uuid="f4cfadc9-ae08-447d-a8ec-2a719419ca2d"/>

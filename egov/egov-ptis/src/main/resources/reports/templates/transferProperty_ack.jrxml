@@ -128,7 +128,7 @@
 					<font size="10" isBold="false"/>
 				</textElement>
 				<text><![CDATA[1. The applicant can contact the municipal commissioner, immediately if the service is not delivered as indicated above on the date fixed.
-2. Compensation will be paid @ Rs. 50/- per day for the delay caused and towards the valuable time lost by the applicant, if the service is not delivered as indicated above in the date fixed.
+2. Compensation will be paid @ ZK 50/- per day for the delay caused and towards the valuable time lost by the applicant, if the service is not delivered as indicated above in the date fixed.
 3. Application will be processed only after payment of prescribed fee, wherever applicable and SLA period for the service will start from the date of payment.]]></text>
 			</staticText>
 			<textField isBlankWhenNull="true">

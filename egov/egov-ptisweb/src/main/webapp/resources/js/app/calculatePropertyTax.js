@@ -267,7 +267,7 @@ $(document)
 																			}
 																		});
 														if(exception!='exceptionString'){
-															$('#arv').append("<b>Annual Rental Value is Rs. </b><b>" + arv + "</b>");
+															$('#arv').append("<b>Annual Rental Value is ZK </b><b>" + arv + "</b>");
 														}
 														
 													},

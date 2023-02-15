@@ -174,7 +174,7 @@
 				<textElement>
 					<font isPdfEmbedded="true"/>
 				</textElement>
-				<text><![CDATA[2. Compensation will be paid @ Rs. 50/- per day for the delay caused and towards the valuable time lost by the applicant, if the service is not delivered as indicated above in the date fixed.]]></text>
+				<text><![CDATA[2. Compensation will be paid @ ZK 50/- per day for the delay caused and towards the valuable time lost by the applicant, if the service is not delivered as indicated above in the date fixed.]]></text>
 			</staticText>
 			<staticText>
 				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="24" y="122" width="505" height="34" uuid="ec711a1e-2fe7-428e-84f9-65fee0d0791f"/>

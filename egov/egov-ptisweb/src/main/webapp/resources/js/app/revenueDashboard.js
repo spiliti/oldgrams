@@ -513,7 +513,7 @@ function collectionsPaymentMode() {
 		        },
 		        series: [{
 		            type: 'column',
-		            name: 'Value in Rs. ',
+		            name: 'Value in ZK ',
 		        	data: collPaybardata.overallColl
 		        },{
 		            type: 'column',

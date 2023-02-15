@@ -103,7 +103,7 @@
 						<td width="3%"><P STYLE="margin-bottom: 0.35cm">Executive Engineer</P>
 							<P STYLE="margin-bottom: 0.35cm">(Zones/Departments)</P>
 							<P>Divisional Electrical engineer</P></td>
-						<td width="3%"><P STYLE="margin-bottom: 0.35cm">Upto Rs. 10 lakhs</P>
+						<td width="3%"><P STYLE="margin-bottom: 0.35cm">Upto ZK 10 lakhs</P>
 							<P>( Upto 3% excess ) 
 							</P></td>
 					</tr>
@@ -111,9 +111,9 @@
 					<tr>
 						<td width="2%">2</td>
 						<td width="3%"><P>Zonal Officer</P></td>
-						<td width="3%"><P STYLE="margin-bottom: 0.35cm">Upto Rs. 10 lakhs</P>
+						<td width="3%"><P STYLE="margin-bottom: 0.35cm">Upto ZK 10 lakhs</P>
 								<P STYLE="margin-bottom: 0.35cm">( Upto 6% excess )</P>
-								<P STYLE="margin-bottom: 0.35cm">Upto Rs. 15 lakhs</P>
+								<P STYLE="margin-bottom: 0.35cm">Upto ZK 15 lakhs</P>
 								<P STYLE="margin-bottom: 0.35cm">( Upto 3 % excess )</P>
 						</td>
 					</tr>
@@ -122,9 +122,9 @@
 						<td width="2%">3</td>
 						<td width="3%"><P STYLE="margin-bottom: 0.35cm">Superintending Engineer</P>
 										<P>City Engineer</P></td>
-						<td width="3%"><P STYLE="margin-bottom: 0.35cm">Upto Rs. 15 lakhs</P>
+						<td width="3%"><P STYLE="margin-bottom: 0.35cm">Upto ZK 15 lakhs</P>
 										<P STYLE="margin-bottom: 0.35cm">( Upto 6 % excess )</P>
-										<P STYLE="margin-bottom: 0.35cm">Upto Rs. 25 lakhs</P>
+										<P STYLE="margin-bottom: 0.35cm">Upto ZK 25 lakhs</P>
 										<P STYLE="margin-bottom: 0.35cm">( Upto 3 % excess )</P>
 						</td>
 					</tr>
@@ -133,9 +133,9 @@
 						<td width="2%">4</td>
 						<td width="3%"><P STYLE="margin-bottom: 0.35cm">Chief Engineer(GI)</P>
 										<P>Chief Engineer(B &amp; Br)</P></td>
-						<td width="3%"><P STYLE="margin-bottom: 0.35cm">Upto Rs. 25 lakhs</P>
+						<td width="3%"><P STYLE="margin-bottom: 0.35cm">Upto ZK 25 lakhs</P>
 										<P STYLE="margin-bottom: 0.35cm">( Upto 6 % excess )</P>
-										<P STYLE="margin-bottom: 0.35cm">Upto Rs. 30 lakhs</P>
+										<P STYLE="margin-bottom: 0.35cm">Upto ZK 30 lakhs</P>
 										<P STYLE="margin-bottom: 0.35cm">( Upto 3 % excess )</P>
 						</td>
 					</tr>
@@ -147,7 +147,7 @@
 										<P STYLE="margin-bottom: 0.35cm">Financial Advisor</P>
 										<P>Any two superintending engineers nominated by the engineer from
 										time to time</P></td>
-						<td width="3%"><P STYLE="margin-bottom: 0.35cm">Upto Rs. 35 lakhs</P>
+						<td width="3%"><P STYLE="margin-bottom: 0.35cm">Upto ZK 35 lakhs</P>
 										<P STYLE="margin-bottom: 0.35cm">( Irrespective of tender excess )</P>
 						</td>
 					</tr>

@@ -264,7 +264,7 @@
 				<textElement textAlignment="Justified">
 					<font size="10"/>
 				</textElement>
-				<textFieldExpression><![CDATA["	Administrative sanction is hereby accorded for an amount of Rs. " + $P{totalAmount} + " /- (" + $P{totalAmountWords} + ") for the following works. The Superindent/Executive Engineer is hereby directed to execute the work following the Codal Rules."]]></textFieldExpression>
+				<textFieldExpression><![CDATA["	Administrative sanction is hereby accorded for an amount of ZK " + $P{totalAmount} + " /- (" + $P{totalAmountWords} + ") for the following works. The Superindent/Executive Engineer is hereby directed to execute the work following the Codal Rules."]]></textFieldExpression>
 			</textField>
 		</band>
 	</title>

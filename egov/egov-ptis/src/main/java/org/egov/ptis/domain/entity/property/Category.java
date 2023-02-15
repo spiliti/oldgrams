@@ -60,7 +60,7 @@ import java.util.Set;
  * the base demand Normally for the boundary, the ULB specifies the category to
  * which it belongs and the rate of tax for per unit of Measurement. eg: Ashok
  * Nagar Ward may belong to Category A. The amount per sq. feet for the ward
- * might be specified as 500 Rs. per sq. Feet. The Category class encapsulates
+ * might be specified as 500 ZK per sq. Feet. The Category class encapsulates
  * the above information.
  * 
  * @author Manu Srivastava

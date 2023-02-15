@@ -296,7 +296,7 @@ function serChargeCalc()
 		//bootbox.alert('hi'+serCharge);
 		var grandTot = roundoff(totColAmt+eval(serCharge));
 		//bootbox.alert('hi'+grandTot);
-		if(confirm('For Debit/Credit Card Payment BankServiceCharge Applicable is : Rs.'+serCharge+'                                                                                                                                     Total Amount Payable is : Rs. '+grandTot+""))
+		if(confirm('For Debit/Credit Card Payment BankServiceCharge Applicable is : Rs.'+serCharge+'                                                                                                                                     Total Amount Payable is : ZK '+grandTot+""))
 		{
 			 return true;
 		}

@@ -487,7 +487,7 @@ public class PropertyTaxCollection extends TaxCollection {
                     persistCollectedReceipts(demandDetail, billRcptInfo.getReceiptNum(), totalAmount,
                             billRcptInfo.getReceiptDate(), rcptAccInfo.getCrAmount());
                     LOGGER.info("Persisted demand and receipt details for tax : " + reason + " installment : "
-                            + instDesc + " with receipt No : " + billRcptInfo.getReceiptNum() + " for Rs. "
+                            + instDesc + " with receipt No : " + billRcptInfo.getReceiptNum() + " for ZK "
                             + rcptAccInfo.getCrAmount());
                 }
 

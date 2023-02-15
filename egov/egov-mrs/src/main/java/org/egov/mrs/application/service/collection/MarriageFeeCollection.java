@@ -108,7 +108,7 @@ public class MarriageFeeCollection extends TaxCollection {
             LOGGER.debug("updateDemandDetails : Demand before proceeding : " + demand);
 
             LOGGER.debug(String.format(
-                    " updateDemandDetails : collection back update started for Marriage Registration No : %s, for %s, amounting to Rs. %s and with Receipt No %s",
+                    " updateDemandDetails : collection back update started for Marriage Registration No : %s, for %s, amounting to ZK %s and with Receipt No %s",
                     registrationNo, billRcptInfo.getEvent(), totalAmount, billRcptInfo.getReceiptNum()));
         }
 
@@ -173,7 +173,7 @@ public class MarriageFeeCollection extends TaxCollection {
 
                 if (LOGGER.isDebugEnabled()) {
                     LOGGER.debug(String.format(
-                            "Persisted demand and receipt details for tax=%s, installment=%s, receipt no=%s, for Rs. %s ",
+                            "Persisted demand and receipt details for tax=%s, installment=%s, receipt no=%s, for ZK %s ",
                             reason, installment, billRcptInfo.getReceiptNum(), receiptAccount.getCrAmount()));
                 }
             }

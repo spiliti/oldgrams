@@ -451,7 +451,7 @@
 						<font/>
 					</textElement>
 				<textFieldExpression   class="java.lang.String"><![CDATA["Please remit the amounts as per the above advice to the concerned parties. "+
-" ChequeNo "+$P{chequeNo}+" dated "+$P{chequeDate}+" for Rs. "+$V{total}+
+" ChequeNo "+$P{chequeNo}+" dated "+$P{chequeDate}+" for ZK. "+$V{total}+
 "/- in favour of "+$P{inFavourOf}+". Payment "+$P{pymtBank} +" A/c No. "+$P{pymtAcNo} +
 " is enclosed."]]></textFieldExpression>
 				</textField>

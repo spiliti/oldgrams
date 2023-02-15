@@ -155,7 +155,7 @@
 				<textElement verticalAlignment="Top" markup="styled">
 					<paragraph lineSpacing="1_1_2"/>
 				</textElement>
-				<textFieldExpression><![CDATA["Property enquiry have been done on your "+$P{natureOfWork}+" on assessment No. <style forecolor=\"#000000\" isBold=\"true\" pdfFontName=\"Times-Bold\" pdfEncoding=\"Cp1252\" isPdfEmbedded=\"true\"> "  +$P{HouseNo} +" </style> with property tax reduced from Rs. <style forecolor=\"#000000\" isBold=\"true\" pdfFontName=\"Times-Bold\" pdfEncoding=\"Cp1252\" isPdfEmbedded=\"true\"> "+$P{AnnualPropertyTaxFrom}+"</style> to Rs.<style forecolor=\"#000000\" isBold=\"true\" pdfFontName=\"Times-Bold\" pdfEncoding=\"Cp1252\" isPdfEmbedded=\"true\"> " +$P{AnnualPropertyTaxTo}+"</style>"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["Property enquiry have been done on your "+$P{natureOfWork}+" on assessment No. <style forecolor=\"#000000\" isBold=\"true\" pdfFontName=\"Times-Bold\" pdfEncoding=\"Cp1252\" isPdfEmbedded=\"true\"> "  +$P{HouseNo} +" </style> with property tax reduced from ZK <style forecolor=\"#000000\" isBold=\"true\" pdfFontName=\"Times-Bold\" pdfEncoding=\"Cp1252\" isPdfEmbedded=\"true\"> "+$P{AnnualPropertyTaxFrom}+"</style> to Rs.<style forecolor=\"#000000\" isBold=\"true\" pdfFontName=\"Times-Bold\" pdfEncoding=\"Cp1252\" isPdfEmbedded=\"true\"> " +$P{AnnualPropertyTaxTo}+"</style>"]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="5" y="114" width="567" height="36" uuid="bfdc75b0-7b9c-4295-88e7-329807b4b01f"/>
@@ -200,7 +200,7 @@
 				<textElement verticalAlignment="Top" markup="styled">
 					<paragraph lineSpacing="1_1_2"/>
 				</textElement>
-				<textFieldExpression><![CDATA["It is to be noted that Half year tax is reduced from Rs. <style forecolor=\"#000000\" isBold=\"true\" pdfFontName=\"Times-Bold\" pdfEncoding=\"Cp1252\" isPdfEmbedded=\"true\"> "+$P{HalfYearPropertyTaxFrom} +" </style> to Rs.  <style forecolor=\"#000000\" isBold=\"true\" pdfFontName=\"Times-Bold\" pdfEncoding=\"Cp1252\" isPdfEmbedded=\"true\"> "+$P{HalfYearPropertyTaxTo} +"</style>"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["It is to be noted that Half year tax is reduced from ZK <style forecolor=\"#000000\" isBold=\"true\" pdfFontName=\"Times-Bold\" pdfEncoding=\"Cp1252\" isPdfEmbedded=\"true\"> "+$P{HalfYearPropertyTaxFrom} +" </style> to ZK  <style forecolor=\"#000000\" isBold=\"true\" pdfFontName=\"Times-Bold\" pdfEncoding=\"Cp1252\" isPdfEmbedded=\"true\"> "+$P{HalfYearPropertyTaxTo} +"</style>"]]></textFieldExpression>
 			</textField>
 		</band>
 	</detail>

@@ -137,7 +137,7 @@
 			</textField>
 			<staticText>
 				<reportElement x="0" y="330" width="470" height="30" uuid="b2988873-9bc4-44cc-bba1-75428f5e5951"/>
-				<text><![CDATA[2.  If the service is not closed on or before the due date, Rs. 50/- will be paid for each day of delay as compensation.]]></text>
+				<text><![CDATA[2.  If the service is not closed on or before the due date, ZK 50/- will be paid for each day of delay as compensation.]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="0" y="360" width="370" height="30" uuid="a7286968-be57-4210-8db3-05402e21da72"/>
@@ -233,7 +233,7 @@
 			</staticText>
 			<staticText>
 				<reportElement x="0" y="460" width="470" height="30" uuid="bc634c23-d47f-422e-bb90-fc85895e3595"/>
-				<text><![CDATA[2.  If the service is not closed on or before the due date, Rs. 50/- will be paid for each day of delay as compensation.]]></text>
+				<text><![CDATA[2.  If the service is not closed on or before the due date, ZK 50/- will be paid for each day of delay as compensation.]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="0" y="410" width="70" height="20" uuid="14ce1dc8-f122-4fd2-8db9-5896cdaec9b3"/>

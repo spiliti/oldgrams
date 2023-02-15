@@ -68,7 +68,7 @@
 		<td class="greybox" width="25%"><s:text name="annualvalue"></s:text> :</td>
 		<td class="greybox" width="">
 			<span class="bold">
-			   Rs. <s:text name="format.money">
+			   ZK <s:text name="format.money">
 					<s:param value="propertyTaxDetailsMap.ARV" />
 				</s:text>
 			</span>

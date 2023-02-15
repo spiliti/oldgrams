@@ -383,7 +383,7 @@ function loadPropertyDetails() {
 				else {	
 					if(allowIfPTDueExists=='false' && response.propertyDetails.taxDue > 0) {
 						resetPropertyDetails();
-						errorMessage = "Property tax is due with Rs. "+response.propertyDetails.taxDue+"/- for the assessment no "+propertyID+", please pay the due amount to create new water tap connection"
+						errorMessage = "Property tax is due with ZK. "+response.propertyDetails.taxDue+"/- for the assessment no "+propertyID+", please pay the due amount to create new water tap connection"
 						bootbox.alert(errorMessage);
 					}
 					else {					

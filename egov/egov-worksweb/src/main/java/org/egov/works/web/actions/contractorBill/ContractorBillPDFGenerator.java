@@ -372,9 +372,9 @@ public class ContractorBillPDFGenerator extends AbstractPDFGenerator {
                 createcreateDeductionTypeDataTable.addCell(egBillPayeedetail.getEgBillPayeeDtls().getRecovery().getType());
                 createcreateDeductionTypeDataTable.getDefaultCell().setHorizontalAlignment(Element.ALIGN_RIGHT);
                 createcreateDeductionTypeDataTable.getDefaultCell().setColspan(1);
-                createcreateDeductionTypeDataTable.addCell(resultTotStatuAry[0]);// Rs. amt all bill for workorder till billdate
+                createcreateDeductionTypeDataTable.addCell(resultTotStatuAry[0]);// ZK amt all bill for workorder till billdate
                 createcreateDeductionTypeDataTable.addCell(resultTotStatuAry[1]);// Pa, amt all bill for workorder till billdate
-                createcreateDeductionTypeDataTable.addCell(resultAry[0]); // Rs. amt for this deduction specific to bill
+                createcreateDeductionTypeDataTable.addCell(resultAry[0]); // ZK amt for this deduction specific to bill
                 createcreateDeductionTypeDataTable.addCell(resultAry[1]);// pa. amt for this deduction specific to bill
             }
         final String type = "advanceAjustment";
@@ -395,7 +395,7 @@ public class ContractorBillPDFGenerator extends AbstractPDFGenerator {
             createcreateDeductionTypeDataTable.addCell(resultTotAry[0]);
             createcreateDeductionTypeDataTable.addCell(resultTotAry[1]);
 
-            createcreateDeductionTypeDataTable.addCell(resultAry[0]); // Rs. amt for this deduction specific to bill
+            createcreateDeductionTypeDataTable.addCell(resultAry[0]); // ZK amt for this deduction specific to bill
             createcreateDeductionTypeDataTable.addCell(resultAry[1]);// pa. amt for this deduction specific to bill
         }
 
@@ -412,11 +412,11 @@ public class ContractorBillPDFGenerator extends AbstractPDFGenerator {
                 createcreateDeductionTypeDataTable.addCell(deductionTypeForBill.getDeductionType());
                 createcreateDeductionTypeDataTable.getDefaultCell().setHorizontalAlignment(Element.ALIGN_RIGHT);
                 createcreateDeductionTypeDataTable.getDefaultCell().setColspan(1);
-                createcreateDeductionTypeDataTable.addCell(resultTotStandardAry[0]);// Rs. amt all bill for workorder till
+                createcreateDeductionTypeDataTable.addCell(resultTotStandardAry[0]);// ZK amt all bill for workorder till
                 // billdate
                 createcreateDeductionTypeDataTable.addCell(resultTotStandardAry[1]);// Pa, amt all bill for workorder till
                 // billdate
-                createcreateDeductionTypeDataTable.addCell(resultAry[0]); // Rs. amt for this deduction for this bill
+                createcreateDeductionTypeDataTable.addCell(resultAry[0]); // ZK amt for this deduction for this bill
                 createcreateDeductionTypeDataTable.addCell(resultAry[1]);// Pa. amt for this deduction for this bill
             }
 
@@ -434,7 +434,7 @@ public class ContractorBillPDFGenerator extends AbstractPDFGenerator {
                                 .getName());
                 createcreateDeductionTypeDataTable.getDefaultCell().setHorizontalAlignment(Element.ALIGN_RIGHT);
                 createcreateDeductionTypeDataTable.getDefaultCell().setColspan(1);
-                createcreateDeductionTypeDataTable.addCell(resultTotCustomAry[0]);// Rs. amt all bill for workorder till billdate
+                createcreateDeductionTypeDataTable.addCell(resultTotCustomAry[0]);// ZK amt all bill for workorder till billdate
                 createcreateDeductionTypeDataTable.addCell(resultTotCustomAry[1]);// Pa, amt all bill for workorder till billdate
                 createcreateDeductionTypeDataTable.addCell(resultAry[0]); // amt for this deduction specific to bill
                 createcreateDeductionTypeDataTable.addCell(resultAry[1]);
@@ -548,8 +548,8 @@ public class ContractorBillPDFGenerator extends AbstractPDFGenerator {
         createWorkValueLabel.addCell(" ");
         createWorkValueLabel.getDefaultCell().setHorizontalAlignment(Element.ALIGN_CENTER);
         createWorkValueLabel.getDefaultCell().setColspan(2);
-        createWorkValueLabel.addCell(centerPara(pdfLabel.get("contractorbill.pdf.todate") + "\n" + " Rs.       P."));
-        createWorkValueLabel.addCell(centerPara(pdfLabel.get("contractorbill.pdf.lastbill") + "\n" + " Rs.       P."));
+        createWorkValueLabel.addCell(centerPara(pdfLabel.get("contractorbill.pdf.todate") + "\n" + " ZK       P."));
+        createWorkValueLabel.addCell(centerPara(pdfLabel.get("contractorbill.pdf.lastbill") + "\n" + " ZK       P."));
         return createWorkValueLabel;
     }
 

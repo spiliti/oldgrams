@@ -91,7 +91,7 @@ public final class MoneyUtils {
      * <p>
      * See the unit tests for more examples.
      *
-     * @param amountInPaise Has to be whole number, so if your amount is Rs. 100.342,
+     * @param amountInPaise Has to be whole number, so if your amount is ZK 100.342,
      *                      you'll have to convert that to 10034 paise.
      * @param weights       Numbers that specify the weight given to each split. They need
      *                      not add up to 100% (e.g. 3, 3, 4) - any arbitrary weights will
@@ -136,7 +136,7 @@ public final class MoneyUtils {
      * This variant of the allocate method allows the original amount to be
      * input as a rupee amount i.e. as a BigDecimal, and receive the output
      * splits as BigDecimal amounts too. If the input amount is more than 2
-     * decimal places e.g. Rs. 150.632, it gets rounded to 2 decimal places
+     * decimal places e.g. ZK 150.632, it gets rounded to 2 decimal places
      * (using "half-up" rounding) and it is the rounded amount that gets
      * allocated.
      *
