@@ -151,7 +151,7 @@
 										Thousands</div>
 								</s:if>
 								<s:else>
-									<div align="right" class="extracontent">Amount in Rupees
+									<div align="right" class="extracontent">Amount in Kwacha
 									</div>
 								</s:else>
 

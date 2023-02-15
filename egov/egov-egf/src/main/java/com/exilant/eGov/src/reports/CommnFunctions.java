@@ -410,10 +410,10 @@ public class CommnFunctions {
     }
 
     /**
-     * convert amount in rupeese to thousands or lakhs
-     *
+     * convert amount in xrupeese to thousands or lakhs
+     * Changed convert amount to 000s or 000000s
      * @param amt :amount to be converted
-     * @param amt_In : to "thousands" or "lakhs"
+     * @param amt_In : to "thousands" or "millions"
      * @return
      */
 
@@ -421,7 +421,7 @@ public class CommnFunctions {
         BigDecimal ammt = new BigDecimal(0.000);
         NumberFormat formatter;
         formatter = new DecimalFormat("##############0.00");
-        final int val = amt_In.equalsIgnoreCase("thousand") ? 1 : amt_In.equalsIgnoreCase("lakhs") ? 2 : 3;
+        final int val = amt_In.equalsIgnoreCase("thousand") ? 1 : amt_In.equalsIgnoreCase("millions") ? 2 : 3;
         switch (val) {
         case 1:
             ammt = BigDecimal.valueOf(Double.parseDouble(amt) / 1000);
@@ -429,7 +429,7 @@ public class CommnFunctions {
             break;
 
         case 2:
-            ammt = BigDecimal.valueOf(Double.parseDouble(amt) / 100000);
+            ammt = BigDecimal.valueOf(Double.parseDouble(amt) / 1000000);
             ammt = ammt.setScale(2, BigDecimal.ROUND_HALF_UP);
             break;
         default:

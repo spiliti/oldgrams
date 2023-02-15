@@ -1,0 +1,11 @@
+
+@Length(max = 9)
+Mobile number should be 10 digits
+maxlength="10"
+
+alteration of mobil number structure - ket number 1 goal of erp 
+Currency
+- conversion of Rupee (core s and lahks to zambia currency and umber system)
+in Kwacha" in > Kwacha egov-wtms/tl/stms/ptismrs/egf/egfweb
+ (Rs)
+ \egovzm\egov\egov-egf\src\main\java\com\exilant\eGov\src\reports\CommnFunctions.java (put anx to rupees)
