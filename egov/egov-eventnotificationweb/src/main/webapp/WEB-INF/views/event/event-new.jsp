@@ -200,7 +200,7 @@
 						<div class="col-sm-3 add-margin">
 							<form:input path="address.contactNumber" id="contactNumber"
 								name="address.contactNumber"
-								class="form-control is_valid_number" maxlength="10"
+								class="form-control is_valid_number" maxlength="9"
 								required="required" />
 							<form:errors path="address.contactNumber"
 								cssClass="error-msg" />

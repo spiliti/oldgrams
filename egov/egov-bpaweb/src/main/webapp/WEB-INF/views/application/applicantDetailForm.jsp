@@ -85,7 +85,7 @@
 				code="lbl.mobileNo" /> <span class="mandatory"></span> </label>
 		<div class="col-sm-3 add-margin">
 			<form:input class="form-control patternvalidation"
-				data-pattern="number" maxlength="10"
+				data-pattern="number" maxlength="9"
 				onblur="return validateMobileNumber(this);" id="mobileNumber"
 				path="owner.mobileNumber" required="required" />
 			**SMS is sent to this

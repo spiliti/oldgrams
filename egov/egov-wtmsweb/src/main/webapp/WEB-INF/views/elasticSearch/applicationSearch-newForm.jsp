@@ -136,7 +136,7 @@
 										code="lbl.application.mobileNo" />
 								</label>
 							<div class="col-sm-3 add-margin">
-							<input type="text" name="mobileNumber" class="form-control patternvalidation" id="app-appcodo" data-pattern="number" min="10" maxlength="10" />
+							<input type="text" name="mobileNumber" class="form-control patternvalidation" id="app-appcodo" data-pattern="number" min="9" maxlength="9" />
 						</div>
 						</div>
 						

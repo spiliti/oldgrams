@@ -313,7 +313,7 @@
 		<form:input path="${applicant}.contactInfo.mobileNo"
 			id="${applicant}.contactInfo.mobileNo" type="text"
 			cssClass="form-control low-width patternvalidation mobileno-field"
-			data-pattern="number" minlength="10" maxlength="10" placeholder=""
+			data-pattern="number" minlength="9" maxlength="9" placeholder=""
 			autocomplete="off" required="required" />
 		<form:errors path="${applicant}.contactInfo.mobileNo"
 			cssClass="add-margin error-msg" />

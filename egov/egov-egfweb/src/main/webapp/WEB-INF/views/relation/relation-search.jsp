@@ -85,7 +85,7 @@
 							<div class="col-sm-3 add-margin">
 								<form:input path="mobile"
 									class="form-control text-left patternvalidation"
-									data-pattern="alphanumeric" maxlength="10" />
+									data-pattern="alphanumeric" maxlength="9" />
 								<form:errors path="mobile" cssClass="error-msg" />
 							</div>
 							<label class="col-sm-3 control-label text-right"><spring:message

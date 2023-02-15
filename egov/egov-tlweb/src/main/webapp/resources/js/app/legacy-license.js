@@ -243,7 +243,7 @@ $('#category').change(function () {
 function validateForm() {
     if ($('#legacyLicenseForm').valid()) {
         var mobileno = $('#mobilePhoneNumber').val();
-        if (mobileno.length > 0 && mobileno.length < 10) {
+        if (mobileno.length > 0 && mobileno.length < 9) {
             $('#mobileError').removeClass("hide");
             $("#mobilePhoneNumber").focus();
             return false;

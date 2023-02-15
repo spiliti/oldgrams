@@ -87,7 +87,7 @@
 							code='search.licensee.mobileNo'/></label>
 					<div class="col-sm-3 add-margin">
 						<form:input type="text" path="mobileNo" id="mobileNo" data-pattern="number"
-									minlength="10" maxlength="10" class="form-control patternvalidation"
+									minlength="9" maxlength="9" class="form-control patternvalidation"
 									placeholder="" autocomplete="off"/>
 					</div>
 					<label class="col-sm-3 control-label text-right"> <spring:message

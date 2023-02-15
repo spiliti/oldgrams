@@ -140,7 +140,7 @@
 								</td>
 								
 								<td class="bluebox">
-									<s:textfield name="mobileNumber" id="mobileNumber"  value="%{mobileNumber}" maxlength="10" onblur="validNumber(this);checkZero(this,'Mobile Number');"/>
+									<s:textfield name="mobileNumber" id="mobileNumber"  value="%{mobileNumber}" maxlength="9" onblur="validNumber(this);checkZero(this,'Mobile Number');"/>
 								</td>
 								<td class="bluebox">&nbsp;</td>
 							</tr>		

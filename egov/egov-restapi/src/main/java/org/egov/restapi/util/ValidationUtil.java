@@ -833,12 +833,12 @@ public class ValidationUtil {
                     errorDetails.setErrorCode(MOBILE_NO_REQ_CODE);
                     errorDetails.setErrorMessage(MOBILE_NO_REQ_MSG);
                     return errorDetails;
-                } else if (ownerDetails.getMobileNumber().trim().length() != 10) {
+                } else if (ownerDetails.getMobileNumber().trim().length() != 9) {
                     errorDetails.setErrorCode(MOBILENO_MAX_LENGTH_ERROR_CODE);
                     errorDetails.setErrorMessage(MOBILENO_MAX_LENGTH_ERROR_MSG);
                     return errorDetails;
                 } else {
-                    final Pattern pattern = Pattern.compile("\\d{10}");
+                    final Pattern pattern = Pattern.compile("\\d{9}");
                     final Matcher matcher = pattern.matcher(ownerDetails.getMobileNumber());
                     if (!matcher.matches()) {
                         errorDetails.setErrorCode(MOBILENO_ALPHANUMERIC_ERROR_CODE);

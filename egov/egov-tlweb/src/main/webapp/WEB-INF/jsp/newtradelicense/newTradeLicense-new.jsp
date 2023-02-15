@@ -127,7 +127,7 @@
 
 
                 var mobileno = document.getElementById('mobilePhoneNumber').value;
-                if (mobileno.length > 0 && mobileno.length < 10) {
+                if (mobileno.length > 0 && mobileno.length < 9) {
                     $('#mobileError').removeClass("hide");
                     $("#mobilePhoneNumber").focus();
                     return false;
@@ -167,12 +167,12 @@
         $(document).ready(function () {
             $("#mobilePhoneNumber").change(function () {
                 var mobileno = document.getElementById('mobilePhoneNumber').value;
-                if (mobileno.length > 0 && mobileno.length < 10) {
+                if (mobileno.length > 0 && mobileno.length < 9) {
                     $('#mobileError').removeClass("hide");
                     $("#mobilePhoneNumber").focus();
                     return false;
                 }
-                else if (mobileno.length == 10)
+                else if (mobileno.length == 9)
                     $('#mobileError').hide();
             });
         })

@@ -110,7 +110,7 @@ public class SewerageApplicationView implements Serializable {
     @SafeHtml
     private String electionWard;
     @SafeHtml
-    @Length(max = 10)
+    @Length(max = 9)
     private String mobileNo;
     @SafeHtml
     private String connectionStatus;

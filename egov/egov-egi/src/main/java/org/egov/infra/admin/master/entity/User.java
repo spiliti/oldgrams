@@ -172,7 +172,7 @@ public class User extends AbstractAuditable {
     private Gender gender;
 
     @SafeHtml
-    @Length(max = 10)
+    @Length(max = 9)
     @Audited
     @Pattern(regexp = MOBILE_NUMBER, message = INVALID_MOBILE_NUMBER)
     private String mobileNumber;

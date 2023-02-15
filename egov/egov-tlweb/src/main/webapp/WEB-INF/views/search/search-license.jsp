@@ -185,7 +185,7 @@
                                 code='search.licensee.mobileNo'/></label>
                         <div class="col-sm-3 add-margin">
                             <input type="text" id="mobileNo" class="form-control patternvalidation typeahead" placeholder=""
-                                   autocomplete="off" maxlength="10" data-pattern="number"/>
+                                   autocomplete="off" maxlength="9" data-pattern="number"/>
                             <form:hidden path="mobileNo" id="mobileNo"/>
                         </div>
                     </div>

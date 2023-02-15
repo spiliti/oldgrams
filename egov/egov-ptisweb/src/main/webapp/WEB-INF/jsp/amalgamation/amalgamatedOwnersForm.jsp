@@ -57,7 +57,7 @@
 			<tr>
 				<!-- <th class="text-center"><s:text name="adharno" /></th> -->
 				<th class="text-center"><s:text name="MobileNumber" /> <span
-					class="mandatory1">*</span> (without +91)</th>
+					class="mandatory1">*</span> (without +260)</th>
 				<th class="text-center"><s:text name="OwnerName" /><span
 					class="mandatory1">*</span></th>
 				<th class="text-center"><s:text name="gender" /><span
@@ -101,7 +101,7 @@
 								cssClass="form-control  txtaadhar"></s:textfield></td> -->
 						<td><s:textfield
 								name="amalgamationOwnersProxy[%{#ownerStatus.index}].owner.mobileNumber"
-								maxlength="10" size="20" id="mobileNumber"
+								maxlength="9" size="20" id="mobileNumber"
 								value="%{amalgamationOwnersProxy[#ownerStatus.index].owner.mobileNumber}"
 								data-pattern="number" data-idx="%{#ownerStatus.index}"
 								data-optional="0" data-errormsg="Mobile no is mandatory!"

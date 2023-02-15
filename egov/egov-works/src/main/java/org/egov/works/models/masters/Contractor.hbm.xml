@@ -115,7 +115,7 @@
 	    	<one-to-many class="org.egov.works.models.masters.ContractorDetail" />	
     	</list>	
     	<property name="mobileNumber" type="string">
-			<column name="MOBILE_NUMBER" length="10" />
+			<column name="MOBILE_NUMBER" length="9" />
 		</property>
 	</class>
     <query name="GET_CONTRACTORS_BY_STATUS">

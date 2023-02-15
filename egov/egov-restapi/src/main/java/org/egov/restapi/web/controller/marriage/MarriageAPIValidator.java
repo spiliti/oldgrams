@@ -188,7 +188,7 @@ public class MarriageAPIValidator implements Validator {
     public void validateBrideMobileNo(final MarriageRegistrationRequest marriageRegistrationRequest, final Errors errors) {
         if (marriageRegistrationRequest.getWifeContactInfo().getMobileNo() != null) {
             matcher = pattern.matcher(marriageRegistrationRequest.getWifeContactInfo().getMobileNo());
-            if (!matcher.matches() || marriageRegistrationRequest.getWifeContactInfo().getMobileNo().length() != 10)
+            if (!matcher.matches() || marriageRegistrationRequest.getWifeContactInfo().getMobileNo().length() != 9)
                 errors.rejectValue("wifeContactInfo.mobileNo", "Invalid MobileNo. for Bride", "Invalid MobileNo. for Bride");
         }
     }
@@ -196,7 +196,7 @@ public class MarriageAPIValidator implements Validator {
     public void validateBrideGroomMobileNo(final MarriageRegistrationRequest marriageRegistrationRequest, final Errors errors) {
         if (marriageRegistrationRequest.getHusbandContactInfo().getMobileNo() != null) {
             matcher = pattern.matcher(marriageRegistrationRequest.getHusbandContactInfo().getMobileNo());
-            if (!matcher.matches() || marriageRegistrationRequest.getWifeContactInfo().getMobileNo().length() != 10)
+            if (!matcher.matches() || marriageRegistrationRequest.getWifeContactInfo().getMobileNo().length() != 9)
                 errors.rejectValue("husbandContactInfo.mobileNo", "Invalid MobileNo. for BrideGroom",
                         "Invalid MobileNo. for BrideGroom");
         }

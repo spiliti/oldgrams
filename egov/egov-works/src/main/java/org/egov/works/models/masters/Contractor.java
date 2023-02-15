@@ -138,7 +138,7 @@ public class Contractor extends BaseModel implements EntityType {
     private List<ContractorDetail> contractorDetails = new LinkedList<>();
 
     @SafeHtml
-    @Length(max = 10)
+    @Length(max = 9)
     @OptionalPattern(regex = ValidationRegex.MOBILE_NUMBER, message = "depositworks.roadcut.invalid.mobileno")
     private String mobileNumber;
 

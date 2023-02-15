@@ -88,7 +88,7 @@ public class UserProfile {
     private Gender gender;
 
     @SafeHtml
-    @Length(max = 10)
+    @Length(max = 9)
     @Pattern(regexp = MOBILE_NUMBER, message = INVALID_MOBILE_NUMBER)
     private String mobileNumber;
 

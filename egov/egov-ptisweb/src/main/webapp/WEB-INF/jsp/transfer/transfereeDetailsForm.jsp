@@ -62,7 +62,7 @@
 								<table width="100%" border="0" cellspacing="0" cellpadding="0" class="tablebottom" id="nameTable" >
 								    <tr>
 								    	<%-- <th class="bluebgheadtd"><s:text name="adharno"/></th> --%>
-								    	<th class="bluebgheadtd"><s:text name="MobileNumber" />(without +91)<span class="mandatory1">*</span></th>
+								    	<th class="bluebgheadtd"><s:text name="MobileNumber" />(without +260)<span class="mandatory1">*</span></th>
 										<th class="bluebgheadtd"><s:text name="OwnerName"/><span class="mandatory1">*</span></th>
 										<th class="bluebgheadtd"><s:text name="gender"/><span class="mandatory1">*</span></th>
 										<th class="bluebgheadtd"><s:text name="EmailAddress"/></th>
@@ -76,7 +76,7 @@
 										   <s:textfield name="transfereeInfosProxy[0].transferee.aadhaarNumber" size="12" maxlength="12" value=""  data-idx="0" onblur="getAadharDetailsForTransferee(this);" cssClass="txtaadhar"></s:textfield>
 										</td> --%>
 										 <td class="blueborderfortd" align="center">
-								        	<s:textfield name="transfereeInfosProxy[0].transferee.mobileNumber" maxlength="10" size="20" id="mobileNumber"  value=""  data-idx="0" data-optional="0" data-errormsg="Mobile no is mandatory!"
+								        	<s:textfield name="transfereeInfosProxy[0].transferee.mobileNumber" maxlength="9" size="20" id="mobileNumber"  value=""  data-idx="0" data-optional="0" data-errormsg="Mobile no is mandatory!"
 								        		onblur="getUserDetailsForMobileNo(this);validNumber(this);checkZero(this,'Mobile Number');"/>
 								        	<s:checkbox name="editMobileno[0]" id="editMobileno[0]" onclick="enableMobileNumber(this);" data-idx="0" data-toggle="tooltip" data-placement="top" title="Citizen confirmed that his/her mobile no is changed" />
 								        </td>
@@ -121,7 +121,7 @@
 										   onblur="getAadharDetailsForTransferee(this);" cssClass="txtaadhar" size="12" maxlength="12"></s:textfield>
 										</td> --%>
 										<td class="blueborderfortd" align="center">
-								        	<s:textfield name="transfereeInfosProxy[%{#status.index}].transferee.mobileNumber" maxlength="10" size="20" data-optional="0" data-errormsg="Mobile no is mandatory!" data-idx="%{#status.index}"
+								        	<s:textfield name="transfereeInfosProxy[%{#status.index}].transferee.mobileNumber" maxlength="9" size="20" data-optional="0" data-errormsg="Mobile no is mandatory!" data-idx="%{#status.index}"
 								        		 value="%{transfereeInfosProxy[#status.index].transferee.mobileNumber}" onblur="getUserDetailsForMobileNo(this);validNumber(this);checkZero(this,'Mobile Number');"/>
 								        <s:checkbox name="editMobileno[%{#status.index}]" id="editMobileno[%{#status.index}]" onclick="enableMobileNumber(this);" data-idx="%{#status.index}" data-toggle="tooltip" data-placement="top" title="Citizen confirmed that his/her mobile no is changed" />
 								        </td>

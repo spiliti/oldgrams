@@ -107,7 +107,7 @@ public class AgencyControllerTest extends AbstractContextControllerTest<AgencyCo
     public void postCreateAgency() throws Exception {
         final Double depositAmount = 100.0;
         mockMvc.perform(post("/agency/create").param("name", "testing").param("depositAmount", "100.0").param("code", "testing")
-                .param("mobileNumber", "9999999999").param("status", "ACTIVE")).andExpect(model().hasNoErrors())
+                .param("mobileNumber", "999999999").param("status", "ACTIVE")).andExpect(model().hasNoErrors())
                 .andExpect(redirectedUrl("/agency/success/testing"));
         final ArgumentCaptor<Agency> argumentCaptor = ArgumentCaptor.forClass(Agency.class);
         verify(agencyService).createAgency(argumentCaptor.capture());
@@ -115,7 +115,7 @@ public class AgencyControllerTest extends AbstractContextControllerTest<AgencyCo
         assertTrue(createdAgency.isNew());
         assertEquals("testing", createdAgency.getName());
         assertEquals("testing", createdAgency.getCode());
-        assertEquals("9999999999", createdAgency.getMobileNumber());
+        assertEquals("999999999", createdAgency.getMobileNumber());
         assertEquals(depositAmount, createdAgency.getDepositAmount());
         assertEquals(AgencyStatus.ACTIVE, createdAgency.getStatus());
     }

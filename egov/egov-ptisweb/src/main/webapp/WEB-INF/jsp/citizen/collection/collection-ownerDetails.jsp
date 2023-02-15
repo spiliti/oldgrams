@@ -58,15 +58,15 @@
             	 return false;
             	 }
         	 var mobileNo = jQuery("#mobileNumber").val();
-        	 if(mobileNo.length < 10) {
-				  bootbox.alert("Please enter 10 digit mobile number");
+        	 if(mobileNo.length < 9) {
+				  bootbox.alert("Please enter 9 digit mobile number");
 	              return false;
 				  }
              }); 
 		jQuery("#mobileNumber").blur(function(e){
 			  var mobileNo = jQuery("#mobileNumber").val();
-			  if(mobileNo.length < 10) {
-				  bootbox.alert("Please enter 10 digit mobile number");
+			  if(mobileNo.length < 9) {
+				  bootbox.alert("Please enter 9 digit mobile number");
 	              return false;
 				  }
 			});
@@ -135,7 +135,7 @@
 								</td>
 								
 								<td class="bluebox">
-									<s:textfield name="mobileNumber" id="mobileNumber" value="%{mobileNumber}" maxlength="10" onblur="validNumber(this);validMobileNumber(this);checkZero(this,'Mobile Number');"/>
+									<s:textfield name="mobileNumber" id="mobileNumber" value="%{mobileNumber}" maxlength="9" onblur="validNumber(this);validMobileNumber(this);checkZero(this,'Mobile Number');"/>
 								</td>
 								<td class="bluebox">&nbsp;</td>
 							</tr>		

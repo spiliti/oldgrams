@@ -140,7 +140,7 @@
                                 <i class="fa fa-mobile fa-fw theme-color style-color"></i>
                             </div>
                             <form:input path="mobileNumber" cssClass="form-control style-form is_valid_number" id="mobileNumber"
-                                        placeholder="Mobile number" title="Enter valid mobile number!" minlength="10" maxlength="10"
+                                        placeholder="Mobile number" title="Enter valid mobile number!" minlength="9" maxlength="9"
                                         autocomplete="off" required="required"/>
                             <span class="mandatory set-mandatory"></span>
                             <form:hidden path="username" id="username"/>

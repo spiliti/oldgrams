@@ -105,7 +105,7 @@
 					<label class="col-sm-2 control-label text-right"><spring:message code="lbl.branchphone" />  </label>
 					<div class="col-sm-3 add-margin">
 						<form:input path="branchphone" class="form-control text-left patternvalidation" 
-						onkeypress="return replaceAlphaSpechar(event)" data-pattern="numeric" maxlength="10"/>
+						onkeypress="return replaceAlphaSpechar(event)" data-pattern="numeric" maxlength="9"/>
 						<form:errors path="branchphone" cssClass="error-msg" />
 					</div>
 				</div>

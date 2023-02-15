@@ -117,7 +117,7 @@ public class Agency extends AbstractAuditable {
 
     @NotNull
     @Pattern(regexp = MOBILE_NUMBER)
-    @Length(max = 10)
+    @Length(max = 9)
     @SafeHtml
     private String mobileNumber;
 

@@ -252,7 +252,7 @@
 							:
 						</td>
 						<td class="bluebox">
-							<s:textfield name="mobileNo" maxlength="10"
+							<s:textfield name="mobileNo" maxlength="9"
 								onblur="validNumber(this);checkZero(this,'Mobile Number');"></s:textfield>
 						</td>
 						<td class="bluebox" width="25%">

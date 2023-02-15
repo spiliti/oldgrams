@@ -92,7 +92,7 @@ public class Complainant extends AbstractPersistable<Long> {
     @Pattern(regexp = PERSON_NAME, message = INVALID_PERSON_NAME)
     private String name;
 
-    @Length(max = 10)
+    @Length(max = 9)
     @SafeHtml
     @Pattern(regexp = MOBILE_NUMBER, message = INVALID_MOBILE_NUMBER)
     private String mobile;

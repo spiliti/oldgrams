@@ -91,7 +91,7 @@ public class Relation extends AbstractPersistable<Integer> implements java.io.Se
     @Length(max = 300)
     private String address;
 
-    @Length(max = 10)
+    @Length(max = 9)
     private String mobile;
     @Length(max = 25)
     private String email;
