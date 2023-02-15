@@ -193,7 +193,7 @@
 				<textElement textAlignment="Center">
 					<font size="10" isBold="true" pdfFontName="Helvetica-Bold"/>
 				</textElement>
-				<textFieldExpression><![CDATA["Budget Estimate "+$P{finYear}+" (Rs.)"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["Budget Estimate "+$P{finYear}+" (ZK)"]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="363" y="0" width="57" height="60" uuid="9b4101b6-8fff-42eb-adcd-f4f24fe855ef"/>
@@ -205,7 +205,7 @@
 				<textElement>
 					<font isBold="true"/>
 				</textElement>
-				<textFieldExpression><![CDATA["Re Appropriation "+$P{finYear}+" (Rs.)"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["Re Appropriation "+$P{finYear}+" (ZK)"]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="420" y="0" width="40" height="60" uuid="b3024e05-0c31-4111-b64b-55a78d1a9626"/>
@@ -217,7 +217,7 @@
 				<textElement textAlignment="Center">
 					<font isBold="true"/>
 				</textElement>
-				<text><![CDATA[Total (Rs.)]]></text>
+				<text><![CDATA[Total (ZK)]]></text>
 			</staticText>
 		</band>
 	</pageHeader>

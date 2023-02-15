@@ -160,9 +160,9 @@ public class TenderNegotiationPDFAction extends BaseFormAction {
         pdfLabel.put("tenderNegotiationpdf.asPerEstimate", "As Per Estimate");
         pdfLabel.put("tenderNegotiationpdf.rate", "Rate");
         pdfLabel.put("tenderNegotiationpdf.Per", "Per");
-        pdfLabel.put("tenderNegotiationpdf.amount", "Amount \n Rs.P.");
+        pdfLabel.put("tenderNegotiationpdf.amount", "Amount \n ZK. N.");
         pdfLabel.put("tenderNegotiationpdf.asPerTender", "As Per Tender");
-        pdfLabel.put("tenderNegotiationpdf.rate", "Rate \n Rs.P.");
+        pdfLabel.put("tenderNegotiationpdf.rate", "Rate \n ZK. N.");
         pdfLabel.put("tenderNegotiationpdf.aftneg", "After Negotiation Vide \n Letter dated");
         pdfLabel.put("tenderNegotiationpdf.marketratedate", "Market rate date : \n");
         pdfLabel.put("tenderNegotiationpdf.tendertotal", "Total");

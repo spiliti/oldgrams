@@ -322,7 +322,7 @@ ORDER BY
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Times New Roman" isBold="true" isItalic="false" pdfFontName="Times-Bold" isPdfEmbedded="true"/>
 				</textElement>
-				<text><![CDATA[Amount (Rs.)]]></text>
+				<text><![CDATA[Amount (ZK)]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="490" y="0" width="65" height="20" uuid="ed8928b4-f2b2-4dbc-9b45-551adb2d795b"/>

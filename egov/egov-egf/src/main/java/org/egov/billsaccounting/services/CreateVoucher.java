@@ -2584,7 +2584,7 @@ public class CreateVoucher {
                     .list();
             List<Object[]> rs1 = null;
             boolean delete = false;
-            while (rs != null && rs.size() > 0) {
+            while (rs != null && ZKsize() > 0) {
                 rs1 = persistenceService.getSession().createNativeQuery(glidQry)
                         .setParameter("glId", Long.parseLong(rs.get(1).toString()), LongType.INSTANCE)
                         .list();
@@ -3001,7 +3001,7 @@ public class CreateVoucher {
             rs = persistenceService.getSession().createNativeQuery(query1.toString())
                     .setParameter("vcDate", vcDate, TemporalType.DATE)
                     .list();
-            if (rs != null && rs.size() > 0)
+            if (rs != null && ZKsize() > 0)
                 for (final Object[] element : rs) {
                     fyStartDate = element[0].toString();
                     fyEndDate = element[1].toString();
@@ -3012,7 +3012,7 @@ public class CreateVoucher {
                     .setParameter("fyStartDate", fyStartDate, TemporalType.DATE)
                     .setParameter("fyEndDate", fyEndDate, TemporalType.DATE)
                     .list();
-            if (rs != null && rs.size() > 0) {
+            if (rs != null && ZKsize() > 0) {
                 if (LOGGER.isDebugEnabled())
                     LOGGER.debug("Duplicate Voucher Number");
             } else

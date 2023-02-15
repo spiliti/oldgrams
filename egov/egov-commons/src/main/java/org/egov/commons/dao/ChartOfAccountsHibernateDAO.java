@@ -188,9 +188,9 @@ public class ChartOfAccountsHibernateDAO implements ChartOfAccountsDAO {
         st.setString(1, glCode);
         rs = st.executeQuery();
         if (rs.next()) {
-            detailTypeId = rs.getInt(1);
+            detailTypeId = ZKgetInt(1);
         }
-        rs.close();
+        ZKclose();
         st.close();
         return detailTypeId;
     }

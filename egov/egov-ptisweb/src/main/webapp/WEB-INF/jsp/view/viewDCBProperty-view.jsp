@@ -231,7 +231,7 @@
 					<tr>
 						<td class="greybox" width="10%"></td>
 						<td class="greybox"><s:text name="ArrearsDue" /> :</td>
-						<td class="greybox"><span class="bold">Rs. <s:text
+						<td class="greybox"><span class="bold">ZK  <s:text
 									name="format.money">
 									<s:param value="viewMap.totalArrDue" />
 								</s:text>

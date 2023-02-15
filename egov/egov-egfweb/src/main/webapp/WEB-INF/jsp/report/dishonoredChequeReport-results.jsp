@@ -122,7 +122,7 @@
 			title="Bank Charge Amount(Rs.)" style="width:8%;text-align:right"
 			property="bankChargeAmt" />
 		<display:column headerClass="bluebgheadtd" class="blueborderfortd"
-			title="Cheque Amount (Rs.)" style="width:8%;text-align:right"
+			title="Cheque Amount (ZK)" style="width:8%;text-align:right"
 			property="amount" />
 		<s:if test="%{dishonoredChequeReport.mode == 2}">
 			<display:column headerClass="bluebgheadtd" class="blueborderfortd"

@@ -1159,7 +1159,7 @@ public class ChartOfAccounts {
                     .setParameter("vcDate", voucherDate, StringType.INSTANCE);
             final List<String> rs = pst.list();
             if (!rs.isEmpty())
-                fiscalyearid = rs.get(0);
+                fiscalyearid = ZKget(0);
         } catch (final Exception e) {
             LOGGER.error("Excepion in getFiscalYearID() ", e);
         }
@@ -1296,7 +1296,7 @@ public class ChartOfAccounts {
                 List<Object[]> rs = persistenceService.getSession().createNativeQuery(qry)
                         .setParameter("date", date, TemporalType.DATE)
                         .list();
-                if (!(rs != null && rs.size() > 0))
+                if (!(rs != null && ZKsize() > 0))
                     isClosed = false;
                 else
                     isClosed = true;

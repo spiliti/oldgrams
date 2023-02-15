@@ -215,7 +215,7 @@
 				<textElement textAlignment="Center">
 					<font size="10" isBold="true" pdfFontName="Helvetica-Bold"/>
 				</textElement>
-				<textFieldExpression class="java.lang.String"><![CDATA["RE Proposed "+$P{financialYearForRE}+" (Rs.)"]]></textFieldExpression>
+				<textFieldExpression class="java.lang.String"><![CDATA["RE Proposed "+$P{financialYearForRE}+" (ZK)"]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="376" y="0" width="77" height="60"/>
@@ -227,7 +227,7 @@
 				<textElement>
 					<font isBold="true"/>
 				</textElement>
-				<textFieldExpression class="java.lang.String"><![CDATA["RE Recommended "+$P{financialYearForRE}+" (Rs.)"]]></textFieldExpression>
+				<textFieldExpression class="java.lang.String"><![CDATA["RE Recommended "+$P{financialYearForRE}+" (ZK)"]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="529" y="0" width="81" height="60"/>
@@ -239,7 +239,7 @@
 				<textElement>
 					<font isBold="true"/>
 				</textElement>
-				<textFieldExpression class="java.lang.String"><![CDATA["BE Recommended "+$P{financialYearForBE}+" (Rs.)"]]></textFieldExpression>
+				<textFieldExpression class="java.lang.String"><![CDATA["BE Recommended "+$P{financialYearForBE}+" (ZK)"]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="false">
 				<reportElement key="textField-1" x="453" y="0" width="76" height="60"/>
@@ -253,7 +253,7 @@
 				<textElement textAlignment="Center">
 					<font size="10" isBold="true" pdfFontName="Helvetica-Bold"/>
 				</textElement>
-				<textFieldExpression class="java.lang.String"><![CDATA["BE Proposed "+$P{financialYearForBE}+" (Rs.)"]]></textFieldExpression>
+				<textFieldExpression class="java.lang.String"><![CDATA["BE Proposed "+$P{financialYearForBE}+" (ZK)"]]></textFieldExpression>
 			</textField>
 		</band>
 	</pageHeader>

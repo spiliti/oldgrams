@@ -1609,7 +1609,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="6"/>
 				</textElement>
-				<text><![CDATA[Monthly Rental value fixed [in Rs.]]]></text>
+				<text><![CDATA[Monthly Rental value fixed [in ZK]]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="190" y="115" width="35" height="10" isPrintInFirstWholeBand="true" uuid="316f848d-67bd-4f4a-babc-65e5fd480e6c"/>
@@ -1687,7 +1687,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="6"/>
 				</textElement>
-				<text><![CDATA[Gross ARV of the Building [in Rs.]]]></text>
+				<text><![CDATA[Gross ARV of the Building [in ZK]]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="304" y="115" width="38" height="10" isPrintInFirstWholeBand="true" uuid="db143ac0-e7de-4fe8-a7e9-5dbba2f144a0"/>
@@ -1739,7 +1739,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="6"/>
 				</textElement>
-				<text><![CDATA[Allowances for repairs of depreciation / owner occupied residential building [in Rs.]]]></text>
+				<text><![CDATA[Allowances for repairs of depreciation / owner occupied residential building [in ZK]]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="382" y="115" width="32" height="10" isPrintInFirstWholeBand="true" uuid="ba039b1a-9c2b-450c-b2ea-888b045143e3"/>
@@ -1765,7 +1765,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="6"/>
 				</textElement>
-				<text><![CDATA[ARV of the building [in Rs.]]]></text>
+				<text><![CDATA[ARV of the building [in ZK]]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="414" y="115" width="36" height="10" isPrintInFirstWholeBand="true" uuid="49477065-c6d4-40a0-91f7-32259467dd99"/>
@@ -1791,7 +1791,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="6"/>
 				</textElement>
-				<text><![CDATA[Annual Rental Value of the site and premises [in Rs.]]]></text>
+				<text><![CDATA[Annual Rental Value of the site and premises [in ZK]]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="450" y="115" width="40" height="10" isPrintInFirstWholeBand="true" uuid="7c3dc9b9-02ed-425e-9e33-fedcfb6a39ea"/>
@@ -1817,7 +1817,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="6"/>
 				</textElement>
-				<text><![CDATA[Total Annual Rental Value [in Rs.]]]></text>
+				<text><![CDATA[Total Annual Rental Value [in ZK]]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="490" y="115" width="48" height="10" isPrintInFirstWholeBand="true" uuid="a2a98cfa-e638-4a25-b3fe-76ecd369cf52"/>
@@ -1876,7 +1876,7 @@
 				<textElement verticalAlignment="Middle">
 					<paragraph leftIndent="4"/>
 				</textElement>
-				<text><![CDATA[Tax for General Purpose [in Rs.]]]></text>
+				<text><![CDATA[Tax for General Purpose [in ZK]]]></text>
 			</staticText>
 			<staticText>
 				<reportElement positionType="Float" x="-16" y="25" width="20" height="20" uuid="c3867b4e-60d5-4783-ab3c-cd9573403a34"/>
@@ -1942,7 +1942,7 @@
 				<textElement verticalAlignment="Middle">
 					<paragraph leftIndent="4"/>
 				</textElement>
-				<text><![CDATA[Water & Drainage Tax [in Rs.]]]></text>
+				<text><![CDATA[Water & Drainage Tax [in ZK]]]></text>
 			</staticText>
 			<staticText>
 				<reportElement positionType="Float" x="-16" y="45" width="20" height="20" uuid="84be208e-c51c-48b4-b857-d24fe6bb7024"/>
@@ -1994,7 +1994,7 @@
 				<textElement verticalAlignment="Middle">
 					<paragraph leftIndent="4"/>
 				</textElement>
-				<text><![CDATA[Lighting Tax [in Rs.]]]></text>
+				<text><![CDATA[Lighting Tax [in ZK]]]></text>
 			</staticText>
 			<staticText>
 				<reportElement positionType="Float" x="-16" y="65" width="20" height="20" uuid="751284a6-2ff7-4f33-8c3d-b2aced54e5e1"/>
@@ -2046,7 +2046,7 @@
 				<textElement verticalAlignment="Middle">
 					<paragraph leftIndent="4"/>
 				</textElement>
-				<text><![CDATA[Scavenging Tax [in Rs.]]]></text>
+				<text><![CDATA[Scavenging Tax [in ZK]]]></text>
 			</staticText>
 			<staticText>
 				<reportElement positionType="Float" x="-16" y="85" width="20" height="20" uuid="898d2119-391c-4b6c-beb8-f9f82c8024f1"/>
@@ -2098,7 +2098,7 @@
 				<textElement verticalAlignment="Middle">
 					<paragraph leftIndent="4"/>
 				</textElement>
-				<text><![CDATA[Education Tax [in Rs.]]]></text>
+				<text><![CDATA[Education Tax [in ZK]]]></text>
 			</staticText>
 			<staticText>
 				<reportElement positionType="Float" x="-16" y="105" width="20" height="20" uuid="fe87a06e-9fee-4460-be35-e01cf3071718"/>
@@ -2150,7 +2150,7 @@
 				<textElement verticalAlignment="Middle">
 					<paragraph leftIndent="4"/>
 				</textElement>
-				<text><![CDATA[Property Tax [in Rs.]]]></text>
+				<text><![CDATA[Property Tax [in ZK]]]></text>
 			</staticText>
 			<staticText>
 				<reportElement positionType="Float" x="-16" y="125" width="20" height="20" uuid="76f59ece-f7dd-4a44-b254-f3cdd08e8356"/>
@@ -2202,7 +2202,7 @@
 				<textElement verticalAlignment="Middle">
 					<paragraph leftIndent="4"/>
 				</textElement>
-				<text><![CDATA[Library Cess [in Rs.]]]></text>
+				<text><![CDATA[Library Cess [in ZK]]]></text>
 			</staticText>
 			<staticText>
 				<reportElement positionType="Float" x="-16" y="145" width="20" height="20" uuid="7ebd4a52-249c-4212-8cf2-2c0bd745fb2f"/>
@@ -2254,7 +2254,7 @@
 				<textElement verticalAlignment="Middle">
 					<paragraph leftIndent="4"/>
 				</textElement>
-				<text><![CDATA[UC Penalty [in Rs.]]]></text>
+				<text><![CDATA[UC Penalty [in ZK]]]></text>
 			</staticText>
 			<staticText>
 				<reportElement positionType="Float" x="-16" y="165" width="20" height="20" uuid="b9fd3fea-9813-4a65-94b2-33df92a44de9"/>
@@ -2720,7 +2720,7 @@
 				<textElement verticalAlignment="Middle">
 					<paragraph leftIndent="4"/>
 				</textElement>
-				<text><![CDATA[Tax for General Purpose [in Rs.]]]></text>
+				<text><![CDATA[Tax for General Purpose [in ZK]]]></text>
 			</staticText>
 			<staticText>
 				<reportElement positionType="Float" x="-16" y="399" width="20" height="20" uuid="2b571b93-87e8-491f-ae77-26728f1876fb"/>
@@ -2786,7 +2786,7 @@
 				<textElement verticalAlignment="Middle">
 					<paragraph leftIndent="4"/>
 				</textElement>
-				<text><![CDATA[Water & Drainage Tax [in Rs.]]]></text>
+				<text><![CDATA[Water & Drainage Tax [in ZK]]]></text>
 			</staticText>
 			<staticText>
 				<reportElement positionType="Float" x="-16" y="419" width="20" height="20" uuid="3e3aaadc-f7d8-4478-90dc-808772e0686e"/>
@@ -2838,7 +2838,7 @@
 				<textElement verticalAlignment="Middle">
 					<paragraph leftIndent="4"/>
 				</textElement>
-				<text><![CDATA[Lighting Tax [in Rs.]]]></text>
+				<text><![CDATA[Lighting Tax [in ZK]]]></text>
 			</staticText>
 			<staticText>
 				<reportElement positionType="Float" x="-16" y="439" width="20" height="20" uuid="3245f597-6a90-4faf-9c5d-7f60cc2f9a26"/>
@@ -2890,7 +2890,7 @@
 				<textElement verticalAlignment="Middle">
 					<paragraph leftIndent="4"/>
 				</textElement>
-				<text><![CDATA[Scavenging Tax [in Rs.]]]></text>
+				<text><![CDATA[Scavenging Tax [in ZK]]]></text>
 			</staticText>
 			<staticText>
 				<reportElement positionType="Float" x="-16" y="459" width="20" height="20" uuid="b72c112c-10d7-4066-a7c1-586a5b2d80d3"/>
@@ -2942,7 +2942,7 @@
 				<textElement verticalAlignment="Middle">
 					<paragraph leftIndent="4"/>
 				</textElement>
-				<text><![CDATA[Education Tax [in Rs.]]]></text>
+				<text><![CDATA[Education Tax [in ZK]]]></text>
 			</staticText>
 			<staticText>
 				<reportElement positionType="Float" x="-16" y="479" width="20" height="20" uuid="e47b6eee-716d-4c75-bd5c-29ac153d0015"/>
@@ -2994,7 +2994,7 @@
 				<textElement verticalAlignment="Middle">
 					<paragraph leftIndent="4"/>
 				</textElement>
-				<text><![CDATA[Property Tax [in Rs.]]]></text>
+				<text><![CDATA[Property Tax [in ZK]]]></text>
 			</staticText>
 			<staticText>
 				<reportElement positionType="Float" x="-16" y="499" width="20" height="20" uuid="37702456-ca4d-42da-8691-5e7d0455e61e"/>
@@ -3046,7 +3046,7 @@
 				<textElement verticalAlignment="Middle">
 					<paragraph leftIndent="4"/>
 				</textElement>
-				<text><![CDATA[Library Cess [in Rs.]]]></text>
+				<text><![CDATA[Library Cess [in ZK]]]></text>
 			</staticText>
 			<staticText>
 				<reportElement positionType="Float" x="-16" y="519" width="20" height="20" uuid="7af53ec0-854a-4ec1-acf1-3164bf3690d9"/>
@@ -3098,7 +3098,7 @@
 				<textElement verticalAlignment="Middle">
 					<paragraph leftIndent="4"/>
 				</textElement>
-				<text><![CDATA[UC Penalty [in Rs.]]]></text>
+				<text><![CDATA[UC Penalty [in ZK]]]></text>
 			</staticText>
 			<staticText>
 				<reportElement positionType="Float" x="-16" y="539" width="20" height="20" uuid="e95ecd31-9438-4aef-b42a-15226ecc4cf1"/>

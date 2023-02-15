@@ -589,7 +589,7 @@ public class PropertyTaxCollection extends TaxCollection {
                             demandDetail.setAmtCollected(demandDetail.getAmtCollected().subtract(
                                     rcptAccInfo.getCrAmount()));
 
-                            LOGGER.info("Deducted Collected amount Rs." + rcptAccInfo.getCrAmount() + " for tax : "
+                            LOGGER.info("Deducted Collected amount ZK" + rcptAccInfo.getCrAmount() + " for tax : "
                                     + reason + " and installment : " + installment);
                         }
                 }

@@ -141,7 +141,7 @@
 				<textElement markup="styled">
 					<font fontName="Times New Roman" size="12"/>
 				</textElement>
-				<textFieldExpression><![CDATA["        As per your request, Water Tap Connection (HSC) vide Application No. <style isBold=\"true\" pdfFontName=\"Times-Bold\"> "+$P{applicationNumber}+" </style>, has been previously sanctioned on <style isBold=\"true\" pdfFontName=\"Times-Bold\"> "+$P{approvalDate}+"</style> and executed on <style isBold=\"true\" pdfFontName=\"Times-Bold\">"+$P{executionDate}+"</style> in your premises, with <style isBold=\"true\" pdfFontName=\"Times-Bold\">"+$P{pipeSize}+"</style> Pipe Size, under <style isBold=\"true\" pdfFontName=\"Times-Bold\">"+$P{category}+"</style> Category and <style isBold=\"true\" pdfFontName=\"Times-Bold\">"+$P{usageType}+"</style> Usage basis on a monthly water charge of <style isBold=\"true\" pdfFontName=\"Times-Bold\"> Rs."+$P{monthlyRate}+"</style> per month."]]></textFieldExpression>
+				<textFieldExpression><![CDATA["        As per your request, Water Tap Connection (HSC) vide Application No. <style isBold=\"true\" pdfFontName=\"Times-Bold\"> "+$P{applicationNumber}+" </style>, has been previously sanctioned on <style isBold=\"true\" pdfFontName=\"Times-Bold\"> "+$P{approvalDate}+"</style> and executed on <style isBold=\"true\" pdfFontName=\"Times-Bold\">"+$P{executionDate}+"</style> in your premises, with <style isBold=\"true\" pdfFontName=\"Times-Bold\">"+$P{pipeSize}+"</style> Pipe Size, under <style isBold=\"true\" pdfFontName=\"Times-Bold\">"+$P{category}+"</style> Category and <style isBold=\"true\" pdfFontName=\"Times-Bold\">"+$P{usageType}+"</style> Usage basis on a monthly water charge of <style isBold=\"true\" pdfFontName=\"Times-Bold\"> ZK"+$P{monthlyRate}+"</style> per month."]]></textFieldExpression>
 			</textField>
 			<textField textAdjust="StretchHeight" isBlankWhenNull="true">
 				<reportElement x="11" y="297" width="534" height="42" uuid="f09cf9cb-6951-4b90-bc7c-2b4c267f5092"/>
@@ -178,7 +178,7 @@
 				<textElement>
 					<font fontName="Times New Roman" size="12" isBold="true" pdfFontName="Times-Bold"/>
 				</textElement>
-				<text><![CDATA[Amount(in Rs.)]]></text>
+				<text><![CDATA[Amount(in ZK)]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="40" y="387" width="34" height="37" uuid="2fea92fd-e4fb-4455-a32c-a5fa98e9286d"/>

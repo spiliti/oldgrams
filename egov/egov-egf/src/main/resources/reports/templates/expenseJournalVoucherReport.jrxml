@@ -399,7 +399,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font isBold="true"/>
 				</textElement>
-				<text><![CDATA[Debit Rs.]]></text>
+				<text><![CDATA[Debit ZK]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="647" y="0" width="85" height="48"/>
@@ -413,7 +413,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font isBold="true"/>
 				</textElement>
-				<text><![CDATA[Credit Rs.]]></text>
+				<text><![CDATA[Credit ZK]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="536" y="23" width="26" height="25"/>

@@ -273,9 +273,9 @@ function loadPropertyDetails(url,consumerno,shscnumber, propertyID) {
 						subErrorMessage = " close sewerage connection";
 					}
 					if(response.propertyDetails.taxDue > 0) {
-						errorMessage = "For entered Property tax Assessment number "+propertyID+" demand is due Rs."+ response.propertyDetails.taxDue+"/-. Please clear demand and apply for"+subErrorMessage;
+						errorMessage = "For entered Property tax Assessment number "+propertyID+" demand is due ZK"+ response.propertyDetails.taxDue+"/-. Please clear demand and apply for"+subErrorMessage;
 					} else if(waterTaxDue['WATERTAXDUE'] > 0) {
-						errorMessage = "For entered Property tax Assessment number "+propertyID+" linked water tap connection demand with Consumer code:"+waterTaxDue['CONSUMERCODE'][0]+" is due Rs."+ waterTaxDue['WATERTAXDUE']+"/- . Please clear demand and apply for"+subErrorMessage;
+						errorMessage = "For entered Property tax Assessment number "+propertyID+" linked water tap connection demand with Consumer code:"+waterTaxDue['CONSUMERCODE'][0]+" is due ZK"+ waterTaxDue['WATERTAXDUE']+"/- . Please clear demand and apply for"+subErrorMessage;
 					}
 					if(response.propertyDetails.taxDue > 0 || waterTaxDue['WATERTAXDUE'] > 0) {
 						bootbox.alert(errorMessage);

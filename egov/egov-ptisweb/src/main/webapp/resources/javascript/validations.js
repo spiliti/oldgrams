@@ -1302,7 +1302,7 @@ function enabletext()
 		
 		/*if(document.payment.totalcollection.value < 100)
 		{	
-			bootbox.alert('Credit/Debit Card is not Accepted for Payment of Less than 100 Rs.');
+			bootbox.alert('Credit/Debit Card is not Accepted for Payment of Less than 100 ZK');
 			
 			//document.payment.modeOfPayment[3].checked = false;
 		}*/

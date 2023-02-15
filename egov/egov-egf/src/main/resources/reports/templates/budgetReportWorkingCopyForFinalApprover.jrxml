@@ -213,7 +213,7 @@
 				<textElement>
 					<font isBold="true"/>
 				</textElement>
-				<textFieldExpression class="java.lang.String"><![CDATA["RE Recommended "+$P{financialYearForRE}+" (Rs.)"]]></textFieldExpression>
+				<textFieldExpression class="java.lang.String"><![CDATA["RE Recommended "+$P{financialYearForRE}+" (ZK)"]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="469" y="0" width="81" height="60"/>
@@ -225,7 +225,7 @@
 				<textElement>
 					<font isBold="true"/>
 				</textElement>
-				<textFieldExpression class="java.lang.String"><![CDATA["BE Recommended "+$P{financialYearForBE}+" (Rs.)"]]></textFieldExpression>
+				<textFieldExpression class="java.lang.String"><![CDATA["BE Recommended "+$P{financialYearForBE}+" (ZK)"]]></textFieldExpression>
 			</textField>
 		</band>
 	</pageHeader>

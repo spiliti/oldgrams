@@ -262,7 +262,7 @@ public class WaterTaxCollection extends TaxCollection {
                                     demand.setAmtCollected(
                                             demand.getAmtCollected().subtract(instrumentHeader.getInstrumentAmount()));
                             }
-                            LOGGER.info("Deducted Collected amount Rs." .concat(rcptAccInfo.getCrAmount().toString())  .concat(" for tax : ") 
+                            LOGGER.info("Deducted Collected amount ZK" .concat(rcptAccInfo.getCrAmount().toString())  .concat(" for tax : ") 
                                     .concat(reason)  .concat(" and installment : ")  .concat(installment) );
                             break;
                         }
@@ -540,7 +540,7 @@ public class WaterTaxCollection extends TaxCollection {
                                     && demandReasonMaster.getIsDemand())
                                 demand.setAmtCollected(demand.getAmtCollected().subtract(rcptAccInfo.getCrAmount()));
 
-                            LOGGER.info(new StringBuilder("Deducted Collected amount Rs.").append(rcptAccInfo.getCrAmount())
+                            LOGGER.info(new StringBuilder("Deducted Collected amount ZK").append(rcptAccInfo.getCrAmount())
                                     .append(" for tax : ").append(reason)
                                     .append(" and installment : ").append(installment));
                         }

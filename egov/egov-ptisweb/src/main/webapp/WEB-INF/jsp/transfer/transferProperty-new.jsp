@@ -154,7 +154,7 @@
 					<tr>
 						<td class="greybox2">&nbsp;</td>
 						<td class="greybox"><s:text name="CurrentTax" /> :</td>
-						<td class="greybox"><span class="bold">Rs. <s:property
+						<td class="greybox"><span class="bold">ZK  <s:property
 									value="currentPropertyTaxFirstHalf" /> /-
 						</span></td>
 					</tr>
@@ -162,7 +162,7 @@
 					<tr>
 						<td class="greybox2">&nbsp;</td>
 						<td class="greybox"><s:text name="CurrentSecondHalfTax" /> :</td>
-						<td class="greybox"><span class="bold">Rs. <s:property
+						<td class="greybox"><span class="bold">ZK  <s:property
 									value="currentPropertyTaxSecondHalf" /> /-
 						</span></td>
 					</tr>

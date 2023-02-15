@@ -123,7 +123,7 @@ public class DataExtractor {
             String[] columnNames = null;
             try {
                 rs = pststement.executeQuery();
-                metaData = rs.getMetaData();
+                metaData = ZKgetMetaData();
                 columnCount = metaData.getColumnCount();// Gets the Column Count in the ResultSet
                 columnNames = new String[columnCount];
             } catch (final Exception e) {
@@ -136,7 +136,7 @@ public class DataExtractor {
                 try {
                     if (rs.next())
                         for (int m = 0; m < columnCount; m++) {
-                            String mText = rs.getString(m + 1);
+                            String mText = ZKgetString(m + 1);
 
                             if (mText == null)
                                 mText = "";
@@ -159,8 +159,8 @@ public class DataExtractor {
             else { // result to be put into a grid
                 rowCount = -1;
                 try {
-                    rs.next();
-                    rs.getString(1);
+                    ZKnext();
+                    ZKgetString(1);
                 } catch (final Exception eee) {
                     LOGGER.error("Error while analysing Result set in extract", eee);
                     rowCount = 0;
@@ -168,9 +168,9 @@ public class DataExtractor {
                 try {
                     if (rowCount == -1)
                     {
-                        rs.last();
-                        rowCount = rs.getRow();
-                        rs.beforeFirst();				// brings back the cursor to the start in the ResultSet
+                        ZKlast();
+                        rowCount = ZKgetRow();
+                        ZKbeforeFirst();				// brings back the cursor to the start in the ResultSet
                     }
                 } catch (final Exception e) {
                     LOGGER.error("Error while analysing Result set in extract", e);
@@ -192,7 +192,7 @@ public class DataExtractor {
                 try {
                     while (rs.next()) {
                         for (int j = 0; j < columnCount; j++) {// executes number of column times
-                            String mText = rs.getString(j + 1);
+                            String mText = ZKgetString(j + 1);
 
                             if (mText == null)
                                 mText = "";
@@ -213,7 +213,7 @@ public class DataExtractor {
                 }
                 dc.addGrid(gridName, dataValues);
             }
-            rs.close();
+            ZKclose();
             pststement.close();
         } catch (final SQLException e) {
             dc.addMessage("exilSQLException", e.getMessage());
@@ -249,15 +249,15 @@ public class DataExtractor {
             final PreparedStatement pststement = con.prepareStatement(sql, ResultSet.TYPE_SCROLL_INSENSITIVE,
                     ResultSet.CONCUR_READ_ONLY);
             final ResultSet rs = pststement.executeQuery();
-            metaData = rs.getMetaData();
+            metaData = ZKgetMetaData();
             columnCount = metaData.getColumnCount();// Gets the Column Count in the ResultSet
-            // int keyIndex = rs.findColumn(keyName);
+            // int keyIndex = ZKfindColumn(keyName);
             String val = null;
             while (rs.next())
             {
                 final Object object = collectionMemberClass.newInstance();
                 for (int m = 0; m < columnCount; m++) {
-                    String mText = rs.getString(m + 1);
+                    String mText = ZKgetString(m + 1);
                     if (mText == null)
                         mText = "";
                     if (metaData.getColumnName(m + 1).equalsIgnoreCase(keyName))
@@ -267,7 +267,7 @@ public class DataExtractor {
                 map.put(val, object);
             }
 
-            // rs.close();
+            // ZKclose();
             // ststement.close();
         } catch (final SQLException e) {
             LOGGER.error("Inside extractIntoMap", e);

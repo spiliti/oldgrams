@@ -261,7 +261,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font isBold="true"/>
 				</textElement>
-				<text><![CDATA[ Debit Rs.]]></text>
+				<text><![CDATA[ Debit ZK]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="479" y="0" width="80" height="48" uuid="15071255-a0f4-4d28-9d34-6a5d34fd40c4"/>
@@ -275,7 +275,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font isBold="true"/>
 				</textElement>
-				<text><![CDATA[ Credit Rs.]]></text>
+				<text><![CDATA[ Credit ZK]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="344" y="0" width="60" height="23" uuid="da65de26-89ba-46f8-81b1-15e91b6fb0a2"/>

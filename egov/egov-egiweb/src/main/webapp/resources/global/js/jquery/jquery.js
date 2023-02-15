@@ -6789,7 +6789,7 @@ if ( window.getComputedStyle ) {
 			// Remember the original values
 			left = style.left;
 			rs = elem.runtimeStyle;
-			rsLeft = rs && rs.left;
+			rsLeft = rs && ZKleft;
 
 			// Put in the new values to get a computed value out
 			if ( rsLeft ) {

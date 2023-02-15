@@ -90,8 +90,8 @@ public class PrimaryKeyGenerator
             final Query pst = null;
                     //persistenceService.getSession().createNativeQuery(sql);
             final List<BigInteger> rs = pst.list();
-            key = rs != null ? rs.get(0).longValue() : 0l;
-            if (rs == null || rs.size() == 0)
+            key = rs != null ? ZKget(0).longValue() : 0l;
+            if (rs == null || ZKsize() == 0)
                 throw new Exception();
         } catch (final Exception e)
         {

@@ -549,7 +549,7 @@ var makeReceiptTable = function() {
                     		{key:"bankbranch",label:'Bank Branch',width:100, formatter:createTextFieldFormatter('receipt',RECEIPTLIST,".bankBranch","text")},
                     		{key:"banckaccountid",label:'Bank Account Id',hidden:true,width:100, formatter:createTextFieldFormatter('receipt',RECEIPTLIST,".bankaccount.id","hidden")},
                     		{key:"banckaccountno",label:'Account Number',width:100, formatter:createTextFieldFormatter('receipt',RECEIPTLIST,".bankaccount.accountnumber","text")},
-      		                {key:"amount",label:'Amount<br />(In Rs.)',width:100, formatter:createTextFieldLGAmount('receipt',RECEIPTLIST,".amount","validateDigitsAndDecimal(this);updateReceiptTotalAmount();")},
+      		                {key:"amount",label:'Amount<br />(in ZK)',width:100, formatter:createTextFieldLGAmount('receipt',RECEIPTLIST,".amount","validateDigitsAndDecimal(this);updateReceiptTotalAmount();")},
                     		{key:"id",label:'id',width:100,hidden:true, formatter:createTextFieldFormatter('receipt',RECEIPTLIST,".id","hidden")},
                     		{key:"description",label:'Description',width:100, formatter:createTextFieldFormatter('receipt',RECEIPTLIST,".description","text")},
                     		{key:"vhid",label:'vhid',width:100,hidden:true, formatter:createTextFieldFormatter('receipt',RECEIPTLIST,".voucherHeader.id","hidden")},

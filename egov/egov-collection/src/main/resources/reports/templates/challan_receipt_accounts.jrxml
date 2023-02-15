@@ -160,7 +160,7 @@
 					<textElement textAlignment="Center" verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="9" isBold="true" pdfFontName="Times-Bold" pdfEncoding="Cp1252" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Amount (Rs.)]]></text>
+					<text><![CDATA[Amount (ZK)]]></text>
 				</staticText>
 				<staticText>
 					<reportElement x="331" y="15" width="100" height="15"/>

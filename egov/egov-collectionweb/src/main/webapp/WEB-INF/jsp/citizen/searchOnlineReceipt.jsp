@@ -324,7 +324,7 @@ function transitionStates(){
 	<display:column headerClass="bluebgheadtd" class="blueborderfortd" title="Reference ID" property="receiptHeader.id" style="width:8%;text-align:center"  />
 	<display:column headerClass="bluebgheadtd" class="blueborderfortd" title="Consumer Code" property="receiptHeader.consumerCode" style="width:8%;text-align:center"  />
 	<display:column headerClass="bluebgheadtd" class="blueborderfortd" title="Department" property="receiptHeader.receiptMisc.department.name" style="width:8%;text-align:center"  />
-	<display:column headerClass="bluebgheadtd" class="blueborderfortd" title="Amount (Rs.)" property="receiptHeader.totalAmount" style="width:4%;text-align: center" format="{0, number, #,##0.00}" />
+	<display:column headerClass="bluebgheadtd" class="blueborderfortd" title="Amount (ZK)" property="receiptHeader.totalAmount" style="width:4%;text-align: center" format="{0, number, #,##0.00}" />
 	<display:column headerClass="bluebgheadtd" class="blueborderfortd" title="Service Type" property="receiptHeader.service.name" style="width:10%; text-align: right" />
 	<display:column headerClass="bluebgheadtd" class="blueborderfortd" title="Status" property="status.description" style="width:8%" />  
 	<display:column headerClass="bluebgheadtd" class="blueborderfortd" title="Change Status" style="width:8%">

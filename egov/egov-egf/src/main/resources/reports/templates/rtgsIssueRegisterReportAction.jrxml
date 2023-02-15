@@ -183,7 +183,7 @@
 					<textElement textAlignment="Center" verticalAlignment="Middle">
 						<font size="8" isBold="true"/>
 					</textElement>
-					<text><![CDATA[Amount (Rs.)]]></text>
+					<text><![CDATA[Amount (ZK)]]></text>
 				</staticText>
 				<staticText>
 					<reportElement key="staticText" stretchType="RelativeToBandHeight" x="512" y="24" width="43" height="20" uuid="79487a5c-5cc1-4ab6-82c6-c6f239917073"/>

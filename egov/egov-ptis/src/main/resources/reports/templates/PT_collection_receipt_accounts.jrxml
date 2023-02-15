@@ -201,7 +201,7 @@
 					<textElement textAlignment="Center" verticalAlignment="Middle">
 						<font fontName="Times New Roman" size="11" isBold="false"/>
 					</textElement>
-					<text><![CDATA[Amount Paid (Rs.)]]></text>
+					<text><![CDATA[Amount Paid (ZK)]]></text>
 				</staticText>
 				<staticText>
 					<reportElement positionType="Float" x="0" y="20" width="70" height="30" uuid="9511f8ac-41df-46af-9208-cbe3a5152146">

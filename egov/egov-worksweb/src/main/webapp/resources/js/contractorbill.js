@@ -598,7 +598,7 @@ $(document).on('blur','.refundAmount',function(e) {
 			if(withheldAmount == 0) {
 				alertMessage = $("#errorSpilloverNoRefund").val();
 			} else {
-				alertMessage = "Sum of Refund amount for the COA "+ accountCodeName +" is exceeding the withheld amount by Rs."+ diffAmount +". Do you want to proceed?;"
+				alertMessage = "Sum of Refund amount for the COA "+ accountCodeName +" is exceeding the withheld amount by ZK"+ diffAmount +". Do you want to proceed?;"
 			}
 			bootbox.confirm(alertMessage, function(result) {
 				if(!result) {
@@ -614,7 +614,7 @@ $(document).on('blur','.refundAmount',function(e) {
 			 if(withheldAmount == 0) {
 				 bootbox.alert($("#errorNonSpilloverNoRefund").val());
 			 } else 
-		        bootbox.alert("Sum of Refund amount for the COA "+ accountCodeName +" is exceeding the withheld amount by Rs."+ diffAmount +". Please enter proper value");
+		        bootbox.alert("Sum of Refund amount for the COA "+ accountCodeName +" is exceeding the withheld amount by ZK"+ diffAmount +". Please enter proper value");
 			 
 			 $('input[name="refundBillDetails['+ index +'].debitamount"]').val('');
 		     return false;

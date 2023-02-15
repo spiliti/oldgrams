@@ -65,7 +65,7 @@
 					  </td>
 					  <td class="blueborderfortd" align="center">
 						<s:if test="%{wfPropTaxDetailsMap.firstHalfGT != null }">
-							 Rs.<s:text name="format.money"><s:param value="wfPropTaxDetailsMap.firstHalfGT" /></s:text>
+							 ZK<s:text name="format.money"><s:param value="wfPropTaxDetailsMap.firstHalfGT" /></s:text>
 							 </s:if>
 						<s:else>
 							Rs.<s:text name="format.money">
@@ -75,7 +75,7 @@
 					  </td>
 					  <td class="blueborderfortd" align="center">
 						<s:if test="%{wfPropTaxDetailsMap.firstHalfEC != null }">
-							 Rs.<s:text name="format.money"><s:param value="wfPropTaxDetailsMap.firstHalfEC" /></s:text>
+							 ZK<s:text name="format.money"><s:param value="wfPropTaxDetailsMap.firstHalfEC" /></s:text>
 							 </s:if>
 						<s:else>
 							Rs.<s:text name="format.money">
@@ -85,7 +85,7 @@
 					  </td>
 					  <td class="blueborderfortd" align="center">
 						<s:if test="%{wfPropTaxDetailsMap.firstHalfLC != null }">
-							 Rs.<s:text name="format.money"><s:param value="wfPropTaxDetailsMap.firstHalfLC" /></s:text>
+							 ZK<s:text name="format.money"><s:param value="wfPropTaxDetailsMap.firstHalfLC" /></s:text>
 							 </s:if>
 						<s:else>
 							Rs.<s:text name="format.money">
@@ -95,7 +95,7 @@
 					  </td>
 					  <td class="blueborderfortd" align="center">
 						<s:if test="%{wfPropTaxDetailsMap.firstHalfUAP != null }">
-							 Rs.<s:text name="format.money"><s:param value="wfPropTaxDetailsMap.firstHalfUAP" /></s:text>
+							 ZK<s:text name="format.money"><s:param value="wfPropTaxDetailsMap.firstHalfUAP" /></s:text>
 							 </s:if>
 						<s:else>
 							Rs.<s:text name="format.money">
@@ -105,7 +105,7 @@
 					  </td>
 					  <td class="blueborderfortd" align="center">
 						<s:if test="%{wfPropTaxDetailsMap.firstHalfTotal != null }">
-							 Rs.<s:text name="format.money"><s:param value="wfPropTaxDetailsMap.firstHalfTotal" /></s:text>
+							 ZK<s:text name="format.money"><s:param value="wfPropTaxDetailsMap.firstHalfTotal" /></s:text>
 							 </s:if>
 						<s:else>
 							Rs.<s:text name="format.money">
@@ -115,7 +115,7 @@
 					  </td>
 					  <td class="blueborderfortd" align="center">
 						<s:if test="%{wfPropTaxDetailsMap.firstHalfTaxDue != null }">
-							 Rs.<s:text name="format.money"><s:param value="wfPropTaxDetailsMap.firstHalfTaxDue" /></s:text>
+							 ZK<s:text name="format.money"><s:param value="wfPropTaxDetailsMap.firstHalfTaxDue" /></s:text>
 							 </s:if>
 						<s:else>
 							Rs.<s:text name="format.money">
@@ -131,7 +131,7 @@
 					  </td>
 					  <td class="blueborderfortd" align="center">
 						<s:if test="%{wfPropTaxDetailsMap.secondHalfGT != null }">
-							 Rs.<s:text name="format.money"><s:param value="wfPropTaxDetailsMap.secondHalfGT" /></s:text>
+							 ZK<s:text name="format.money"><s:param value="wfPropTaxDetailsMap.secondHalfGT" /></s:text>
 							 </s:if>
 						<s:else>
 							Rs.<s:text name="format.money">
@@ -141,7 +141,7 @@
 					  </td>
 					  <td class="blueborderfortd" align="center">
 						<s:if test="%{wfPropTaxDetailsMap.secondHalfEC != null }">
-							 Rs.<s:text name="format.money"><s:param value="wfPropTaxDetailsMap.secondHalfEC" /></s:text>
+							 ZK<s:text name="format.money"><s:param value="wfPropTaxDetailsMap.secondHalfEC" /></s:text>
 							 </s:if>
 						<s:else>
 							Rs.<s:text name="format.money">
@@ -151,7 +151,7 @@
 					  </td>
 					  <td class="blueborderfortd" align="center">
 						<s:if test="%{wfPropTaxDetailsMap.secondHalfLC != null }">
-							 Rs.<s:text name="format.money"><s:param value="wfPropTaxDetailsMap.secondHalfLC" /></s:text>
+							 ZK<s:text name="format.money"><s:param value="wfPropTaxDetailsMap.secondHalfLC" /></s:text>
 							 </s:if>
 						<s:else>
 							Rs.<s:text name="format.money">
@@ -161,7 +161,7 @@
 					  </td>
 					  <td class="blueborderfortd" align="center">
 						<s:if test="%{wfPropTaxDetailsMap.secondHalfUAP != null }">
-							 Rs.<s:text name="format.money"><s:param value="wfPropTaxDetailsMap.secondHalfUAP" /></s:text>
+							 ZK<s:text name="format.money"><s:param value="wfPropTaxDetailsMap.secondHalfUAP" /></s:text>
 							 </s:if>
 						<s:else>
 							Rs.<s:text name="format.money">
@@ -171,7 +171,7 @@
 					  </td>
 					  <td class="blueborderfortd" align="center">
 						<s:if test="%{wfPropTaxDetailsMap.secondHalfTotal != null }">
-							 Rs.<s:text name="format.money"><s:param value="wfPropTaxDetailsMap.secondHalfTotal" /></s:text>
+							 ZK<s:text name="format.money"><s:param value="wfPropTaxDetailsMap.secondHalfTotal" /></s:text>
 							 </s:if>
 						<s:else>
 							Rs.<s:text name="format.money">
@@ -181,7 +181,7 @@
 					  </td>
 					  <td class="blueborderfortd" align="center">
 						<s:if test="%{wfPropTaxDetailsMap.secondHalfTaxDue != null }">
-							 Rs.<s:text name="format.money"><s:param value="wfPropTaxDetailsMap.secondHalfTaxDue" /></s:text>
+							 ZK<s:text name="format.money"><s:param value="wfPropTaxDetailsMap.secondHalfTaxDue" /></s:text>
 							 </s:if>
 						<s:else>
 							Rs.<s:text name="format.money">
@@ -205,7 +205,7 @@
 					  </td>
 					  <td class="blueborderfortd" align="center">
 						<s:if test="%{wfPropTaxDetailsMap.arrearTax != null }">
-							 Rs.<s:text name="format.money"><s:param value="wfPropTaxDetailsMap.arrearTax" /></s:text>
+							 ZK<s:text name="format.money"><s:param value="wfPropTaxDetailsMap.arrearTax" /></s:text>
 							 </s:if>
 						<s:else>
 							Rs.<s:text name="format.money">
@@ -215,7 +215,7 @@
 					  </td>
 					  <td class="blueborderfortd" align="center">
 						<s:if test="%{wfPropTaxDetailsMap.totalArrDue != null }">
-							 Rs.<s:text name="format.money"><s:param value="wfPropTaxDetailsMap.totalArrDue" /></s:text>
+							 ZK<s:text name="format.money"><s:param value="wfPropTaxDetailsMap.totalArrDue" /></s:text>
 							 </s:if>
 						<s:else>
 							Rs.<s:text name="format.money">

@@ -65,7 +65,7 @@
 					value="viewMap.firstHalf" /></span></td>
 		<td class="blueborderfortd" align="center">
 		<s:if test="%{viewMap.firstHalfGT != null }">
-			 Rs.<s:text name="format.money"><s:param value="viewMap.firstHalfGT" /></s:text>
+			 ZK<s:text name="format.money"><s:param value="viewMap.firstHalfGT" /></s:text>
 			 </s:if>
 		<s:else>
 			Rs.<s:text name="format.money">
@@ -75,7 +75,7 @@
 		</td>
 		<td class="blueborderfortd" align="center">
 		<s:if test="%{viewMap.firstHalfEC != null }">
-			 Rs.<s:text name="format.money"><s:param value="viewMap.firstHalfEC" /></s:text>
+			 ZK<s:text name="format.money"><s:param value="viewMap.firstHalfEC" /></s:text>
 			 </s:if>
 		<s:else>
 			Rs.<s:text name="format.money">
@@ -85,39 +85,39 @@
 		</td>
 		<td class="blueborderfortd" align="center"><s:if
 				test="%{viewMap.firstHalfLC != null}">
-					  Rs.<s:text name="format.money">
+					  ZK<s:text name="format.money">
 					<s:param value="viewMap.firstHalfLC" />
 				</s:text>
-			</s:if> <s:else> Rs.<s:text name="format.money">
+			</s:if> <s:else> ZK<s:text name="format.money">
 					<s:param value="0" />
 				</s:text>
 			</s:else></td>
 		<td class="blueborderfortd" align="center"><s:if
 				test="%{viewMap.firstHalfUAP != null}">
-					  Rs.<s:text name="format.money">
+					  ZK<s:text name="format.money">
 					<s:param value="viewMap.firstHalfUAP" />
 				</s:text>
-			</s:if> <s:else> Rs.<s:text name="format.money">
+			</s:if> <s:else> ZK<s:text name="format.money">
 					<s:param value="0" />
 				</s:text>
 			</s:else>
 		</td>	
 		<td class="blueborderfortd" align="center"><s:if
 				test="%{viewMap.firstHalfTotal != null}">
-					  Rs.<s:text name="format.money">
+					  ZK<s:text name="format.money">
 					<s:param value="viewMap.firstHalfTotal" />
 				</s:text>
-			</s:if> <s:else> Rs.<s:text name="format.money">
+			</s:if> <s:else> ZK<s:text name="format.money">
 					<s:param value="0" />
 				</s:text>
 			</s:else>
 		</td>	
 		<td class="blueborderfortd" align="center"><s:if
 				test="%{viewMap.firstHalfTaxDue != null}">
-					  Rs.<s:text name="format.money">
+					  ZK<s:text name="format.money">
 					<s:param value="viewMap.firstHalfTaxDue" />
 				</s:text>
-			</s:if> <s:else> Rs.<s:text name="format.money">
+			</s:if> <s:else> ZK<s:text name="format.money">
 					<s:param value="0" />
 				</s:text>
 			</s:else>
@@ -129,66 +129,66 @@
 					value="viewMap.secondHalf" /></span></td>
 		<td class="blueborderfortd" align="center"><s:if
 				test="%{viewMap.secondHalfGT != null}">
-					  Rs.<s:text name="format.money">
+					  ZK<s:text name="format.money">
 					<s:param value="viewMap.secondHalfGT" />
 				</s:text>
 			</s:if> <s:else>
-					  Rs.<s:text name="format.money">
+					  ZK<s:text name="format.money">
 					<s:param value="0" />
 				</s:text>
 			</s:else>
 		</td>
 		<td class="blueborderfortd" align="center"><s:if
 				test="%{viewMap.secondHalfEC != null}">
-					  Rs.<s:text name="format.money">
+					  ZK<s:text name="format.money">
 					<s:param value="viewMap.secondHalfEC" />
 				</s:text>
 			</s:if> <s:else>
-					  Rs.<s:text name="format.money">
+					  ZK<s:text name="format.money">
 					<s:param value="0" />
 				</s:text>
 			</s:else>
 		</td>
 		<td class="blueborderfortd" align="center"><s:if
 				test="%{viewMap.secondHalfLC != null}">
-					  Rs.<s:text name="format.money">
+					  ZK<s:text name="format.money">
 					<s:param value="viewMap.secondHalfLC" />
 				</s:text>
 			</s:if> <s:else>
-					   Rs.<s:text name="format.money">
+					   ZK<s:text name="format.money">
 					<s:param value="0" />
 				</s:text>
 			</s:else>
 		</td>
 		<td class="blueborderfortd" align="center"><s:if
 				test="%{viewMap.secondHalfUAP != null}">
-					  Rs.<s:text name="format.money">
+					  ZK<s:text name="format.money">
 					<s:param value="viewMap.secondHalfUAP" />
 				</s:text>
 			</s:if> <s:else>
-					   Rs.<s:text name="format.money">
+					   ZK<s:text name="format.money">
 					<s:param value="0" />
 				</s:text>
 			</s:else>
 		</td>
 		<td class="blueborderfortd" align="center"><s:if
 				test="%{viewMap.secondHalfTotal != null}">
-					  Rs.<s:text name="format.money">
+					  ZK<s:text name="format.money">
 					<s:param value="viewMap.secondHalfTotal" />
 				</s:text>
 			</s:if> <s:else>
-					   Rs.<s:text name="format.money">
+					   ZK<s:text name="format.money">
 					<s:param value="0" />
 				</s:text>
 			</s:else>
 		</td>
 		<td class="blueborderfortd" align="center"><s:if
 				test="%{viewMap.secondHalfTaxDue != null}">
-					  Rs.<s:text name="format.money">
+					  ZK<s:text name="format.money">
 					<s:param value="viewMap.secondHalfTaxDue" />
 				</s:text>
 			</s:if> <s:else>
-					   Rs.<s:text name="format.money">
+					   ZK<s:text name="format.money">
 					<s:param value="0" />
 				</s:text>
 			</s:else>
@@ -204,22 +204,22 @@
 		<td class="blueborderfortd" align="center"></td>
 		<td class="blueborderfortd" align="center"><s:if
 				test="%{viewMap.arrearTax != null}">
-					  Rs.<s:text name="format.money">
+					  ZK<s:text name="format.money">
 					<s:param value="viewMap.arrearTax" />
 				</s:text>
 			</s:if> <s:else>
-					   Rs.<s:text name="format.money">
+					   ZK<s:text name="format.money">
 					<s:param value="0" />
 				</s:text>
 			</s:else>
 		</td>
 		<td class="blueborderfortd" align="center"><s:if
 				test="%{viewMap.totalArrDue != null}">
-					  Rs.<s:text name="format.money">
+					  ZK<s:text name="format.money">
 					<s:param value="viewMap.totalArrDue" />
 				</s:text>
 			</s:if> <s:else>
-					   Rs.<s:text name="format.money">
+					   ZK<s:text name="format.money">
 					<s:param value="0" />
 				</s:text>
 			</s:else>

@@ -650,7 +650,7 @@ public class ReportHelper {
                 String.class.getName(), 10).addColumn("Function Code",
                         "functionCode", String.class.getName(), 20).addColumn(
                                 "Function Head", "functionName", String.class.getName(), 50)
-                                .addColumn("Total " + type + " (Rs.)", "totalIncome",
+                                .addColumn("Total " + type + " (ZK)", "totalIncome",
                                         BigDecimal.class.getName(), 50, false, "0.00",
                                         detailAmountStyle).setTitle(cityName).setSubtitle(
                                                 "FUNCTIONWISE " + type.toUpperCase()

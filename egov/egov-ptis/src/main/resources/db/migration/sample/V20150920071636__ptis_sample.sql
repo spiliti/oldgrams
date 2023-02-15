@@ -267,8 +267,8 @@ Insert into EGPT_APPLICATION_TYPE (id,code,name,resolutiontime,description,creat
 Insert into EGPT_DOCUMENT_TYPE (id,name,mandatory,version,transactiontype,id_application_type) values (nextval('seq_egpt_document_type'),'Photo Of Assessment','false',null,'CREATE',1);
 Insert into EGPT_DOCUMENT_TYPE (id,name,mandatory,version,transactiontype,id_application_type) values (nextval('seq_egpt_document_type'),'Building Permission Copy','false',null,'CREATE',1);
 Insert into EGPT_DOCUMENT_TYPE (id,name,mandatory,version,transactiontype,id_application_type) values (nextval('seq_egpt_document_type'),'Attested Copies Of Property Documents','false',null,'CREATE',1);
-Insert into EGPT_DOCUMENT_TYPE (id,name,mandatory,version,transactiontype,id_application_type) values (nextval('seq_egpt_document_type'),'Two Non-Judicial stamp papers of Rs.10','false',null,'CREATE',1);
-Insert into EGPT_DOCUMENT_TYPE (id,name,mandatory,version,transactiontype,id_application_type) values (nextval('seq_egpt_document_type'),'Notarized Affidavit Cum Indemnity Bond On Rs.100 Stamp Paper','false',null,'CREATE',1);
+Insert into EGPT_DOCUMENT_TYPE (id,name,mandatory,version,transactiontype,id_application_type) values (nextval('seq_egpt_document_type'),'Two Non-Judicial stamp papers of ZK10','false',null,'CREATE',1);
+Insert into EGPT_DOCUMENT_TYPE (id,name,mandatory,version,transactiontype,id_application_type) values (nextval('seq_egpt_document_type'),'Notarized Affidavit Cum Indemnity Bond On ZK100 Stamp Paper','false',null,'CREATE',1);
 Insert into EGPT_DOCUMENT_TYPE (id,name,mandatory,version,transactiontype,id_application_type) values (nextval('seq_egpt_document_type'),'Copy Of Death Certificate/ Succession Certificate/ Legal Hair Certificate','false',null,'CREATE',1);
 Insert into EGPT_DOCUMENT_TYPE (id,name,mandatory,version,transactiontype,id_application_type) values (nextval('seq_egpt_document_type'),'Assessment Photo','false',null,'MODIFY',2);
 Insert into EGPT_DOCUMENT_TYPE (id,name,mandatory,version,transactiontype,id_application_type) values (nextval('seq_egpt_document_type'),'Building Plan Document','false',null,'MODIFY',2);

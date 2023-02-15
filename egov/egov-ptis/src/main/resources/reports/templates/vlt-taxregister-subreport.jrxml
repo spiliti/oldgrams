@@ -1197,7 +1197,7 @@
 				<textElement verticalAlignment="Middle">
 					<paragraph leftIndent="4"/>
 				</textElement>
-				<text><![CDATA[Property Tax [in Rs.]]]></text>
+				<text><![CDATA[Property Tax [in ZK]]]></text>
 			</staticText>
 			<staticText>
 				<reportElement positionType="Float" x="-18" y="45" width="20" height="20" uuid="84be208e-c51c-48b4-b857-d24fe6bb7024"/>
@@ -1249,7 +1249,7 @@
 				<textElement verticalAlignment="Middle">
 					<paragraph leftIndent="4"/>
 				</textElement>
-				<text><![CDATA[Education Tax [in Rs.]]]></text>
+				<text><![CDATA[Education Tax [in ZK]]]></text>
 			</staticText>
 			<staticText>
 				<reportElement positionType="Float" x="-18" y="65" width="20" height="20" uuid="751284a6-2ff7-4f33-8c3d-b2aced54e5e1"/>
@@ -1301,7 +1301,7 @@
 				<textElement verticalAlignment="Middle">
 					<paragraph leftIndent="4"/>
 				</textElement>
-				<text><![CDATA[Total Property Tax [in Rs.]]]></text>
+				<text><![CDATA[Total Property Tax [in ZK]]]></text>
 			</staticText>
 			<staticText>
 				<reportElement positionType="Float" x="-18" y="85" width="20" height="20" uuid="898d2119-391c-4b6c-beb8-f9f82c8024f1"/>
@@ -1353,7 +1353,7 @@
 				<textElement verticalAlignment="Middle">
 					<paragraph leftIndent="4"/>
 				</textElement>
-				<text><![CDATA[Library Cess [in Rs.]]]></text>
+				<text><![CDATA[Library Cess [in ZK]]]></text>
 			</staticText>
 			<staticText>
 				<reportElement positionType="Float" x="-18" y="105" width="20" height="20" uuid="fe87a06e-9fee-4460-be35-e01cf3071718"/>
@@ -1405,7 +1405,7 @@
 				<textElement verticalAlignment="Middle">
 					<paragraph leftIndent="4"/>
 				</textElement>
-				<text><![CDATA[Total Property Tax & Library Cess [in Rs.]]]></text>
+				<text><![CDATA[Total Property Tax & Library Cess [in ZK]]]></text>
 			</staticText>
 			<staticText>
 				<reportElement positionType="Float" x="-18" y="125" width="20" height="20" uuid="76f59ece-f7dd-4a44-b254-f3cdd08e8356"/>
@@ -1986,7 +1986,7 @@
 				<textElement verticalAlignment="Middle">
 					<paragraph leftIndent="4"/>
 				</textElement>
-				<text><![CDATA[Property Tax [in Rs.]]]></text>
+				<text><![CDATA[Property Tax [in ZK]]]></text>
 			</staticText>
 			<staticText>
 				<reportElement positionType="Float" x="-18" y="299" width="20" height="20" uuid="45ba8334-e765-4cba-966e-6f045a8b9ce6"/>
@@ -2038,7 +2038,7 @@
 				<textElement verticalAlignment="Middle">
 					<paragraph leftIndent="4"/>
 				</textElement>
-				<text><![CDATA[Education Tax [in Rs.]]]></text>
+				<text><![CDATA[Education Tax [in ZK]]]></text>
 			</staticText>
 			<staticText>
 				<reportElement positionType="Float" x="-18" y="319" width="20" height="20" uuid="6e5de713-1e02-4f9a-ba80-41d972344287"/>
@@ -2090,7 +2090,7 @@
 				<textElement verticalAlignment="Middle">
 					<paragraph leftIndent="4"/>
 				</textElement>
-				<text><![CDATA[Total Property Tax [in Rs.]]]></text>
+				<text><![CDATA[Total Property Tax [in ZK]]]></text>
 			</staticText>
 			<staticText>
 				<reportElement positionType="Float" x="-18" y="339" width="20" height="20" uuid="23b1ae3a-0127-48a1-a352-39088477b310"/>
@@ -2142,7 +2142,7 @@
 				<textElement verticalAlignment="Middle">
 					<paragraph leftIndent="4"/>
 				</textElement>
-				<text><![CDATA[Library Cess [in Rs.]]]></text>
+				<text><![CDATA[Library Cess [in ZK]]]></text>
 			</staticText>
 			<staticText>
 				<reportElement positionType="Float" x="-18" y="359" width="20" height="20" uuid="a036ac33-ea9c-4742-99fc-d4227740d6b5"/>
@@ -2194,7 +2194,7 @@
 				<textElement verticalAlignment="Middle">
 					<paragraph leftIndent="4"/>
 				</textElement>
-				<text><![CDATA[Total Property Tax & Library Cess [in Rs.]]]></text>
+				<text><![CDATA[Total Property Tax & Library Cess [in ZK]]]></text>
 			</staticText>
 			<staticText>
 				<reportElement positionType="Float" x="-18" y="379" width="20" height="20" uuid="3fc120c0-65b5-428b-a451-d67a0f972285"/>

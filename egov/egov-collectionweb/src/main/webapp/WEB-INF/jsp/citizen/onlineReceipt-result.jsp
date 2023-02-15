@@ -118,7 +118,7 @@
 						'javascript:void(0);');
 				jQuery('#paymentInfo').find('span').html('Download Receipt');
 				CitizenApp
-						.showSnackBar('Your payment of Amount Rs.<s:property value="%{onlinePaymentReceiptHeader.totalAmount}" /> has been received. The Reference Number is <s:property value="%{onlinePaymentReceiptHeader.referencenumber}" />.');
+						.showSnackBar('Your payment of Amount ZK<s:property value="%{onlinePaymentReceiptHeader.totalAmount}" /> has been received. The Reference Number is <s:property value="%{onlinePaymentReceiptHeader.referencenumber}" />.');
 				jQuery('#btnGenerateReceipt')
 						.click(
 								function(e) {

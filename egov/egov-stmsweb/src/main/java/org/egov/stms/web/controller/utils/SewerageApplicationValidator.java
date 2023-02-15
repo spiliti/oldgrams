@@ -564,7 +564,7 @@ public class SewerageApplicationValidator extends SewerageApplicationCommonValid
         if (waterTaxDue.compareTo(BigDecimal.ZERO) > 0) {
             errorMessage = "Property tax Assessment number "
                     + sewerageApplicationDetails.getConnectionDetail().getPropertyIdentifier() +
-                    " linked water tap connection demand with Consumer code:" + consumerCode + " is due Rs." + waterTaxDue
+                    " linked water tap connection demand with Consumer code:" + consumerCode + " is due ZK" + waterTaxDue
                     + "/- . Please clear demand and proceed";
             errors.reject(CONNECTIONDTL_PROPERTYID_ISVALID,
                     new String[] { errorMessage }, null);

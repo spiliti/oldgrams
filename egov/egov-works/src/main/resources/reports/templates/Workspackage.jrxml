@@ -207,7 +207,7 @@
 					<font fontName="Times New Roman" isBold="true" isPdfEmbedded="true"/>
 				</textElement>
 				<text><![CDATA[Amount
-Rs. P]]></text>
+ZK  N]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="628" y="0" width="63" height="26"/>
@@ -236,7 +236,7 @@ Rs. P]]></text>
 					<font fontName="Times New Roman" isBold="true" isPdfEmbedded="true"/>
 				</textElement>
 				<text><![CDATA[Rate
-Rs. P]]></text>
+ZK. N]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="162" y="0" width="276" height="26"/>

@@ -145,7 +145,7 @@ $P{ownerInfo}.getOwnerTypeForReport()+"-New Assessment (or) Amendment)\n(Issued 
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="8" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Revision  (Rs.)]]></text>
+				<text><![CDATA[Revision  (ZK)]]></text>
 			</staticText>
 			<staticText>
 				<reportElement positionType="Float" x="397" y="356" width="116" height="13" uuid="f4e75552-f306-4bdf-bde4-c6e18a7c9fef"/>
@@ -159,7 +159,7 @@ $P{ownerInfo}.getOwnerTypeForReport()+"-New Assessment (or) Amendment)\n(Issued 
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="8" isBold="true"/>
 				</textElement>
-				<text><![CDATA[New Assessment  (Rs.)]]></text>
+				<text><![CDATA[New Assessment  (ZK)]]></text>
 			</staticText>
 			<textField isStretchWithOverflow="true" pattern="###0" isBlankWhenNull="false">
 				<reportElement positionType="Float" x="282" y="369" width="115" height="12" uuid="4025a0ee-c069-4962-a31f-936749557eaa"/>
@@ -313,7 +313,7 @@ $P{ownerInfo}.getOwnerTypeForReport()+"-New Assessment (or) Amendment)\n(Issued 
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="8" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Existing H/Y Tax if any (Rs.)]]></text>
+				<text><![CDATA[Existing H/Y Tax if any (ZK)]]></text>
 			</staticText>
 			<textField isStretchWithOverflow="true" pattern="###0" isBlankWhenNull="false">
 				<reportElement positionType="Float" x="160" y="381" width="122" height="12" uuid="fad818b9-7feb-45cb-91cc-037bd9ff2820"/>
@@ -706,7 +706,7 @@ $P{ownerInfo}.getOwnerTypeForReport()+"-New Assessment (or) Amendment)\n(Issued 
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="8" isBold="true"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$P{ownerInfo}.getOwnershipType().equalsIgnoreCase("Vacant Land")?"Existing Assessment Capital Value (Rs.)" : "Existing Assessment ARV (Rs.)"]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$P{ownerInfo}.getOwnershipType().equalsIgnoreCase("Vacant Land")?"Existing Assessment Capital Value (ZK)" : "Existing Assessment ARV (ZK)"]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement positionType="Float" x="282" y="318" width="231" height="12" uuid="3595daf1-e2fa-4601-ba8b-d661343b1e0d"/>
@@ -720,7 +720,7 @@ $P{ownerInfo}.getOwnerTypeForReport()+"-New Assessment (or) Amendment)\n(Issued 
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="8" isBold="true"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$P{ownerInfo}.getOwnershipType().equalsIgnoreCase("Vacant Land") ? "Revision or New Assessment Capital Value (Rs.)" : "Revision or New Assessment ARV (Rs.)"]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$P{ownerInfo}.getOwnershipType().equalsIgnoreCase("Vacant Land") ? "Revision or New Assessment Capital Value (ZK)" : "Revision or New Assessment ARV (ZK)"]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement key="" isPrintRepeatedValues="false" x="37" y="270" width="476" height="47" uuid="428b2b38-81fb-4de4-bb65-6c5ba3d1d465">

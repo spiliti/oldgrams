@@ -56,11 +56,11 @@
 		<td class="greybox" width="">
 			<s:if
 				test="%{propertyTaxDetailsMap.generalTax != null}">
-				<span class="bold">Rs. <s:text name="format.money">
+				<span class="bold">ZK  <s:text name="format.money">
 						<s:param value="propertyTaxDetailsMap.generalTax" />
 					</s:text></span>
 			</s:if> <s:else>
-				<span class="bold">Rs. <s:text name="format.money">
+				<span class="bold">ZK  <s:text name="format.money">
 						<s:param value="propertyTaxDetailsMap.vacantLandTax" />
 					</s:text></span>
 			</s:else>
@@ -79,13 +79,13 @@
 		<td class="greybox">&nbsp;</td>
 		<s:if test="%{!propertyDetail.propertyTypeMaster.code.equals(@org.egov.ptis.constants.PropertyTaxConstants@OWNERSHIP_TYPE_VAC_LAND)} ">
 		<td class="greybox"><s:text name="EduCess"></s:text> :</td>
-		<td class="greybox"><span class="bold">Rs. <s:text
+		<td class="greybox"><span class="bold">ZK  <s:text
 					name="format.money">
 					<s:param value="propertyTaxDetailsMap.eduCess" />
 				</s:text></span></td>
 		</s:if>
 		<s:else><td class="greybox"><s:text name="libCess"></s:text> :</td>
-		<td class="greybox"><span class="bold">Rs. <s:text
+		<td class="greybox"><span class="bold">ZK  <s:text
 					name="format.money">
 					<s:param value="propertyTaxDetailsMap.libraryCess" />
 				</s:text></span></td>
@@ -93,7 +93,7 @@
 				
 		<td class="greybox" width="20%"><s:text name="totalTax"></s:text>
 			:</td>
-		<td class="greybox"><span class="bold">Rs. <s:text
+		<td class="greybox"><span class="bold">ZK  <s:text
 					name="format.money">
 					<s:param value="propertyTaxDetailsMap.totalTax" />
 				</s:text></span></td>
@@ -102,7 +102,7 @@
 		<td class="greybox">&nbsp;</td>
 		<s:if test='%{propertyTaxDetailsMap.eduCess != null && propertyTaxDetailsMap.eduCess != 0}'>
 		<td class="greybox"><s:text name="EduCess"></s:text> :</td>
-		<td class="greybox"><span class="bold">Rs. <s:text
+		<td class="greybox"><span class="bold">ZK  <s:text
 					name="format.money">
 					<s:param value="propertyTaxDetailsMap.eduCess" />
 				</s:text></span></td>
@@ -114,7 +114,7 @@
 		<tr>
 			<td class="greybox">&nbsp;</td>
 			<td class="greybox"><s:text name="unauthorizedPenalty"></s:text> :</td>
-			<td class="greybox"><span class="bold">Rs. <s:text
+			<td class="greybox"><span class="bold">ZK  <s:text
 						name="format.money">
 						<s:param value="propertyTaxDetailsMap.unauthorisedPenalty" />
 					</s:text></span></td>

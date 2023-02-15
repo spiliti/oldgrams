@@ -84,10 +84,10 @@
 			title="Description" style="width:5%;text-align:left"
 			property="description" />
 		<display:column headerClass="bluebgheadtd" class="blueborderfortd"
-			title="Debit (Rs.)" style="width:6%;text-align:right"
+			title="Debit (ZK)" style="width:6%;text-align:right"
 			property="debit" />
 		<display:column headerClass="bluebgheadtd" class="blueborderfortd"
-			title="Credit (Rs.)" style="width:6%;text-align:right"
+			title="Credit (ZK)" style="width:6%;text-align:right"
 			property="credit" />
 		<display:caption media="pdf">
 			<div align="left" style="text-align: left;">

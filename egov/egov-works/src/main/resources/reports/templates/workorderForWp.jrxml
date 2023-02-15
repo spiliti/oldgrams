@@ -119,7 +119,7 @@
 					<textElement textAlignment="Center" verticalAlignment="Bottom">
 						<font fontName="Times New Roman" isBold="true" pdfFontName="Times-Bold" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Amount (Rs.)]]></text>
+					<text><![CDATA[Amount (ZK)]]></text>
 				</staticText>
 			</band>
 		</groupHeader>
@@ -236,7 +236,7 @@
 					<textElement textAlignment="Center" verticalAlignment="Bottom">
 						<font fontName="Times New Roman" isBold="true" pdfFontName="Times-Bold" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Amount (Rs.)]]></text>
+					<text><![CDATA[Amount (ZK)]]></text>
 				</staticText>
 				<textField isStretchWithOverflow="true" pattern="###0.00" isBlankWhenNull="true">
 					<reportElement stretchType="RelativeToTallestObject" x="259" y="58" width="115" height="19"/>

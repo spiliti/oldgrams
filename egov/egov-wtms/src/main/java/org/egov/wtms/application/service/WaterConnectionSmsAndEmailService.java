@@ -683,7 +683,7 @@ public class WaterConnectionSmsAndEmailService {
                     .valueOf(amountFormat.format(waterConnectionDetails.getDonationCharges()
                             + waterConnectionDetails.getFieldInspectionDetails().getEstimationCharges()));
             final StringBuilder emailBodyBuilder = new StringBuilder().append("Dear ").append(applicantName).append(",")
-                    .append("\n\nWe have received Estimation and donation amount of Rs.").append(amountToDisplay)
+                    .append("\n\nWe have received Estimation and donation amount of ZK").append(amountToDisplay)
                     .append("/- against your water connection application number ")
                     .append(waterConnectionDetails.getApplicationNumber())
                     .append(". We will be now processing your application to issue an work order.\n\nThis is computer generated email and does not need any signature and also please do not reply to this email.\n\nRegards,")
@@ -813,7 +813,7 @@ public class WaterConnectionSmsAndEmailService {
                     .valueOf(amountFormat.format(waterConnectionDetails.getDonationCharges()
                             + waterConnectionDetails.getFieldInspectionDetails().getEstimationCharges()));
             final StringBuilder smsBody = new StringBuilder().append("Dear ").append(applicantName)
-                    .append(",We have received Estimation and donation amount of Rs.").append(amountToDisplay)
+                    .append(",We have received Estimation and donation amount of ZK").append(amountToDisplay)
                     .append("/- against your water connection application number ")
                     .append(waterConnectionDetails.getApplicationNumber())
                     .append(". We will be now processing your application to issue an work order.\nThanks,\n")

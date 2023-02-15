@@ -49,7 +49,7 @@
 		<band height="802" splitType="Stretch">
 			<textField>
 				<reportElement x="55" y="240" width="461" height="39" uuid="d33a8b7d-6f9e-4d44-9645-d069f22a8f51"/>
-				<textFieldExpression><![CDATA["             In the reference 1st citied, Sri/Smt"+" "+$P{applicantname}+" "+" has submitted an application seeking sewerage connection to the house bearing Door No: "+" "+$P{doorno}+" "+ "and paid the following amounts towards donation and other charges."]]></textFieldExpression>
+				<textFieldExpression><![CDATA["             In the reference 1st citied, Mrs/Ms"+" "+$P{applicantname}+" "+" has submitted an application seeking sewerage connection to the house bearing Door No: "+" "+$P{doorno}+" "+ "and paid the following amounts towards donation and other charges."]]></textFieldExpression>
 			</textField>
 			<textField isBlankWhenNull="true">
 				<reportElement x="0" y="24" width="555" height="15" uuid="36381485-7e1f-4e51-a7bf-c336561add07"/>
@@ -233,19 +233,19 @@
 			</textField>
 			<textField>
 				<reportElement x="150" y="300" width="368" height="14" uuid="aeda3e76-8ac5-4773-99ed-9ff0b492bd42"/>
-				<textFieldExpression><![CDATA[":        Rs."+$P{donationCharges}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[":        ZK"+$P{donationCharges}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="150" y="315" width="368" height="14" uuid="730981d8-a471-4fa8-9349-751f9f0394f2"/>
-				<textFieldExpression><![CDATA[":        Rs."+$P{estimationCharges}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[":        ZK"+$P{estimationCharges}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="150" y="330" width="368" height="14" uuid="40c85449-5b88-48f3-897f-0f47a1224bc1"/>
-				<textFieldExpression><![CDATA[":        Rs."+$P{sewerageTax}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[":        ZK"+$P{sewerageTax}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="150" y="345" width="368" height="14" uuid="ab3279d2-79a8-4f8e-9806-a9e83593b230"/>
-				<textFieldExpression><![CDATA[":        Rs."+$P{totalCharges}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[":        ZK"+$P{totalCharges}]]></textFieldExpression>
 			</textField>
 		</band>
 	</detail>
@@ -430,19 +430,19 @@
 			</textField>
 			<textField>
 				<reportElement x="145" y="305" width="368" height="14" uuid="1bbe8c03-9402-4552-a350-d1711033ff61"/>
-				<textFieldExpression><![CDATA[":        Rs."+$P{donationCharges}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[":        ZK"+$P{donationCharges}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="145" y="320" width="368" height="14" uuid="80208ee4-57b0-4843-a189-dcd8501fc678"/>
-				<textFieldExpression><![CDATA[":        Rs."+$P{estimationCharges}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[":        ZK"+$P{estimationCharges}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="145" y="335" width="368" height="14" uuid="6986046e-0c56-40c1-a230-942bf6f05218"/>
-				<textFieldExpression><![CDATA[":        Rs."+$P{sewerageTax}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[":        ZK"+$P{sewerageTax}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="145" y="350" width="368" height="14" uuid="84a47305-b36a-4dee-b75a-62d2d31e216e"/>
-				<textFieldExpression><![CDATA[":        Rs."+$P{totalCharges}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[":        ZK"+$P{totalCharges}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="55" y="239" width="461" height="40" uuid="42f1211f-b395-4f3e-bd40-2f1c5d65f7df"/>

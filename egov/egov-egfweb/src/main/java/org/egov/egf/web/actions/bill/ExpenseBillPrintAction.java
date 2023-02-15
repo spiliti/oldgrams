@@ -249,7 +249,7 @@ public class ExpenseBillPrintAction extends BaseFormAction {
             final BigDecimal amt = cbill.getPassedamount().setScale(2, BigDecimal.ROUND_HALF_EVEN);
             String amountInWords = NumberToWordConverter.amountInWordsWithCircumfix(amt);
             amountInWords = "(" + amountInWords + " )";
-            amountInWords = "Bill is in order. Sanction is accorded for Rs." + amt + "/-" + amountInWords;
+            amountInWords = "Bill is in order. Sanction is accorded for ZK" + amt + "/-" + amountInWords;
             paramMap.put("netAmountText", amountInWords);
             if (LOGGER.isInfoEnabled())
                 LOGGER.info("amountInWords" + amountInWords);

@@ -167,10 +167,10 @@ function loadPropertyDetails() {
 					else
 						subErrorMessage=" apply for change in closets.";
 					if(allowIfPTDueExists=='false' &&response.propertyDetails.taxDue > 0) {
-						errorMessage = "For entered Property tax Assessment number "+propertyID+" demand is due Rs."+ response.propertyDetails.taxDue+"/-. Please clear demand and"+subErrorMessage;
+						errorMessage = "For entered Property tax Assessment number "+propertyID+" demand is due ZK"+ response.propertyDetails.taxDue+"/-. Please clear demand and"+subErrorMessage;
 					}
 					if(typeof waterTaxDue != 'undefined'  && waterTaxDue['WATERTAXDUE'] > 0 ) {
-						errorMessage += "For entered Property tax Assessment number "+propertyID+" linked water tap connection demand with Consumer code:"+waterTaxDue['CONSUMERCODE'][0]+" is due Rs."+ waterTaxDue['WATERTAXDUE']+"/- . Please clear demand and"+subErrorMessage;
+						errorMessage += "For entered Property tax Assessment number "+propertyID+" linked water tap connection demand with Consumer code:"+waterTaxDue['CONSUMERCODE'][0]+" is due ZK"+ waterTaxDue['WATERTAXDUE']+"/- . Please clear demand and"+subErrorMessage;
 					}
 					if((allowIfPTDueExists=='false' && response.propertyDetails.taxDue > 0) || typeof waterTaxDue != 'undefined' && waterTaxDue['WATERTAXDUE'] > 0) {
 						resetPropertyDetails();	
