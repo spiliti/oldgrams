@@ -104,7 +104,7 @@
 								</div>
 							</td>
 							<td><input type="button" name="showOwnerDetails" id="viewButton"
-						value="View Aadhar Details" class="viewButton"/></td>
+						value="View NRC/INRIS Details" class="viewButton"/></td>
 						</tr>
 					</c:forEach>
 				</tbody>
