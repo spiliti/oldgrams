@@ -101,7 +101,7 @@
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font isBold="true"/>
 				</textElement>
-				<text><![CDATA[Cheque Amount(Rs)]]></text>
+				<text><![CDATA[Cheque Amount(ZK)]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="157" y="0" width="59" height="40" uuid="e2832d20-fe6b-4e92-8bf9-d3cf356e3147"/>

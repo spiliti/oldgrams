@@ -380,20 +380,20 @@ public class ReportHelper {
         drb.setPageSizeAndOrientation(new Page(612, 792, false));
         if (balanceSheet.getFunds().size() == 1)
             for (final Fund fund : balanceSheet.getFunds()) {
-                drb.addColumn(toDate + "(Rs)",
+                drb.addColumn(toDate + "(ZK)",
                         "netAmount." + fund.getName(), BigDecimal.class.getName(),
                         70, false, "0.00", detailAmountStyle);
-                drb.addColumn(fromDate + "(Rs)",
+                drb.addColumn(fromDate + "(ZK)",
                         "previousYearAmount." + fund.getName(), BigDecimal.class
                         .getName(), 70, false, "0.00", detailAmountStyle);
             }
         else
             for (final Fund fund : balanceSheet.getFunds()) {
-                drb.addColumn(fund.getName() + " Totals As On:" + toDate + "(Rs)",
+                drb.addColumn(fund.getName() + " Totals As On:" + toDate + "(ZK)",
                         "netAmount." + fund.getName(), BigDecimal.class.getName(),
                         70, false, "0.00", detailAmountStyle);
                 drb.addColumn(
-                        fund.getName() + " Totals As On:" + fromDate + "(Rs)",
+                        fund.getName() + " Totals As On:" + fromDate + "(ZK)",
                         "previousYearAmount." + fund.getName(), BigDecimal.class
                         .getName(), 70, false, "0.00", detailAmountStyle);
             }
@@ -441,12 +441,12 @@ public class ReportHelper {
         drb.setPageSizeAndOrientation(new Page(612, 792, false));
         if (receiptPaymentObj.getFunds().size() > 1)
             for (final Fund fund : receiptPaymentObj.getFunds())
-                drb.addColumn(fund.getName() + " (Rs)", "fundWiseAmount." + fund.getCode(), BigDecimal.class.getName(), 55,
+                drb.addColumn(fund.getName() + " (ZK)", "fundWiseAmount." + fund.getCode(), BigDecimal.class.getName(), 55,
                         false,
                         "0.00", detailAmountStyle);
-        drb.addColumn(currentYearDate + "(Rs)", "currentYearTotal", BigDecimal.class.getName(), 55, false, "0.00",
+        drb.addColumn(currentYearDate + "(ZK)", "currentYearTotal", BigDecimal.class.getName(), 55, false, "0.00",
                 detailAmountStyle);
-        drb.addColumn(PreviousYearDate + "(Rs)", "previousYearTotal", BigDecimal.class.getName(), 55, false, "0.00",
+        drb.addColumn(PreviousYearDate + "(ZK)", "previousYearTotal", BigDecimal.class.getName(), 55, false, "0.00",
                 detailAmountStyle);
 
         final DynamicReport dr = drb.build();
@@ -587,11 +587,11 @@ public class ReportHelper {
         drb.setPageSizeAndOrientation(new Page(612, 792, false));
         if (balanceSheet.getFunds().size() > 1)
             for (final Fund fund : balanceSheet.getFunds())
-                drb.addColumn(fund.getName() + " (Rs)", "fundWiseAmount." + fund.getName(), BigDecimal.class.getName(), 55,
+                drb.addColumn(fund.getName() + " (ZK)", "fundWiseAmount." + fund.getName(), BigDecimal.class.getName(), 55,
                         false,
                         "0.00", detailAmountStyle);
-        drb.addColumn(fromDate + "(Rs)", "currentYearTotal", BigDecimal.class.getName(), 55, false, "0.00", detailAmountStyle)
-        .addColumn(toDate + "(Rs)", "previousYearTotal", BigDecimal.class.getName(), 55, false, "0.00",
+        drb.addColumn(fromDate + "(ZK)", "currentYearTotal", BigDecimal.class.getName(), 55, false, "0.00", detailAmountStyle)
+        .addColumn(toDate + "(ZK)", "previousYearTotal", BigDecimal.class.getName(), 55, false, "0.00",
                 detailAmountStyle);
         final DynamicReport dr = drb.build();
         final JRDataSource ds = new JRBeanCollectionDataSource(balanceSheet
@@ -611,24 +611,24 @@ public class ReportHelper {
                         "Function Code", "functionCode", String.class.getName(), 50)
                         .addColumn("Account Head", "budgetGroupName",
                                 String.class.getName(), 90).addColumn(
-                                        "Actuals " + lastYearRange + "(Rs)", "actualsLastYear",
+                                        "Actuals " + lastYearRange + "(ZK)", "actualsLastYear",
                                         BigDecimal.class.getName(), 100, false, "0.00",
                                         detailAmountStyle).addColumn(
-                                                "BE " + currentYearRange + "(Rs)",
+                                                "BE " + currentYearRange + "(ZK)",
                                                 "beCurrentYearApproved", BigDecimal.class.getName(),
                                                 100, false, "0.00", detailAmountStyle).addColumn(
-                                                        "RE Proposed " + currentYearRange + "(Rs)",
+                                                        "RE Proposed " + currentYearRange + "(ZK)",
                                                         "reCurrentYearOriginal", BigDecimal.class.getName(),
                                                         100, false, "0.00", detailAmountStyle);
         if (enableReApproved)
-            drb.addColumn("RE Approved " + currentYearRange + "(Rs)",
+            drb.addColumn("RE Approved " + currentYearRange + "(ZK)",
                     "reCurrentYearApproved", BigDecimal.class.getName(), 100,
                     false, "0.00", detailAmountStyle);
-        drb.addColumn("BE Proposed " + nextYearRange + "(Rs)",
+        drb.addColumn("BE Proposed " + nextYearRange + "(ZK)",
                 "beNextYearOriginal", BigDecimal.class.getName(), 100, false,
                 "0.00", detailAmountStyle);
         if (enableBeApproved)
-            drb.addColumn("BE Approved " + nextYearRange + "(Rs)",
+            drb.addColumn("BE Approved " + nextYearRange + "(ZK)",
                     "beNextYearApproved", BigDecimal.class.getName(), 100,
                     false, "0.00", detailAmountStyle);
         drb.setTitle(heading).setWhenNoData("No data", null).setDefaultStyles(
@@ -987,10 +987,10 @@ public class ReportHelper {
                 .addColumn("COA", "accCode", String.class.getName(), 30, textStyle)
                 .addColumn("Account Head", "name", String.class.getName(), 80, textStyle)
                 .addColumn("Schedule", "schedule", String.class.getName(), 25, textStyle)
-                .addColumn("BE (Rs)", "beAmount", BigDecimal.class.getName(), 70, amountStyle)
-                .addColumn("RE (Rs)", "reAmount", BigDecimal.class.getName(), 70, amountStyle)
-                .addColumn("Receipt(Current Year) (Rs)", "amount", BigDecimal.class.getName(), 70, amountStyle)
-                .addColumn("Receipt(Previous Year) (Rs)", "pyAmount", BigDecimal.class.getName(), 70, amountStyle);
+                .addColumn("BE (ZK)", "beAmount", BigDecimal.class.getName(), 70, amountStyle)
+                .addColumn("RE (ZK)", "reAmount", BigDecimal.class.getName(), 70, amountStyle)
+                .addColumn("Receipt(Current Year) (ZK)", "amount", BigDecimal.class.getName(), 70, amountStyle)
+                .addColumn("Receipt(Previous Year) (ZK)", "pyAmount", BigDecimal.class.getName(), 70, amountStyle);
             else
                 drb = drb.addColumn("Sl.No", "slNo",
                         Integer.class.getName(), 18, textStyle)
@@ -999,19 +999,19 @@ public class ReportHelper {
                                         "name", String.class.getName(), 80, textStyle)
                                         .addColumn("Schedule", "schedule",
                                                 String.class.getName(), 30, textStyle)
-                                                .addColumn("BE (Rs)", "beAmount",
+                                                .addColumn("BE (ZK)", "beAmount",
                                                         BigDecimal.class.getName(), 65, amountStyle)
-                                                        .addColumn("BE-Appropriation (Rs)", "beAppAmount",
+                                                        .addColumn("BE-Appropriation (ZK)", "beAppAmount",
                                                                 BigDecimal.class.getName(), 65, amountStyle)
-                                                                .addColumn("RE (Rs)", "reAmount",
+                                                                .addColumn("RE (ZK)", "reAmount",
                                                                         BigDecimal.class.getName(), 65, amountStyle)
-                                                                        .addColumn("RE-Appropriation (Rs)", "reAppAmount",
+                                                                        .addColumn("RE-Appropriation (ZK)", "reAppAmount",
                                                                                 BigDecimal.class.getName(), 65, amountStyle)
-                                                                                .addColumn("Expenditure As On(Previous Year) (Rs)", "pyAmount",
+                                                                                .addColumn("Expenditure As On(Previous Year) (ZK)", "pyAmount",
                                                                                         BigDecimal.class.getName(), 65, amountStyle)
-                                                                                        .addColumn("Expenditure As On(Current Year) (Rs)", "amount",
+                                                                                        .addColumn("Expenditure As On(Current Year) (ZK)", "amount",
                                                                                                 BigDecimal.class.getName(), 65, amountStyle)
-                                                                                                .addColumn("Balance (Rs)", "computedBalance",
+                                                                                                .addColumn("Balance (ZK)", "computedBalance",
                                                                                                         BigDecimal.class.getName(), 70, amountStyle);
             drb.setTitle(header)
             .setSubtitle(
@@ -1057,17 +1057,17 @@ public class ReportHelper {
             if (rb.getReportType().equalsIgnoreCase("daterange"))
                 drb = drb.addColumn("Account Code", "accCode", String.class.getName(), 50, textStyle)
                 .addColumn("Account Head", "accName", String.class.getName(), 325, textStyle)
-                .addColumn("Opening Balance (Rs)", "openingBal", String.class.getName(), 70, amountStyle)
-                .addColumn("Debit (Rs)", "debit", String.class.getName(), 70, amountStyle)
-                .addColumn("Credit (Rs)", "credit", String.class.getName(), 70, amountStyle)
-                .addColumn("Closing Balance (Rs)", "closingBal", String.class.getName(), 70, amountStyle);
+                .addColumn("Opening Balance (ZK)", "openingBal", String.class.getName(), 70, amountStyle)
+                .addColumn("Debit (ZK)", "debit", String.class.getName(), 70, amountStyle)
+                .addColumn("Credit (ZK)", "credit", String.class.getName(), 70, amountStyle)
+                .addColumn("Closing Balance (ZK)", "closingBal", String.class.getName(), 70, amountStyle);
             else {
                 drb = drb.addColumn("Account Code", "accCode", String.class.getName(), 50, textStyle)
                         .addColumn("Account Head", "accName", String.class.getName(), 325, textStyle);
                 for (final Fund f : fundList)
-                    drb.addColumn(f.getName() + " (Rs)", "fundWiseMap." + f.getId() + "_amount", String.class.getName(), 70,
+                    drb.addColumn(f.getName() + " (ZK)", "fundWiseMap." + f.getId() + "_amount", String.class.getName(), 70,
                             false, "0.00", amountStyle);
-                drb.addColumn("Total (Rs)", "amount1", String.class.getName(), 70, false, "0.00", amountStyle);
+                drb.addColumn("Total (ZK)", "amount1", String.class.getName(), 70, false, "0.00", amountStyle);
             }
             drb.setTitle(header)
             .setSubtitle(
@@ -1121,11 +1121,11 @@ public class ReportHelper {
                         Integer.class.getName(), 18, textStyle).addColumn(
                                 "Department", "deptName", String.class.getName(), 40, textStyle)
                                 .addColumn("COA", "accCode", String.class.getName(), 20, textStyle)
-                                .addColumn("BE (Rs)", "beAmount", BigDecimal.class.getName(), 70, amountStyle)
-                                .addColumn("RE (Rs)", "reAmount", BigDecimal.class.getName(), 70, amountStyle)
+                                .addColumn("BE (ZK)", "beAmount", BigDecimal.class.getName(), 70, amountStyle)
+                                .addColumn("RE (ZK)", "reAmount", BigDecimal.class.getName(), 70, amountStyle)
                                 .addColumn("Account Head", "name", String.class.getName(), 80, textStyle)
-                                .addColumn("Receipt(Current Year) (Rs)", "amount", BigDecimal.class.getName(), 50, amountStyle)
-                                .addColumn("Receipt(Previous Year) (Rs)", "pyAmount", BigDecimal.class.getName(), 50, amountStyle);
+                                .addColumn("Receipt(Current Year) (ZK)", "amount", BigDecimal.class.getName(), 50, amountStyle)
+                                .addColumn("Receipt(Previous Year) (ZK)", "pyAmount", BigDecimal.class.getName(), 50, amountStyle);
             else
                 drb = drb.addColumn("Sl.No", "slNo",
                         Integer.class.getName(), 18, textStyle).addColumn(
@@ -1133,18 +1133,18 @@ public class ReportHelper {
                                 textStyle).addColumn("COA", "accCode",
                                         String.class.getName(), 20, textStyle).addColumn(
                                                 "Account Head", "name", String.class.getName(), 80,
-                                                textStyle).addColumn("BE (Rs)", "beAmount",
+                                                textStyle).addColumn("BE (ZK)", "beAmount",
                                                         BigDecimal.class.getName(), 60, amountStyle).addColumn(
-                                                                "BE-Appropriation (Rs)", "beAppAmount",
+                                                                "BE-Appropriation (ZK)", "beAppAmount",
                                                                 BigDecimal.class.getName(), 60, amountStyle).addColumn(
-                                                                        "RE (Rs)", "reAmount", BigDecimal.class.getName(), 60,
-                                                                        amountStyle).addColumn("RE-Appropriation (Rs)",
+                                                                        "RE (ZK)", "reAmount", BigDecimal.class.getName(), 60,
+                                                                        amountStyle).addColumn("RE-Appropriation (ZK)",
                                                                                 "reAppAmount", BigDecimal.class.getName(), 60,
-                                                                                amountStyle).addColumn("Expenditure As On(Previous Year) (Rs)",
+                                                                                amountStyle).addColumn("Expenditure As On(Previous Year) (ZK)",
                                                                                         "pyAmount", BigDecimal.class.getName(), 60,
-                                                                                        amountStyle).addColumn("Expenditure As On(Current Year) (Rs)",
+                                                                                        amountStyle).addColumn("Expenditure As On(Current Year) (ZK)",
                                                                                                 "amount", BigDecimal.class.getName(), 60, amountStyle)
-                                                                                                .addColumn("Balance (Rs)", "computedBalance",
+                                                                                                .addColumn("Balance (ZK)", "computedBalance",
                                                                                                         BigDecimal.class.getName(), 60, amountStyle);
             // Added Blank Space for painting subtitle left and right aligned
             drb.setTitle(header).setSubtitle("Report Run Date:" + FORMATDDMMYYYY.format(new Date()) + " Amount in Kwacha")
@@ -1186,13 +1186,13 @@ public class ReportHelper {
                 drb = drb.addColumn("Sl.No", "slNo",
                         Integer.class.getName(), 15, textStyle)
                         .addColumn("COA", "accCode", String.class.getName(),
-                                50, textStyle).addColumn("BE (Rs)", "beAmount", BigDecimal.class.getName(), 70, amountStyle)
-                                .addColumn("RE (Rs)", "reAmount", BigDecimal.class.getName(), 70, amountStyle)
+                                50, textStyle).addColumn("BE (ZK)", "beAmount", BigDecimal.class.getName(), 70, amountStyle)
+                                .addColumn("RE (ZK)", "reAmount", BigDecimal.class.getName(), 70, amountStyle)
                                 .addColumn("Account Head",
                                         "name", String.class.getName(), 80, textStyle)
-                                        .addColumn("Receipt(Current Year) (Rs)", "amount",
+                                        .addColumn("Receipt(Current Year) (ZK)", "amount",
                                                 BigDecimal.class.getName(), 50, amountStyle)
-                                                .addColumn("Receipt(Previous Year) (Rs)", "beAmount",
+                                                .addColumn("Receipt(Previous Year) (ZK)", "beAmount",
                                                         BigDecimal.class.getName(), 50, amountStyle);
             else
                 drb = drb.addColumn("Sl.No", "slNo",
@@ -1200,19 +1200,19 @@ public class ReportHelper {
                         .addColumn("COA", "accCode", String.class.getName(),
                                 50, textStyle).addColumn("Account Head",
                                         "name", String.class.getName(), 80, textStyle)
-                                        .addColumn("BE (Rs)", "beAmount",
+                                        .addColumn("BE (ZK)", "beAmount",
                                                 BigDecimal.class.getName(), 40, amountStyle)
-                                                .addColumn("BE-Appropriation (Rs)", "beAppAmount",
+                                                .addColumn("BE-Appropriation (ZK)", "beAppAmount",
                                                         BigDecimal.class.getName(), 40, amountStyle)
-                                                        .addColumn("RE (Rs)", "reAmount",
+                                                        .addColumn("RE (ZK)", "reAmount",
                                                                 BigDecimal.class.getName(), 40, amountStyle)
-                                                                .addColumn("RE-Appropriation (Rs)", "reAppAmount",
+                                                                .addColumn("RE-Appropriation (ZK)", "reAppAmount",
                                                                         BigDecimal.class.getName(), 40, amountStyle)
-                                                                        .addColumn("Expenditure As On(Previous Year) (Rs)", "pyAmount",
+                                                                        .addColumn("Expenditure As On(Previous Year) (ZK)", "pyAmount",
                                                                                 BigDecimal.class.getName(), 40, amountStyle)
-                                                                                .addColumn("Expenditure As On(Current Year) (Rs)", "amount",
+                                                                                .addColumn("Expenditure As On(Current Year) (ZK)", "amount",
                                                                                         BigDecimal.class.getName(), 40, amountStyle)
-                                                                                        .addColumn("Balance (Rs)", "computedBalance",
+                                                                                        .addColumn("Balance (ZK)", "computedBalance",
                                                                                                 BigDecimal.class.getName(), 40, amountStyle);
             // Added Blank Space for painting subtitle left and right aligned
             drb.setTitle(header)

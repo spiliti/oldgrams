@@ -184,7 +184,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font isBold="true"/>
 				</textElement>
-				<text><![CDATA[Amount(Rs)]]></text>
+				<text><![CDATA[Amount(ZK)]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="243" y="0" width="79" height="40" uuid="44e438ed-155e-4000-a712-616e6b1f31b5"/>
@@ -296,7 +296,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font isBold="true"/>
 				</textElement>
-				<text><![CDATA[Toal Deduction(Rs)]]></text>
+				<text><![CDATA[Toal Deduction(ZK)]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="602" y="0" width="75" height="40" uuid="fb3ddf4a-6a13-4b46-b8f7-093c40dfd512"/>
@@ -310,7 +310,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font isBold="true"/>
 				</textElement>
-				<text><![CDATA[Paid Amount(Rs)]]></text>
+				<text><![CDATA[Paid Amount(ZK)]]></text>
 			</staticText>
 		</band>
 	</columnHeader>

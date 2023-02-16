@@ -81,7 +81,7 @@
 								name="report.headOfAccount" /></th>
 						<s:iterator value="incomeExpenditureStatement.funds" status="stat">
 							<th class="bluebgheadtd" colspan="2"><s:property
-									value="name" />(Rs)</th>
+									value="name" />(ZK)</th>
 						</s:iterator>
 					</tr>
 					<tr>

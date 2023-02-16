@@ -314,7 +314,7 @@
 																	<td class="bluebox">&nbsp;</td>
 																	<td class="bluebox">&nbsp;</td>
 																	<td class="bluebox" width="15%"><strong><s:text
-																				name="payment.balance" />(Rs)</strong></td>
+																				name="payment.balance" />(ZK)</strong></td>
 																	<td class="bluebox" colspan="4"><s:textfield
 																			name="availableBalance" id="availableBalance"
 																			readonly="true" style="text-align:right" /></td>

@@ -126,10 +126,10 @@
 							<th class="bluebgheadtd"><s:text name="field" /></th>
 						</s:if>
 						<th class="bluebgheadtd">Seq No</th>
-						<th class="bluebgheadtd">Sanctioned Budget(Rs)</th>
-						<th class="bluebgheadtd">Addition Amount Sought(Rs)</th>
-						<th class="bluebgheadtd">Reduction Amount Sought(Rs)</th>
-						<th class="bluebgheadtd">Cumulative Amount(Rs)</th>
+						<th class="bluebgheadtd">Sanctioned Budget(ZK)</th>
+						<th class="bluebgheadtd">Addition Amount Sought(ZK)</th>
+						<th class="bluebgheadtd">Reduction Amount Sought(ZK)</th>
+						<th class="bluebgheadtd">Cumulative Amount(ZK)</th>
 					</tr>
 					<c:set var="trclass" value="greybox" />
 					<c:set var="budgetdetailid" value="0" />

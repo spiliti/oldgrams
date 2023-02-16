@@ -188,25 +188,25 @@ function validateData(){
 										<th class="bluebgheadtd" width="10%">Function Code</th>
 										<th class="bluebgheadtd" width="15%">Account Head</th>
 										<th class="bluebgheadtd" width="10%">Actuals <s:property
-												value="lastYearRange" />(Rs)
+												value="lastYearRange" />(ZK)
 										</th>
 										<th class="bluebgheadtd" width="10%">BE <s:property
-												value="currentYearRange" />(Rs)
+												value="currentYearRange" />(ZK)
 										</th>
 										<th class="bluebgheadtd" width="2%">RE Proposed <br />
-										<s:property value="currentYearRange" />(Rs)
+										<s:property value="currentYearRange" />(ZK)
 										</th>
 										<s:if test="%{canViewREApprovedAmount == true}">
 											<th class="bluebgheadtd" width="2%">RE Approved <br />
-											<s:property value="currentYearRange" />(Rs)
+											<s:property value="currentYearRange" />(ZK)
 											</th>
 										</s:if>
 										<th class="bluebgheadtd" width="10%">BE Proposed <br />
-										<s:property value="nextYearRange" />(Rs)
+										<s:property value="nextYearRange" />(ZK)
 										</th>
 										<s:if test="%{canViewBEApprovedAmount == true}">
 											<th class="bluebgheadtd" width="10%">BE Approved <br />
-											<s:property value="nextYearRange" />(Rs)
+											<s:property value="nextYearRange" />(ZK)
 											</th>
 										</s:if>
 									</tr>

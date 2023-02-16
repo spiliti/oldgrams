@@ -94,10 +94,10 @@
 			<th class="bluebgheadtd" id="anticipatoryAmountheading" width="16%"><s:text
 					name="budgetdetail.anticipatoryAmount" /></th>
 			<th class="bluebgheadtd" width="16%">RE <s:property
-					value="currentYearRange" />(Rs)
+					value="currentYearRange" />(ZK)
 			</th>
 			<th class="bluebgheadtd" width="16%">BE <s:property
-					value="nextYearRange" />(Rs)
+					value="nextYearRange" />(ZK)
 			</th>
 		</tr>
 
@@ -148,9 +148,9 @@
 </div>
 <script>
 		var anticipatoryAmounthead=document.getElementById("anticipatoryAmountheading").innerHTML;
-		var currentYearRange = '<s:property value="currentYearRange"/>(Rs)'; 
+		var currentYearRange = '<s:property value="currentYearRange"/>(ZK)'; 
 		var currentFullYear=curentYearRangeWithoutRs.substr(0,2)+curentYearRangeWithoutRs.substr(5,7);
-		anticipatoryAmounthead=anticipatoryAmounthead+currentFullYear+'(Rs)';
+		anticipatoryAmounthead=anticipatoryAmounthead+currentFullYear+'(ZK)';
 		document.getElementById("anticipatoryAmountheading").innerHTML=anticipatoryAmounthead;
 </script>
 

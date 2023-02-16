@@ -281,7 +281,7 @@
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font size="12" pdfFontName="Helvetica-Bold"/>
 				</textElement>
-				<text><![CDATA[Work Order Value(Rs)]]></text>
+				<text><![CDATA[Work Order Value(ZK)]]></text>
 			</staticText>
 			<staticText>
 				<reportElement stretchType="RelativeToTallestObject" x="261" y="155" width="115" height="180" isPrintWhenDetailOverflows="true"/>
@@ -567,7 +567,7 @@
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font size="10" isBold="true" pdfFontName="Helvetica-Bold"/>
 				</textElement>
-				<text><![CDATA[Estimate value(Rs)]]></text>
+				<text><![CDATA[Estimate value(ZK)]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="181" y="10" width="180" height="30"/>

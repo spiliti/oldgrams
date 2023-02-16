@@ -214,7 +214,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Times New Roman" size="10" isBold="true" pdfFontName="Times-Bold" isPdfEmbedded="true"/>
 				</textElement>
-				<text><![CDATA[Retention money recovered(Rs)]]></text>
+				<text><![CDATA[Retention money recovered(ZK)]]></text>
 			</staticText>
 			<staticText>
 				<reportElement stretchType="RelativeToTallestObject" x="203" y="0" width="57" height="35"/>
@@ -256,7 +256,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Times New Roman" size="10" isBold="true" pdfFontName="Times-Bold" isPdfEmbedded="true"/>
 				</textElement>
-				<text><![CDATA[Bill Amount(Rs)]]></text>
+				<text><![CDATA[Bill Amount(ZK)]]></text>
 			</staticText>
 			<staticText>
 				<reportElement stretchType="RelativeToTallestObject" x="747" y="0" width="54" height="35"/>

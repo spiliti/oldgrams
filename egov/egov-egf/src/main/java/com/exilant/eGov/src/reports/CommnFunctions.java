@@ -410,7 +410,7 @@ public class CommnFunctions {
     }
 
     /**
-     * convert amount in xrupeese to thousands or lakhs
+     * convert amount in rupeese to thousands or lakhs
      * Changed convert amount to 000s or 000000s
      * @param amt :amount to be converted
      * @param amt_In : to "thousands" or "millions"

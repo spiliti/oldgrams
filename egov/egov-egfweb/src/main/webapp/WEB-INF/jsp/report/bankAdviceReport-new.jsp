@@ -161,7 +161,7 @@ table.its th {
 						<th class="bluebgheadtd" width="20%">Bank Name</th>
 						<th class="bluebgheadtd" width="10%">Account Number</th>
 						<th class="bluebgheadtd" width="10%">IFSC Code</th>
-						<th class="bluebgheadtd" width="10%">Amount(Rs.)</th>
+						<th class="bluebgheadtd" width="10%">Amount(ZK)</th>
 					</tr>
 					<s:iterator value="bankAdviseResultList" status="stat" var="p">
 						<tr>

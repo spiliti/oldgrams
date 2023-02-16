@@ -95,9 +95,9 @@
 							<th class="bluebgheadtd">Voucher Date</th>
 							<th class="bluebgheadtd">Party Name</th>
 							<th class="bluebgheadtd">PAN Number</th>
-							<th class="bluebgheadtd">TotalDeduction(Rs)</th>
-							<th class="bluebgheadtd">Paid(Rs)</th>
-							<th class="bluebgheadtd">Pending(Rs)</th>
+							<th class="bluebgheadtd">TotalDeduction(ZK)</th>
+							<th class="bluebgheadtd">Paid(ZK)</th>
+							<th class="bluebgheadtd">Pending(ZK)</th>
 						</tr>
 						<s:iterator value="pendingTDS" status="stat" var="p">
 							<tr>
@@ -180,7 +180,7 @@
 							<th class="bluebgheadtd">Payment Amount</th>
 							<th class="bluebgheadtd">Cheque Number</th>
 							<th class="bluebgheadtd">Drawn On</th>
-							<th class="bluebgheadtd">Cheque Amount(Rs)</th>
+							<th class="bluebgheadtd">Cheque Amount(ZK)</th>
 						</tr>
 						<s:iterator value="inWorkflowTDS" status="stat" var="p">
 							<tr>
@@ -276,7 +276,7 @@
 							<th class="bluebgheadtd">Payment Amount</th>
 							<th class="bluebgheadtd">Cheque Number</th>
 							<th class="bluebgheadtd">Drawn On</th>
-							<th class="bluebgheadtd">Cheque Amount(Rs)</th>
+							<th class="bluebgheadtd">Cheque Amount(ZK)</th>
 						</tr>
 						<s:iterator value="remittedTDS" status="stat" var="p">
 							<tr>

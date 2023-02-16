@@ -141,9 +141,9 @@
 					<td colspan=3 width="70%" class="blueborderfortd"
 						style="font-weight: bold;"><div align="center">Particulars</div></td>
 					<td width="15%" class="blueborderfortd" style="font-weight: bold;"><div
-							align="center">Amount (Rs)</div></td>
+							align="center">Amount (ZK)</div></td>
 					<td width="15%" class="blueborderfortd" style="font-weight: bold;"><div
-							align="center">Amount (Rs)</div></td>
+							align="center">Amount (ZK)</div></td>
 				</tr>
 
 				<tr>

@@ -171,8 +171,8 @@
 					<th class="bluebgheadtd" width="18%">Function Name</th>
 					<th class="bluebgheadtd" width="17%">Account&nbsp;Code</th>
 					<th class="bluebgheadtd" width="19%">Account Head</th>
-					<th class="bluebgheadtd" width="17%">Debit&nbsp;Amount(Rs)</th>
-					<th class="bluebgheadtd" width="16%">Credit&nbsp;Amount(Rs)</th>
+					<th class="bluebgheadtd" width="17%">Debit&nbsp;Amount(ZK)</th>
+					<th class="bluebgheadtd" width="16%">Credit&nbsp;Amount(ZK)</th>
 				</tr>
 
 
@@ -223,7 +223,7 @@
 						<th class="bluebgheadtd" width="18%">Account Code</th>
 						<th class="bluebgheadtd" width="17%">Detailed Type</th>
 						<th class="bluebgheadtd" width="19%">Detailed Key</th>
-						<th class="bluebgheadtd" width="17%">Amount(Rs)</th>
+						<th class="bluebgheadtd" width="17%">Amount(ZK)</th>
 					</tr>
 					<s:iterator var="p" value="%{billDetails.subLedgerlist}" status="s">
 						<tr>

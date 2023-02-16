@@ -291,10 +291,10 @@ public class WorksGISReportAction extends BaseFormAction {
                 if (workValue != null || ovrheads != null) {
                     BigDecimal amt = workValue != null ? new BigDecimal(workValue.getValue()) : BigDecimal.ZERO;
                     amt = amt.add(ovrheads != null ? new BigDecimal(ovrheads) : BigDecimal.ZERO);
-                    geoLocation.setInfo3("Estimate Value(Rs)="
+                    geoLocation.setInfo3("Estimate Value(ZK)="
                             + NumberUtil.formatNumber(amt, NumberUtil.NumberFormatStyle.CRORES));
                 } else
-                    geoLocation.setInfo3("Estimate Value(Rs)=0.00");
+                    geoLocation.setInfo3("Estimate Value(ZK)=0.00");
                 if (wpno != null)
                     geoLocation.setInfo4("Works Package Number=" + wpno);
                 markerdata = new HashMap<>();
@@ -317,7 +317,7 @@ public class WorksGISReportAction extends BaseFormAction {
                     geoLocation.appendToInfo5("Tender Document Released Date=" + tenderDocReleasedDt);
                 final String tenderAmount = getTenderAmount(estId);
                 if (StringUtils.isNotBlank(tenderAmount))
-                    geoLocation.appendToInfo5("Tender Finalized Value(Rs)=" + tenderAmount);
+                    geoLocation.appendToInfo5("Tender Finalized Value(ZK)=" + tenderAmount);
                 if (contractorId != null && contractorId != -1) {
                     workOrderDate = (String) columnOutput[12];
                     if (columnOutput[13] != null)
@@ -340,7 +340,7 @@ public class WorksGISReportAction extends BaseFormAction {
                     if (projcodeId != null) {
                         final String paymentAmt = getPaymentAmount(projcodeId);
                         if (paymentAmt != null)
-                            geoLocation.appendToInfo5("Payment Released(Rs)=" + paymentAmt);
+                            geoLocation.appendToInfo5("Payment Released(ZK)=" + paymentAmt);
                     }
                     if (contractorName != null)
                         geoLocation.appendToInfo5("Contractor Name=" + contractorName);
@@ -404,7 +404,7 @@ public class WorksGISReportAction extends BaseFormAction {
                         if (projcodeId != null) {
                             final String paymentAmt = getPaymentAmount(projcodeId);
                             if (paymentAmt != null)
-                                geoLocation.appendToInfo5("Payment Released(Rs)=" + paymentAmt);
+                                geoLocation.appendToInfo5("Payment Released(ZK)=" + paymentAmt);
                         }
                         geoLocation.appendToInfo5("Contractor Name="
                                 + contractorNameBuf.deleteCharAt(contractorNameBuf.lastIndexOf(",")).toString());

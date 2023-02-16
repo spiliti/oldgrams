@@ -458,7 +458,7 @@ var totaldbamt=0,totalcramt=0;
             {key:"glcodeid",hidden:true,width:10, formatter:createTextFieldFormatterCredit(VOUCHERCREDITDETAILLIST,".glcodeIdDetail","hidden",VOUCHERCREDITDETAILTABLE)},
             {key:"accounthead", label:'Account Head <span class="mandatory"></span>',formatter:createLongTextFieldFormatterCredit(VOUCHERCREDITDETAILLIST,".accounthead",VOUCHERCREDITDETAILTABLE)},               
             {key:"glcode",label:'Account Code ', formatter:createTextFieldFormatterCredit(VOUCHERCREDITDETAILLIST,".glcodeDetail","text",VOUCHERCREDITDETAILTABLE)},
-            {key:"creditamount",label:'Amount (Rs.)', formatter:createAmountFieldFormatterRebate(VOUCHERCREDITDETAILLIST,".creditAmountDetail","updateCreditAmount()",VOUCHERCREDITDETAILTABLE)},
+            {key:"creditamount",label:'Amount (ZK)', formatter:createAmountFieldFormatterRebate(VOUCHERCREDITDETAILLIST,".creditAmountDetail","updateCreditAmount()",VOUCHERCREDITDETAILTABLE)},
             {key:'Add',label:'Add',formatter:createAddImageFormatter("${pageContext.request.contextPath}")},
             {key:'Delete',label:'Delete',formatter:createDeleteImageFormatter("${pageContext.request.contextPath}")}
         ];
@@ -547,7 +547,7 @@ var totaldbamt=0,totalcramt=0;
             {key:"glcodeid",hidden:true,width:10, formatter:createTextFieldFormatterRebate(VOUCHERREBATEDETAILLIST,".glcodeIdDetail","hidden",VOUCHERREBATEDETAILTABLE)},
             {key:"accounthead", label:'Account Head <span class="mandatory"></span>',formatter:createLongTextFieldFormatterRebate(VOUCHERREBATEDETAILLIST,".accounthead",VOUCHERREBATEDETAILTABLE)},               
             {key:"glcode",label:'Account Code ', formatter:createTextFieldFormatterRebate(VOUCHERREBATEDETAILLIST,".glcodeDetail","text",VOUCHERREBATEDETAILTABLE)},
-            {key:"debitamount",label:'Debit Amount (Rs.)', formatter:createAmountFieldFormatterRebate(VOUCHERREBATEDETAILLIST,".debitAmountDetail","updateDebitAmount()",VOUCHERREBATEDETAILTABLE)}, 
+            {key:"debitamount",label:'Debit Amount (ZK)', formatter:createAmountFieldFormatterRebate(VOUCHERREBATEDETAILLIST,".debitAmountDetail","updateDebitAmount()",VOUCHERREBATEDETAILTABLE)}, 
             {key:'Add',label:'Add',formatter:createAddImageFormatter("${pageContext.request.contextPath}")},
             {key:'Delete',label:'Delete',formatter:createDeleteImageFormatter("${pageContext.request.contextPath}")}
         ];
@@ -655,7 +655,7 @@ var totaldbamt=0,totalcramt=0;
             {key:"detailCode",label:'Code <span class="mandatory"></span>',formatter:createSLDetailCodeTextFieldFormatter(SUBLEDGERLIST,".detailCode","splitEntitiesDetailCode(this)")},
             {key:"detailKeyId",hidden:true, formatter:createSLHiddenFieldFormatter(SUBLEDGERLIST,".detailKeyId")},
             {key:"detailKey",label:'Name', formatter:createSLLongTextFieldFormatter(SUBLEDGERLIST,".detailKey","")},
-            {key:"amount",label:'Amount (Rs.)', formatter:createSLAmountFieldFormatter(SUBLEDGERLIST,".amount")},
+            {key:"amount",label:'Amount (ZK)', formatter:createSLAmountFieldFormatter(SUBLEDGERLIST,".amount")},
             {key:'Add',label:'Add',formatter:createAddImageFormatter("${pageContext.request.contextPath}")},
             {key:'Delete',label:'Delete',formatter:createDeleteImageFormatter("${pageContext.request.contextPath}")}
         ];

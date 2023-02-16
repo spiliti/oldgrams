@@ -89,7 +89,7 @@
 	<egov:updatevalues id="fromBankBalance" fields="['Text']"
 		url="payment/payment-ajaxGetAccountBalance.action" />
 	<td class="bluebox"><s:text name="contra.fromBankBalance" />
-		(Rs.) <span class="bluebox"><span class="mandatory1">*</span></span></td>
+		(ZM) <span class="bluebox"><span class="mandatory1">*</span></span></td>
 	<td class="bluebox"><s:textfield name="contraBean.fromBankBalance"
 			id="fromBankBalance" readonly="true" tabindex="-1"
 			cssStyle="text-align:right" /></td>
@@ -158,7 +158,7 @@
 	<td class="greybox"></td>
 	<egov:updatevalues id="toBankBalance" fields="['Text']"
 		url="payment/payment-ajaxGetAccountBalance.action" />
-	<td class="greybox"><s:text name="contra.toBankBalance" /> (Rs.)
+	<td class="greybox"><s:text name="contra.toBankBalance" /> (ZK)
 		<span class="greybox"><span class="mandatory1">*</span></span></td>
 	<td class="greybox"><s:textfield name="contraBean.toBankBalance"
 			id="toBankBalance" readonly="true" tabindex="-1"
@@ -214,7 +214,7 @@
 
 <tr>
 	<td class="bluebox"></td>
-	<td class="bluebox"><s:text name="contra.amount" /> (Rs.) <span
+	<td class="bluebox"><s:text name="contra.amount" /> (ZK) <span
 		class="bluebox"><span class="mandatory1">*</span></span></td>
 	<td class="bluebox"><s:textfield name="amount" id="amount"
 			cssStyle="text-align:right" /></td>

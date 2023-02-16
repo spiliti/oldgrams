@@ -80,9 +80,9 @@
     
     <display:table name="links" id="linksTable" requestURI="/reports/coc/zoneWiseDemand.action" export="true"  class="tablebottom" style="width:100%">
 	<display:column property="zoneNumber" title="Zone No"  sortable="true" headerClass="bluebgheadtd" class="blueborderfortd" style="width:10%;text-align:center"/>
-	<display:column property="totalArrearsDemand(Rs.)"  title="Total Arrear Demand(Rs.)"    headerClass="bluebgheadtd" class="blueborderfortd" style="width:30%;text-align:right" />	
-	<display:column property="totalCurrentDemand(Rs.)"  title="Total Current Demand(Rs.)"  headerClass="bluebgheadtd" class="blueborderfortd" style="width:30%;text-align:right" />
-	<display:column property="totalDemand(Rs.)"  title="Total Demand(Rs.)"  headerClass="bluebgheadtd" class="blueborderfortd" style="width:30%;text-align:right"/>
+	<display:column property="totalArrearsDemand(Rs.)"  title="Total Arrear Demand(ZK)"    headerClass="bluebgheadtd" class="blueborderfortd" style="width:30%;text-align:right" />	
+	<display:column property="totalCurrentDemand(Rs.)"  title="Total Current Demand(ZK)"  headerClass="bluebgheadtd" class="blueborderfortd" style="width:30%;text-align:right" />
+	<display:column property="totalDemand(Rs.)"  title="Total Demand(ZK)"  headerClass="bluebgheadtd" class="blueborderfortd" style="width:30%;text-align:right"/>
 		
 	<display:setProperty name="paging.banner.item" value="Record"/>
 	<display:setProperty name="paging.banner.items_name" value="Records"/>

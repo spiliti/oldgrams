@@ -366,7 +366,7 @@
 				<textElement textAlignment="Center">
 					<font size="8" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Balance Available (Rs)]]></text>
+				<text><![CDATA[Balance Available (ZK)]]></text>
 			</staticText>
 			<frame>
 				<reportElement x="0" y="11" width="556" height="60" uuid="a0eb1ab3-4793-4dbc-a9d5-95a3b4dde035"/>

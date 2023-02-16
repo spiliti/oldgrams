@@ -169,7 +169,7 @@ var myMilestoneFailureHandler = function() {
 				<s:date name="#attr.currentRow.workOrder.workOrderDate" format="dd/MM/yyyy" />
 			</display:column>
 			<display:column headerClass="pagetableth" class="pagetabletd" 
-				title="WO Value(Rs)" titleKey="estimate.search.Wo.value"
+				title="WO Value(ZK)" titleKey="estimate.search.Wo.value"
 				style="width:6%;text-align:right"  >
 				<s:text name="contractor.format.number" >
 					<s:param name="woAmount" value='%{#attr.currentRow.workOrder.workOrderAmount}' /></s:text>
@@ -249,7 +249,7 @@ var myMilestoneFailureHandler = function() {
 				<s:date name="#attr.currentRow[0].workOrder.workOrderDate" format="dd/MM/yyyy" />
 			</display:column>
 			<display:column headerClass="pagetableth" class="pagetabletd" 
-				title="WO Value(Rs)" titleKey="estimate.search.Wo.value"
+				title="WO Value(ZK)" titleKey="estimate.search.Wo.value"
 				style="width:8%;text-align:right"  >
 				<s:text name="contractor.format.number" >
 					<s:param name="woAmount" value='%{#attr.currentRow[0].workOrder.workOrderAmount}' /></s:text>

@@ -255,7 +255,7 @@ function balanceCheck(obj, actionName,actionDescription) {
 							<tr id="bankbalanceRow" style="visibility: hidden">
 								<td class="bluebox" width="10%">&nbsp;</td>
 								<td class="bluebox" width="15%"><strong><s:text
-											name="balance.available" />(Rs)</strong></td>
+											name="balance.available" />(ZK)</strong></td>
 								<td class="bluebox" colspan="4"><span
 									id="bankAccountBalance" /></span></td>
 							</tr>
@@ -267,7 +267,7 @@ function balanceCheck(obj, actionName,actionDescription) {
 								<td class="greybox"><s:property
 										value="%{commonBean.modeOfPayment}" /></td>
 								<td class="greybox"><strong><s:text
-											name="payment.amount" />(Rs)</strong></td>
+											name="payment.amount" />(ZK)</strong></td>
 								<td class="greybox"><s:text name="payment.format.number">
 										<s:param name="value" value="paymentheader.paymentAmount" />
 									</s:text></td>

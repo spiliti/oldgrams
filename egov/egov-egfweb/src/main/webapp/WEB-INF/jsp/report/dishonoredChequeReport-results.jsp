@@ -119,7 +119,7 @@
 			title="Bank Ref Number" style="width:6%;text-align:center"
 			property="bankRefNumber" />
 		<display:column headerClass="bluebgheadtd" class="blueborderfortd"
-			title="Bank Charge Amount(Rs.)" style="width:8%;text-align:right"
+			title="Bank Charge Amount(ZK)" style="width:8%;text-align:right"
 			property="bankChargeAmt" />
 		<display:column headerClass="bluebgheadtd" class="blueborderfortd"
 			title="Cheque Amount (ZK)" style="width:8%;text-align:right"

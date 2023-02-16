@@ -194,7 +194,7 @@
 					<font size="8" isBold="true"/>
 				</textElement>
 				<textFieldExpression class="java.lang.String"><![CDATA["BE "+$F{financialYear}+
-" & Addl Funds(Rs)"]]></textFieldExpression>
+" & Addl Funds(ZK)"]]></textFieldExpression>
 			</textField>
 			<textField pattern="###0.00">
 				<reportElement x="-15" y="131" width="85" height="20"/>
@@ -222,7 +222,7 @@
 				<textElement textAlignment="Center">
 					<font size="8" isBold="true"/>
 				</textElement>
-				<text><![CDATA[So far appropriated(Rs)
+				<text><![CDATA[So far appropriated(ZK)
 ]]></text>
 			</staticText>
 			<textField pattern="###0.00">
@@ -265,7 +265,7 @@
 				<textElement textAlignment="Center">
 					<font size="8" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Balance (Rs)]]></text>
+				<text><![CDATA[Balance (ZK)]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="276" y="105" width="100" height="26"/>
@@ -279,7 +279,7 @@
 				<textElement textAlignment="Center">
 					<font size="8" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Current bill amount(Rs)]]></text>
+				<text><![CDATA[Current bill amount(ZK)]]></text>
 			</staticText>
 			<textField pattern="###0.00">
 				<reportElement x="276" y="131" width="100" height="20"/>
@@ -307,7 +307,7 @@
 				<textElement textAlignment="Center">
 					<font size="8" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Cumulative including current bill(Rs)]]></text>
+				<text><![CDATA[Cumulative including current bill(ZK)]]></text>
 			</staticText>
 			<textField pattern="###0.00">
 				<reportElement x="376" y="131" width="87" height="20"/>
@@ -349,7 +349,7 @@
 				<textElement textAlignment="Center">
 					<font size="8" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Balance Available (Rs)]]></text>
+				<text><![CDATA[Balance Available (ZK)]]></text>
 			</staticText>
 			<frame>
 				<reportElement x="-15" y="0" width="564" height="60"/>

@@ -153,7 +153,7 @@ public class ZoneWiseDemandAction extends ActionSupport {
 				map.put("totalDemand(Rs.)", totalDemand);
 				links.add(map);
 			}
-			totalsMap.put("zoneNumber", "Total(Rs.)");
+			totalsMap.put("zoneNumber", "Total(ZK)");
 			totalsMap.put("totalArrearsDemand(Rs.)", totalArrearDemand);
 			LOGGER.debug("Total Arrear Demand : " + totalArrearDemand);
 			totalsMap.put("totalCurrentDemand(Rs.)", totalCurrDemand);

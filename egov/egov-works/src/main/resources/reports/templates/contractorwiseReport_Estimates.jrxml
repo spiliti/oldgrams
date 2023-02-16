@@ -152,7 +152,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Times New Roman" size="10" isBold="true" pdfFontName="Times-Bold"/>
 				</textElement>
-				<text><![CDATA[Estimate Amount(Rs.)]]></text>
+				<text><![CDATA[Estimate Amount(ZK)]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="525" y="0" width="105" height="28"/>

@@ -386,7 +386,7 @@ function printVoucher(){
 																					</s:else>
 																					<th class="bluebgheadtdnew">Party Code
 																					</td>
-																					<th class="bluebgheadtdnew">Cheque Amount(Rs)
+																					<th class="bluebgheadtdnew">Cheque Amount(ZK)
 																					
 																					</td>
 																					<th class="bluebgheadtdnew">Cheque Status

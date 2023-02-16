@@ -285,7 +285,7 @@ public class ExpenseBillPrintAction extends BaseFormAction {
         Date billDate = cbill.getBilldate();
         final CFinancialYear financialYearById = financialYearDAO.getFinYearByDate(billDate);
 
-        budgetApprDetailsMap.put("financialYear", "BE-" + financialYearById.getFinYearRange() + " & Addl Funds(Rs)");
+        budgetApprDetailsMap.put("financialYear", "BE-" + financialYearById.getFinYearRange() + " & Addl Funds(ZK)");
         budgetDataMap.put("fromdate", financialYearById.getStartingDate());
 
         budgetDataMap.put("glcode", coa.getGlcode());

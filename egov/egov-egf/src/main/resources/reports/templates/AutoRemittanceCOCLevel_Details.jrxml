@@ -238,7 +238,7 @@ Number]]></text>
 						<font size="7" isBold="true"/>
 					</textElement>
 					<text><![CDATA[Amount
-Remitted(Rs)]]></text>
+Remitted(ZK)]]></text>
 				</staticText>
 				<staticText>
 					<reportElement x="493" y="23" width="49" height="30" isPrintWhenDetailOverflows="true"/>

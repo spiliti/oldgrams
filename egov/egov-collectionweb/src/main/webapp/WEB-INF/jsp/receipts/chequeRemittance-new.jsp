@@ -593,7 +593,7 @@
 							value="${currentRow.APPROVERNAME}" />
 
 						<display:column headerClass="bluebgheadtd" class="blueborderfortd"
-							title="Cheque /DD Amount (Rs)"
+							title="Cheque /DD Amount (ZK)"
 							style="width:10%;text-align: center">
 							<div align="center">
 								<c:if test="${not empty currentRow.SERVICETOTALCHEQUEAMOUNT}">

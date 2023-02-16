@@ -108,28 +108,28 @@
 
 			<th class="bluebgheadtd" width="16%"><s:text
 					name="budgetdetail.actuals" />
-				<s:property value="twopreviousfinYearRange" />(Rs)</th>
+				<s:property value="twopreviousfinYearRange" />(ZK)</th>
 			<th class="bluebgheadtd" width="16%"><s:text
 					name="budgetdetail.actuals" />
-				<s:property value="previousfinYearRange" />(Rs)</th>
+				<s:property value="previousfinYearRange" />(ZK)</th>
 			<th class="bluebgheadtd" width="16%"><s:text
 					name="budgetdetail.actuals" />
-				<s:property value="currentfinYearRange" />(Rs)</th>
+				<s:property value="currentfinYearRange" />(ZK)</th>
 			<th class="bluebgheadtd" width="16%">BE <s:property
-					value="currentfinYearRange" />(Rs)(A)
+					value="currentfinYearRange" />(ZK)(A)
 			</th>
 			<th class="bluebgheadtd" width="16%"><s:text
 					name="budget.reappropriation" />(B)</th>
 			<th class="bluebgheadtd" width="16%">Total Rs (A+B)</th>
 			<th class="bluebgheadtd" id="anticipatoryAmountheading" width="16%"><s:text
-					name="budgetdetail.anticipatoryAmount" />(Rs)</th>
+					name="budgetdetail.anticipatoryAmount" />(ZK)</th>
 			<th class="bluebgheadtd" width="16%"><s:text
-					name="budgetdetail.estimateAmount.revised" />(Rs)</th>
+					name="budgetdetail.estimateAmount.revised" />(ZK)</th>
 			<s:if test="%{showApprovalDetails()}">
 				<s:if test="%{isConsolidatedScreen()}">
 					<th class="bluebgheadtd" width="16%">RE <s:property
 							value="savedbudgetDetailList.get(0).getBudget().getFinancialYear().getFinYearRange()" />
-						fixed (Rs)
+						fixed (ZK)
 					</th>
 				</s:if>
 			</s:if>
@@ -137,11 +137,11 @@
 
 			<th class="bluebgheadtd" width="16%"><s:text
 					name="budgetdetail.estimateAmount" /> <s:property
-					value="nextfinYearRange" /> (Rs)</th>
+					value="nextfinYearRange" /> (ZK)</th>
 			<s:if test="%{showApprovalDetails()}">
 				<s:if test="%{isConsolidatedScreen()}">
 					<th class="bluebgheadtd" width="16%">BE <s:property
-							value="nextfinYearRange" /> fixed (Rs)
+							value="nextfinYearRange" /> Fixed (ZK)
 					</th>
 				</s:if>
 				<th class="bluebgheadtd" with="16%"><s:text

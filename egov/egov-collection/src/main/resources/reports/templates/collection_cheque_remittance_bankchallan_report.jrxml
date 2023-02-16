@@ -65,7 +65,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Times New Roman" size="12" isBold="true" pdfFontName="Times-Bold" isPdfEmbedded="true"/>
 				</textElement>
-				<text><![CDATA[Amount(Rs)]]></text>
+				<text><![CDATA[Amount(ZK)]]></text>
 			</staticText>
 			<staticText>
 				<reportElement positionType="Float" x="340" y="102" width="170" height="22" uuid="415d6b23-6b28-4b55-85eb-241db076f08d">

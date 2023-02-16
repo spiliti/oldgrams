@@ -74,8 +74,8 @@
 							<th class="bluebgheadtd">Sl No</th>
 							<th class="bluebgheadtd">Voucher Type</th>
 							<th class="bluebgheadtd">Month</th>
-							<th class="bluebgheadtd">Total Deduction(Rs)</th>
-							<th class="bluebgheadtd">Total Remitted(Rs)</th>
+							<th class="bluebgheadtd">Total Deduction(ZK)</th>
+							<th class="bluebgheadtd">Total Remitted(ZK)</th>
 						</tr>
 						<s:iterator value="remittedTDS" status="stat" var="p">
 							<tr>

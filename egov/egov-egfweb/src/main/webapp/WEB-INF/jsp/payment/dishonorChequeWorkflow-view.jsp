@@ -297,8 +297,8 @@
 											<th class="bluebgheadtd" width="18%">Function Name</th>
 											<th class="bluebgheadtd" width="17%">Account&nbsp;Code</th>
 											<th class="bluebgheadtd" width="19%">Account Head</th>
-											<th class="bluebgheadtd" width="17%">Debit&nbsp;Amount(Rs)</th>
-											<th class="bluebgheadtd" width="16%">Credit&nbsp;Amount(Rs)</th>
+											<th class="bluebgheadtd" width="17%">Debit&nbsp;Amount(ZK)</th>
+											<th class="bluebgheadtd" width="16%">Credit&nbsp;Amount(ZK)</th>
 										</tr>
 										<tr>
 											<td width="18%" class="bluebox"><s:if
@@ -385,8 +385,8 @@
 												<th class="bluebgheadtd" width="18%">Function Name</th>
 												<th class="bluebgheadtd" width="17%">Account&nbsp;Code</th>
 												<th class="bluebgheadtd" width="19%">Account Head</th>
-												<th class="bluebgheadtd" width="17%">Debit&nbsp;Amount(Rs)</th>
-												<th class="bluebgheadtd" width="16%">Credit&nbsp;Amount(Rs)</th>
+												<th class="bluebgheadtd" width="17%">Debit&nbsp;Amount(ZK)</th>
+												<th class="bluebgheadtd" width="16%">Credit&nbsp;Amount(ZK)</th>
 											</tr>
 
 											<tr>

@@ -83,9 +83,9 @@
 							<th class="bluebgheadtd" width="8%">Branch Name</th>
 							<th class="bluebgheadtd" width="10%">Account Number</th>
 							<th class="bluebgheadtd" width="10%">Chart Of Account</th>
-							<th class="bluebgheadtd" width="10%">Current Balance(Rs.)</th>
+							<th class="bluebgheadtd" width="10%">Current Balance(ZK)</th>
 							<th class="bluebgheadtd" width="10%">Total Balance
-								Available(Rs.)</th>
+								Available(ZK)</th>
 						</tr>
 						<tr>
 							<td class="blueborderfortd"><div align="center">

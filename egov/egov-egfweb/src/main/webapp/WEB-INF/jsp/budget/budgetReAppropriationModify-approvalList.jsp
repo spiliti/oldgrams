@@ -161,11 +161,11 @@
 														Available</th>
 													<th class="bluebgheadtd" width="16%">Change Requested</th>
 													<th class="bluebgheadtd" width="16%">Addition of<br />Funds
-														sought(Rs)
+														sought(ZK)
 													</th>
 													<s:if test="%{enableApprovedAmount()}">
 														<th class="bluebgheadtd" width="16%">Addition of<br />Funds
-															sought Approved Amount(Rs)
+															sought Approved Amount(ZK)
 														</th>
 													</s:if>
 												</tr>

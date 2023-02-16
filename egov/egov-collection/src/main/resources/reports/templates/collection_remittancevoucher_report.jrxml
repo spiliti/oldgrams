@@ -305,7 +305,7 @@ ORDER BY
 					<textElement textAlignment="Center" verticalAlignment="Middle">
 						<font fontName="Times New Roman" isBold="true" pdfFontName="Times-Bold" isPdfEmbedded="true"/>
 					</textElement>
-					<text><![CDATA[Receipt amount(Rs)]]></text>
+					<text><![CDATA[Receipt amount(ZK)]]></text>
 				</staticText>
 				<staticText>
 					<reportElement x="535" y="28" width="85" height="30" uuid="f08663ed-11ac-489e-8dda-3a694c928d16">

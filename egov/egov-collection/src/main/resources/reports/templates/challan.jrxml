@@ -372,7 +372,7 @@
 				<textElement verticalAlignment="Middle">
 					<font fontName="Times New Roman" size="10" isBold="true" pdfFontName="Times-Bold" isPdfEmbedded="true"/>
 				</textElement>
-				<text><![CDATA[Receipt amount (Rs):]]></text>
+				<text><![CDATA[Receipt Amount(ZK):]]></text>
 			</staticText>
 			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
 				<reportElement stretchType="RelativeToTallestObject" x="100" y="0" width="446" height="15" uuid="370460c9-09a2-4eba-baf3-95c03ec07df2">

@@ -68,11 +68,11 @@
 										<th class="bluebgheadtd">Department</th>
 										<th class="bluebgheadtd">Budget Head</th>
 										<th class="bluebgheadtd"><s:property value="type" />
-											Estimate(Rs)</th>
-										<th class="bluebgheadtd">Additional Appropriation(Rs)</th>
-										<th class="bluebgheadtd">Total(Rs)</th>
-										<th class="bluebgheadtd">Actual(Rs)</th>
-										<th class="bluebgheadtd">Variance(Rs)</th>
+											Estimate(ZK)</th>
+										<th class="bluebgheadtd">Additional Appropriation(ZK)</th>
+										<th class="bluebgheadtd">Total(ZK)</th>
+										<th class="bluebgheadtd">Actual(ZK)</th>
+										<th class="bluebgheadtd">Variance(ZK)</th>
 									</tr>
 									<s:iterator value="budgetVarianceEntries" status="stat" var="p">
 										<tr>

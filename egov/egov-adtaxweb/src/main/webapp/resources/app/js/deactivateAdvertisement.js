@@ -96,7 +96,7 @@ $(document).ready(function(){
 		if($('#statusdeactivateform').valid()){
 			if(parseInt(pendingTax)>0)
 			{
-				bootbox.confirm("You Have a Pending Tax Of Rupees "+pendingTax+". Do You Want To Continue Deactivation?", function(result){
+				bootbox.confirm("You Have a Pending Tax Of Kwachaa "+pendingTax+". Do You Want To Continue Deactivation?", function(result){
 					if(result)
 						{
 							var action = '/adtax/deactivate/deactive/' + id;

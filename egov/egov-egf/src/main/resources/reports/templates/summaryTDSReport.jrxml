@@ -147,7 +147,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font isBold="true"/>
 				</textElement>
-				<text><![CDATA[Deduction Amount(Rs)]]></text>
+				<text><![CDATA[Deduction Amount(ZK)]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="273" y="0" width="145" height="33" uuid="a81cff53-78c4-46af-95a1-c3222d610cd1"/>
@@ -161,7 +161,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font isBold="true"/>
 				</textElement>
-				<text><![CDATA[Remitted Amount(Rs)]]></text>
+				<text><![CDATA[Remitted Amount(ZK)]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="37" y="0" width="141" height="33" uuid="0faac8ee-c59f-4c63-a7e9-6caec86b646e"/>

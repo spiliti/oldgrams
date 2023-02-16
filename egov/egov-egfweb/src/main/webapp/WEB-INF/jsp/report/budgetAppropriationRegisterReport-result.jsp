@@ -59,7 +59,7 @@
 					<tr>
 						<td class="greybox">&nbsp;</td>
 						<td class="greybox">BE - (<s:property value="finYearRange" />)
-							(Rs): <s:if test="%{isBeDefined==true}">
+							(ZK): <s:if test="%{isBeDefined==true}">
 								<s:text name="format.number">
 									<s:param value="%{beAmount}" />
 								</s:text>
@@ -73,7 +73,7 @@
 								</s:text>
 							</s:if> <s:else></s:else></td>
 						<td class="greybox" align="left">RE - (<s:property
-								value="finYearRange" />) (Rs):<s:if test="%{isReDefined==true}">
+								value="finYearRange" />) (ZK):<s:if test="%{isReDefined==true}">
 								<s:text name="format.number">
 									<s:param value="%{reAmount}" />
 								</s:text>
@@ -99,9 +99,9 @@
 									<th class="bluebgheadtd">Budget Allocation #</th>
 									<th class="bluebgheadtd">BA Date</th>
 									<th class="bluebgheadtd" colspan="4">Description</th>
-									<th class="bluebgheadtd">Amount (Rs)</th>
-									<th class="bluebgheadtd">Cumulative Total (Rs)</th>
-									<th class="bluebgheadtd">Balance Available (Rs)</th>
+									<th class="bluebgheadtd">Amount (ZK)</th>
+									<th class="bluebgheadtd">Cumulative Total (ZK)</th>
+									<th class="bluebgheadtd">Balance Available (ZK)</th>
 								</tr>
 								<tr>
 									<th class="bluebgheadtd" colspan="3"></th>

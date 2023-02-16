@@ -368,7 +368,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="8" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Admin sanction amount(Rs)]]></text>
+				<text><![CDATA[Admin sanction amount(ZK)]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="1280" y="0" width="59" height="47" uuid="55d7fa2f-73c7-4aa1-9d52-705ab3d65aa0"/>
@@ -407,7 +407,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="8" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Agreement amount (Rs)]]></text>
+				<text><![CDATA[Agreement amount (ZK)]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="1024" y="0" width="65" height="47" uuid="f35dfd84-5d7e-4486-b3a7-cb07fdb07a16"/>
@@ -459,7 +459,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="8" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Estimate Amount (Rs)]]></text>
+				<text><![CDATA[Estimate Amount (ZK)]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="768" y="0" width="66" height="47" uuid="5f40a8f9-7e1a-454e-9262-de727507c03e"/>
@@ -485,7 +485,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="8" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Total bills paid so far (Rs)]]></text>
+				<text><![CDATA[Total bills paid so far (ZK)]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="1398" y="0" width="61" height="47" uuid="82531cfd-24f3-48f2-b26c-722fae232993"/>
@@ -498,7 +498,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="8" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Latest Bill amount(Rs)]]></text>
+				<text><![CDATA[Latest Bill amount(ZK)]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="1339" y="0" width="59" height="47" uuid="d12191b3-5c6c-4324-8202-0068fd010853"/>
@@ -524,7 +524,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="8" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Balance value of work to bill (Rs)]]></text>
+				<text><![CDATA[Balance value of work to bill (ZK)]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="1459" y="0" width="61" height="47" uuid="f3be73c6-5f8f-4f0f-a4ec-9ea1971489ad"/>
@@ -537,7 +537,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="8" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Total Bill amount(Rs)]]></text>
+				<text><![CDATA[Total Bill amount(ZK)]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="1150" y="0" width="60" height="47" uuid="5bd1f8be-dfe9-47e3-a45b-1ba5044b4736"/>

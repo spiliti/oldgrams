@@ -381,14 +381,14 @@ function preselectSubScheme(){
 										{key:"budgetDetail.boundary.name",label:'Field',width:90,sortable:true,formatter:getLabelFormatter('budgetDetailsTable',BUDGETDETAILLIST,'.budgetDetail.boundary.name')} ,
 									</s:if>
 									{key:"sequenceNumber",label:'Sequence Number',width:120, sortable:true,formatter:getReadOnlyTextFieldFormatter('budgetDetailsTable',BUDGETDETAILLIST,".sequenceNumber")},
-									{key:"approved",label:'Sanctioned Budget(Rs)',width:125, formatter:getLabelFormatter('budgetDetailsTable',BUDGETDETAILLIST,".approvedAmount")},
-									{key:"appropriation",label:'Added/Released(Rs)',width:120, formatter:getLabelFormatter('budgetDetailsTable',BUDGETDETAILLIST,".approvedAmount")},
-									{key:"actuals",label:'Expenditure Incurred(Rs)',width:135, formatter:getLabelFormatter('budgetDetailsTable',BUDGETDETAILLIST,".actuals")},
-									{key:"available",label:'Balance Available(Rs)',width:125, formatter:getLabelFormatter('budgetDetailsTable',BUDGETDETAILLIST,".availableAmount")},
+									{key:"approved",label:'Sanctioned Budget(ZK)',width:125, formatter:getLabelFormatter('budgetDetailsTable',BUDGETDETAILLIST,".approvedAmount")},
+									{key:"appropriation",label:'Added/Released(ZK)',width:120, formatter:getLabelFormatter('budgetDetailsTable',BUDGETDETAILLIST,".approvedAmount")},
+									{key:"actuals",label:'Expenditure Incurred(ZK)',width:135, formatter:getLabelFormatter('budgetDetailsTable',BUDGETDETAILLIST,".actuals")},
+									{key:"available",label:'Balance Available(ZK)',width:125, formatter:getLabelFormatter('budgetDetailsTable',BUDGETDETAILLIST,".availableAmount")},
 									{key:"changeRequestType",label:'Change Requested',width:105,formatter:getReadOnlyTextFieldFormatter('budgetDetailsTable',BUDGETDETAILLIST,'.changeRequestType')} ,
-									{key:"amount",label:'Addition/Deduction<br/>Amount(Rs)',width:"50em", formatter:createTextFieldFormatterWithOnBlur('budgetDetailsTable',BUDGETDETAILLIST,".deltaAmount")},
+									{key:"amount",label:'Addition/Deduction<br/>Amount(ZK)',width:"50em", formatter:createTextFieldFormatterWithOnBlur('budgetDetailsTable',BUDGETDETAILLIST,".deltaAmount")},
 									<s:if test="%{enableApprovedAmount}">
-									{key:"approved_amount",label:'Approved Addition/<br/>Deduction Amount(Rs)',width:"50em", formatter:createTextFieldFormatterWithOnBlur('budgetDetailsTable',BUDGETDETAILLIST,".approvedDeltaAmount")},
+									{key:"approved_amount",label:'Approved Addition/<br/>Deduction Amount(ZK)',width:"50em", formatter:createTextFieldFormatterWithOnBlur('budgetDetailsTable',BUDGETDETAILLIST,".approvedDeltaAmount")},
 									</s:if>
 									{key:'Delete',label:'Delete',formatter:createDeleteImageFormatter("${pageContext.request.contextPath}")}
 								];

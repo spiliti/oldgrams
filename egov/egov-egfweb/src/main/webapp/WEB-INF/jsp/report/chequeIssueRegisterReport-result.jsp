@@ -81,7 +81,7 @@
 										<th class="bluebgheadtd" width="2%">Cheque Number</th>
 										<th class="bluebgheadtd" width="8%">Cheque Date</th>
 										<th class="bluebgheadtd" width="10%">Name of the Payee</th>
-										<th class="bluebgheadtd" width="10%">Cheque Amount(Rs)</th>
+										<th class="bluebgheadtd" width="10%">Cheque Amount(ZK)</th>
 										<th class="bluebgheadtd" width="10%">Nature of Payment</th>
 										<th class="bluebgheadtd" width="10%">Cheque Status</th>
 										<th class="bluebgheadtd" width="15%">Payment Order No.

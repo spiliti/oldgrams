@@ -220,7 +220,7 @@
 							<th class="bluebgheadtd">Voucher Date</th>
 							<th class="bluebgheadtd">Fund Name</th>
 							<th class="bluebgheadtd">Department Name</th>
-							<th class="bluebgheadtd">Amount(Rs)</th>
+							<th class="bluebgheadtd">Amount(ZK)</th>
 							<th class="bluebgheadtd">Status</th>
 							<th class="bluebgheadtd">Source</th>
 						</tr>

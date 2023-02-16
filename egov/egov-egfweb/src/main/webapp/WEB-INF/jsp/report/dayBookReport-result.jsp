@@ -103,10 +103,10 @@
 			title="Particulars" style="width:10%;text-align:center"
 			property="particulars" />
 		<display:column headerClass="bluebgheadtd" class="blueborderfortd"
-			title="Debit Amount(Rs.)" style="width:5%;text-align:right"
+			title="Debit Amount(ZM)" style="width:5%;text-align:right"
 			property="debitamount" />
 		<display:column headerClass="bluebgheadtd" class="blueborderfortd"
-			title="Credit Amount(Rs.)" style="width:5%;text-align:right"
+			title="Credit Amount(ZM)" style="width:5%;text-align:right"
 			property="creditamount" />
 		<display:caption media="pdf">
 		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

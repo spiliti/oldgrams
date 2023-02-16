@@ -204,15 +204,15 @@ function createAmountFieldFormatter(values,prefix,suffix){
 				return ''; 
 		}
 
-	var currentYearRange = '<s:property value="currentYearRange"/>(Rs)'; 
-	var nextYearRange = '<s:property value="nextYearRange"/>(Rs)';
-	var currentYear = 'Actuals Up To(Rs)';
+	var currentYearRange = '<s:property value="currentYearRange"/>(ZK)'; 
+	var nextYearRange = '<s:property value="nextYearRange"/>(ZK)';
+	var currentYear = 'Actuals Up To(ZK)';
 	var curentYearRangeWithoutRs='<s:property value="currentYearRange"/>';
 	var currentFullYear=curentYearRangeWithoutRs.substr(0,2)+curentYearRangeWithoutRs.substr(5,7);
-	var previousYear = 'Actuals<br/><s:property value="previousYearRange"/>(Rs)';
-	var lastButOneYear = 'Actuals<br/><s:property value="lastButOneYearRange"/>(Rs)';
-	var currentYearApproved = 'BE <br/><s:property value="currentYearRange"/>(Rs)(A)';
-	var anticipatoryAmountLable='Anticipatory Upto<br/> 31 March '+currentFullYear+' (Rs)';
+	var previousYear = 'Actuals<br/><s:property value="previousYearRange"/>(ZK)';
+	var lastButOneYear = 'Actuals<br/><s:property value="lastButOneYearRange"/>(ZK)';
+	var currentYearApproved = 'BE <br/><s:property value="currentYearRange"/>(ZK)(A)';
+	var anticipatoryAmountLable='Anticipatory Upto<br/> 31 March '+currentFullYear+' (ZK)';
 	var makeBudgetDetailTable = function() {
 		var budgetDetailColumns = [ 
 			{key:"id",label:'documentNumber',hidden:true, formatter:createIdFieldFormatter("budgetDetailList",".id")},

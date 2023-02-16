@@ -253,10 +253,10 @@ function makeAmountFieldFormatter(prefix,suffix){
 			<s:if test="%{shouldShowField('boundary')}">				
 				{key:"budgetDetail.boundary.id",label:'Field'+mandatorySign('boundary'),width:90,formatter:dropdownFormatter('budgetReAppropriationTable',BUDGET_REAPPROPRIATION_LIST),  dropdownOptions:boundaryOptions} ,
 			</s:if>
-			{key:"amount",label:'Budget Estimate(Rs)',width:"50em", formatter:createTextFieldFormatterWithOnblur('budgetReAppropriationTable',BUDGET_REAPPROPRIATION_LIST,".deltaAmount")},
+			{key:"amount",label:'Budget Estimate(ZK)',width:"50em", formatter:createTextFieldFormatterWithOnblur('budgetReAppropriationTable',BUDGET_REAPPROPRIATION_LIST,".deltaAmount")},
 			{key:"planningPercent",label:'Planning Budget<br/>Percentage',width:"50em", formatter:createTextFieldFormatterWithOnblur('budgetReAppropriationTable',BUDGET_REAPPROPRIATION_LIST,".planningPercent")},
-			{key:"planningBudgetApproved",label:'Planning Budget Approved(Rs)',width:"50em", formatter:makeAmountFieldFormatter(BUDGET_REAPPROPRIATION_LIST,".planningBudgetApproved")},
-			{key:"total_available",label:'Budget Provision avail<br/> after Additional Appropriation(Rs)',width:"90", formatter:makeAmountFieldFormatter(BUDGET_REAPPROPRIATION_LIST,".remainingAmount")},
+			{key:"planningBudgetApproved",label:'Planning Budget Approved(ZK)',width:"50em", formatter:makeAmountFieldFormatter(BUDGET_REAPPROPRIATION_LIST,".planningBudgetApproved")},
+			{key:"total_available",label:'Budget Provision avail<br/> after Additional Appropriation(ZK)',width:"90", formatter:makeAmountFieldFormatter(BUDGET_REAPPROPRIATION_LIST,".remainingAmount")},
 			{key:'Add',label:'Add',formatter:createAddImageFormatter("${pageContext.request.contextPath}")},
 			{key:'Delete',label:'Delete',formatter:createDeleteImageFormatter("${pageContext.request.contextPath}")}
 		];

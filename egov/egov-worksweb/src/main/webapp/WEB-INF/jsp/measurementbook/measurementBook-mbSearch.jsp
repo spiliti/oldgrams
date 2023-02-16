@@ -509,7 +509,7 @@ function toggleCancelRemarks(obj) {
 				<display:column   headerClass="pagetableth" class="pagetabletd"  title="${mbDate}"  style="width:9%text-align:center;">
 					<s:date name="%{#attr.currentRowObject.mbDate}"  format="dd/MM/yyyy"/>
             	</display:column>
-            	<display:column title="MB Amount(Rs)" headerClass="pagetableth" class="pagetabletd" style="width:5%;text-align:right">
+            	<display:column title="MB Amount(ZK)" headerClass="pagetableth" class="pagetabletd" style="width:5%;text-align:right">
 					<s:text name="contractor.format.number">
 						<s:param name="value" value="%{#attr.currentRowObject.mbAmount}" />
 					</s:text>

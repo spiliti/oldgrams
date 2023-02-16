@@ -100,7 +100,7 @@
 								<s:iterator value="incomeExpenditureStatement.funds"
 									status="stat">
 									<th class="bluebgheadtd" width="30%" colspan="2"><s:property
-											value="name" />(Rs)</th>
+											value="name" />(ZK)</th>
 								</s:iterator>
 							</tr>
 							<tr>
@@ -112,9 +112,9 @@
 									<s:iterator value="incomeExpenditureStatement.funds"
 										status="stat">
 										<th class="bluebgheadtd" width="15%" align="center"
-											colspan="1"><s:property value="currentYearToDate" />(Rs)</th>
+											colspan="1"><s:property value="currentYearToDate" />(ZK)</th>
 										<th class="bluebgheadtd" width="15%" align="center"
-											colspan="1"><s:property value="previousYearToDate" />(Rs)</th>
+											colspan="1"><s:property value="previousYearToDate" />(ZK)</th>
 									</s:iterator>
 								</s:if>
 								<s:else>

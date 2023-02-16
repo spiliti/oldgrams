@@ -347,7 +347,7 @@
 					<textElement>
 						<font size="8" isBold="true"/>
 					</textElement>
-					<text><![CDATA[ Debit (Rs)]]></text>
+					<text><![CDATA[ Debit (ZK)]]></text>
 				</staticText>
 			</frame>
 			<frame>
@@ -364,7 +364,7 @@
 					<textElement>
 						<font size="8" isBold="true"/>
 					</textElement>
-					<text><![CDATA[   Credit (Rs)]]></text>
+					<text><![CDATA[   Credit (ZK)]]></text>
 				</staticText>
 			</frame>
 			<frame>

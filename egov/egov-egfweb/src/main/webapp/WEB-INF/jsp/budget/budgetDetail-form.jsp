@@ -91,18 +91,18 @@
 			newLastButOne = document.getElementById('newLastButOneYearValue').value;
 		if(document.getElementById('newNextYearValue'))
 			newNext = document.getElementById('newNextYearValue').value;
-		document.getElementById('yui-dt0-th-old_actuals-liner').innerHTML = '<span class="yui-dt-label">Actuals<br/>'+newLastButOne+'(Rs)</span>';
-		document.getElementById('yui-dt0-th-actual_previous_year-liner').innerHTML = '<span class="yui-dt-label">Actuals<br/>'+newPrevious+'(Rs)</span>';
-		document.getElementById('yui-dt0-th-actual_current_year-liner').innerHTML = '<span class="yui-dt-label">BE Actuals<br/>'+newCurrent+'(Rs)</span>';
-		document.getElementById('yui-dt0-th-approved_current_year-liner').innerHTML = '<span class="yui-dt-label">BE <br/>'+newCurrent+'(Rs)</span>';
+		document.getElementById('yui-dt0-th-old_actuals-liner').innerHTML = '<span class="yui-dt-label">Actuals<br/>'+newLastButOne+'(ZK)</span>';
+		document.getElementById('yui-dt0-th-actual_previous_year-liner').innerHTML = '<span class="yui-dt-label">Actuals<br/>'+newPrevious+'(ZK)</span>';
+		document.getElementById('yui-dt0-th-actual_current_year-liner').innerHTML = '<span class="yui-dt-label">BE Actuals<br/>'+newCurrent+'(ZK)</span>';
+		document.getElementById('yui-dt0-th-approved_current_year-liner').innerHTML = '<span class="yui-dt-label">BE <br/>'+newCurrent+'(ZK)</span>';
 		if(document.getElementById('yui-dt0-th-re_amount-liner')){
-			document.getElementById('yui-dt0-th-re_amount-liner').innerHTML = '<span class="yui-dt-label">RE Amount(Rs)<br/>'+newCurrent+'<span class="mandatory">*</span></span>';
+			document.getElementById('yui-dt0-th-re_amount-liner').innerHTML = '<span class="yui-dt-label">RE Amount(ZK)<br/>'+newCurrent+'<span class="mandatory">*</span></span>';
 		}
 		if(document.getElementById('yui-dt0-th-amount-liner')){
-			document.getElementById('yui-dt0-th-amount-liner').innerHTML = '<span class="yui-dt-label">BE Amount(Rs)<br/>'+newNext+'<span class="mandatory">*</span></span>';
+			document.getElementById('yui-dt0-th-amount-liner').innerHTML = '<span class="yui-dt-label">BE Amount(ZK)<br/>'+newNext+'<span class="mandatory">*</span></span>';
 		}
 		if(document.getElementById('yui-dt0-th-total-liner')){
-			document.getElementById('yui-dt0-th-total-liner').innerHTML = '<span class="yui-dt-label">Total<br/>'+newCurrent+'(Rs)</span>';
+			document.getElementById('yui-dt0-th-total-liner').innerHTML = '<span class="yui-dt-label">Total<br/>'+newCurrent+'(ZK)</span>';
 		}
 	}
 	

@@ -98,10 +98,10 @@
 			title="Narration" style="width:7%;text-align:center"
 			property="narration" />
 		<display:column headerClass="bluebgheadtd" class="blueborderfortd"
-			title="Debit Amount(Rs.)" style="width:3%;text-align:right"
+			title="Debit Amount(ZK)" style="width:3%;text-align:right"
 			property="debitamount" />
 		<display:column headerClass="bluebgheadtd" class="blueborderfortd"
-			title="Credit Amount(Rs.)" style="width:3%;text-align:right"
+			title="Credit Amount(ZK)" style="width:3%;text-align:right"
 			property="creditamount" />
 		<display:caption media="pdf">
 			<div align="left" style="text-align: left;">

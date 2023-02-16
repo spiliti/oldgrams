@@ -222,7 +222,7 @@ function openVoucher(vid)
 															<tr id="bankbalanceRow" style="visibility: hidden">
 																<td class="bluebox">&nbsp;</td>
 																<td class="bluebox" width="15%"><strong><s:text
-																			name="payment.balance" />(Rs)</strong></td>
+																			name="payment.balance" />(ZK)</strong></td>
 																<td class="bluebox" colspan="4"><span id="balance" /></td>
 															</tr>
 															<tr>
@@ -243,7 +243,7 @@ function openVoucher(vid)
 																		<s:text name="%{paymentheader.type}" />
 																	</s:else></td>
 																<td class="greybox"><strong><s:text
-																			name="payment.amount" />(Rs)</strong></td>
+																			name="payment.amount" />(ZK)</strong></td>
 																<td class="greybox" colspan="2"><span
 																	id="paymentAmountspan" /><s:text name="%{paymentheader.paymentAmount}" /></td>
 															</tr>
@@ -288,11 +288,11 @@ function openVoucher(vid)
 																				</th>
 																				<th class="bluebgheadtdnew">Party Name
 																				</td>
-																				<th class="bluebgheadtdnew">Bill Amount(Rs)
+																				<th class="bluebgheadtdnew">Bill Amount(ZK)
 																				</td>
-																				<th class="bluebgheadtdnew">Passed Amount(Rs)
+																				<th class="bluebgheadtdnew">Passed Amount(ZK)
 																				</td>
-																				<th class="bluebgheadtdnew">Paid Amount(Rs)
+																				<th class="bluebgheadtdnew">Paid Amount(ZK)
 																				</td>
 																			</tr>
 																			<s:if test="%{miscBillList.size>0}">
@@ -381,7 +381,7 @@ function openVoucher(vid)
 																				</s:else>
 																				<th class="bluebgheadtdnew">Party Code
 																				</td>
-																				<th class="bluebgheadtdnew">Cheque Amount(Rs)
+																				<th class="bluebgheadtdnew">Cheque Amount(ZK)
 																				</td>
 																				<th class="bluebgheadtdnew">Cheque Status
 																				</td>

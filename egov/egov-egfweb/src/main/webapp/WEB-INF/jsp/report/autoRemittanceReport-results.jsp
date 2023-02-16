@@ -143,10 +143,10 @@
 								<th class="bluebgheadtd">PAN Number</th>
 							</s:if>
 							<th class="bluebgheadtd">Bill Number/Reciept Number</th>
-							<th class="bluebgheadtd">Bill/Receipt Amount(Rs)</th>
+							<th class="bluebgheadtd">Bill/Receipt Amount(ZK)</th>
 							<th class="bluebgheadtd">Voucher Number</th>
 							<th class="bluebgheadtd">Remittance Payment Number/Amount</th>
-							<th class="bluebgheadtd">Amount Remitted(Rs)</th>
+							<th class="bluebgheadtd">Amount Remitted(ZK)</th>
 							<th class="bluebgheadtd">RTGS Number/Date</th>
 							<th class="bluebgheadtd">RTGS Amount</th>
 						</tr>

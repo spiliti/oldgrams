@@ -137,7 +137,7 @@
 				<reportElement positionType="FixRelativeToBottom" x="14" y="39" width="531" height="16" uuid="99eaa220-0195-40c8-a8a3-e7a44f9e2c46">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 				</reportElement>
-				<textFieldExpression><![CDATA["Work Identification Number : "+$P{win}+ "         Date: "+$P{billDate}+ "         Amount(Rs): "+$P{billAmount}]]></textFieldExpression>
+				<textFieldExpression><![CDATA["Work Identification Number : "+$P{win}+ "         Date: "+$P{billDate}+ "         Amount(ZK): "+$P{billAmount}]]></textFieldExpression>
 			</textField>
 			<line>
 				<reportElement positionType="FixRelativeToBottom" x="10" y="62" width="537" height="1" uuid="864b7cdd-f001-485d-8eb0-7f7afa60eb85">

@@ -156,7 +156,7 @@
 	                <th class="bluebgheadtd" width="14%" >Function</th>
 	                <th class="bluebgheadtd" width="14%" >Account Code</th>
 	                <th class="bluebgheadtd" width="64%" >Description</th>
-	                <th class="bluebgheadtd" width="11%" >Amount (Rs.)</th>
+	                <th class="bluebgheadtd" width="11%" >Amount (ZK)</th>
 	                <th class="bluebgheadtd" width="11%" >Financial Year</th>
 	              </tr>
 	              <s:iterator value="billDetailslist" >
@@ -191,7 +191,7 @@
 	                <th class="bluebgheadtd" width="64%" >Type</th>
 	                <th class="bluebgheadtd" width="11%" >Code</th>
 	                <th class="bluebgheadtd" width="11%" >Name</th>
-	                <th class="bluebgheadtd" width="11%" >Amount (Rs.)</th>
+	                <th class="bluebgheadtd" width="11%" >Amount (ZK)</th>
 	                </tr>
 	                <s:iterator value="subLedgerlist" >
 			            <tr>

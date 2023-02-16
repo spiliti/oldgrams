@@ -121,15 +121,15 @@ window.open(url,"MajorAndMinorCodewiseReprt","height=650,width=900,scrollbars=ye
 										<th class="bluebgheadtd">COA</th>
 										<th class="bluebgheadtd">Account Head</th>
 										<th class="bluebgheadtd">Schedule</th>
-										<th class="bluebgheadtd">BE(Rs)</th>
-										<th class="bluebgheadtd">BE-Appropriation(Rs)</th>
-										<th class="bluebgheadtd">RE (Rs)</th>
-										<th class="bluebgheadtd">RE-Appropriation (Rs)</th>
+										<th class="bluebgheadtd">BE(ZK)</th>
+										<th class="bluebgheadtd">BE-Appropriation(ZK)</th>
+										<th class="bluebgheadtd">RE (ZK)</th>
+										<th class="bluebgheadtd">RE-Appropriation (ZK)</th>
 										<th class="bluebgheadtd">Expenditure As On(Previous Year)
-											(Rs)</th>
+											(ZK)</th>
 										<th class="bluebgheadtd">Expenditure As On(Current Year)
-											(Rs)</th>
-										<th class="bluebgheadtd">Balance (Rs)</th>
+											(ZK)</th>
+										<th class="bluebgheadtd">Balance (ZK)</th>
 									</tr>
 									<s:set var="i" value="0" />
 
@@ -342,10 +342,10 @@ window.open(url,"MajorAndMinorCodewiseReprt","height=650,width=900,scrollbars=ye
 										<th class="bluebgheadtd">COA</th>
 										<th class="bluebgheadtd">Account Head</th>
 										<th class="bluebgheadtd">Schedule</th>
-										<th class="bluebgheadtd">BE(Rs)</th>
-										<th class="bluebgheadtd">RE (Rs)</th>
-										<th class="bluebgheadtd">Receipt(Current Year) (Rs)</th>
-										<th class="bluebgheadtd">Receipt(Previous Year) (Rs)</th>
+										<th class="bluebgheadtd">BE(ZK)</th>
+										<th class="bluebgheadtd">RE (ZK)</th>
+										<th class="bluebgheadtd">Receipt(Current Year) (ZK)</th>
+										<th class="bluebgheadtd">Receipt(Previous Year) (ZK)</th>
 									</tr>
 									<s:set var="i" value="0" />
 

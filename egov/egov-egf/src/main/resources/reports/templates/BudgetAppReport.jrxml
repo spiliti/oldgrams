@@ -183,7 +183,7 @@
 				<textElement>
 					<font fontName="SansSerif" size="8"/>
 				</textElement>
-				<text><![CDATA[Additional Apprn (Rs) :]]></text>
+				<text><![CDATA[Additional Apprn (ZK) :]]></text>
 			</staticText>
 			<textField>
 				<reportElement x="95" y="105" width="113" height="20" uuid="1fa282d0-fbce-4378-a22d-3a4bfb1aa706"/>
@@ -226,7 +226,7 @@
 				<textElement>
 					<font size="8"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$P{showREAppr}=="true"?"Additional Apprn (RE)(Rs):":""]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$P{showREAppr}=="true"?"Additional Apprn (RE)(ZK):":""]]></textFieldExpression>
 			</textField>
 		</band>
 	</title>
@@ -348,7 +348,7 @@ Allocation #]]></text>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font isBold="true"/>
 				</textElement>
-				<text><![CDATA[Cumulative Total (Rs)]]></text>
+				<text><![CDATA[Cumulative Total (ZK)]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="533" y="0" width="87" height="57" uuid="ed754480-dc3c-4d29-96a7-fce388576c42"/>
@@ -361,7 +361,7 @@ Allocation #]]></text>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font isBold="true"/>
 				</textElement>
-				<text><![CDATA[Amount (Rs)]]></text>
+				<text><![CDATA[Amount (ZK)]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="720" y="-1" width="83" height="58" uuid="48b13a5d-82bd-4495-ab20-f7f73a15f3e2"/>
@@ -375,7 +375,7 @@ Allocation #]]></text>
 					<font isBold="true"/>
 				</textElement>
 				<text><![CDATA[Balance Available
-(Rs)]]></text>
+(ZK)]]></text>
 			</staticText>
 		</band>
 	</columnHeader>
