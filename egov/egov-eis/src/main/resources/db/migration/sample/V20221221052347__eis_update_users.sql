@@ -2,10 +2,8 @@
 -- Boundary type
 --egeis-employee - update employment and date of retirement - None
 
-update egeis_employee set dateofretirement = '2025-12-31';
+update egeis_employee set dateofretirement = now() + '5 years'; --';
 --- eg_role replace  
-
-UPDATE eg_role SET name = 'System Administrator' where id = 4;
 
 --- Funds clear add CDF fund
 ---- Bank Accounts
@@ -79,8 +77,13 @@ UPDATE  eg_user SET username = 'mubiana', name = 'Lackson Mubiana' WHERE id = 60
 UPDATE  eg_user SET username = 'moono', name = 'Michelle Moono' WHERE id = 61;
 UPDATE  eg_user SET username = 'rama', name = 'Rama Subrey' WHERE id = 62;
 UPDATE  eg_user SET username = 'chipeta', name = 'Joseph Chipeta' WHERE id = 63;
-UPDATE  eg_user SET username = 'mbasela', name = 'George Mbasela' WHERE id = 64;
-UPDATE  eg_user SET username = 'chinyama', name = 'P. Chinyma' WHERE id = 65;
-UPDATE  eg_user SET name = 'Beenzu Besu' WHERE id = 70;
-UPDATE  eg_user SET username = 'beenzu', name = 'Alfred Beenzu' WHERE id = 71;
-UPDATE  eg_user SET username = 'mafosi', name = 'Wilber Mafosi' WHERE id = 72;
+UPDATE  eg_user SET username = 'beenzu', name = 'Alfred Beenzu' WHERE id = 64;
+UPDATE  eg_user SET username = 'mafosi', name = 'Wilber Mafosi' WHERE id = 65;
+UPDATE  eg_user SET name = 'AOM Officer' WHERE id = 70;
+UPDATE  eg_user SET username = 'egovzm', name = 'eGov Admin' WHERE id = 71;
+UPDATE  eg_user SET username = 'lgadmin', name = 'LG Admin' WHERE id = 72;
+
+-------------------System Users -------------------
+insert into eg_systemuser values (71), (72);
+
+

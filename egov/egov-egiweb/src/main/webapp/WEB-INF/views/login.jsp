@@ -88,7 +88,8 @@
                 <div class="navbar-header col-md-10 col-xs-10">
                     <a class="navbar-brand" href="javascript:void(0);"> <img src="<cdn:url  value='/resources/global/images/municipality_logo.png'/>" height="60">
                         <div>
-                            <span class="title2">${sessionScope.citymunicipalityname}</span>
+                            <span class="title2">Mapepe City Council</span>
+                            <!-- <span class="title2">${sessionScope.citymunicipalityname}</span> -->
                         </div>
                     </a>
                 </div>
