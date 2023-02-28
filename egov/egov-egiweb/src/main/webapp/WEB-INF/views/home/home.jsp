@@ -193,7 +193,7 @@
 
                 <li class="dropdown">
                     <a href="http://www.zm4a.org" target="_blank">
-                        <img src="<cdn:url value='/resources/global/images/logo@2x.png'/>" title="Powered by Pamodzi Tech" height="25px" style="padding-top:5px">
+                        <img src="<cdn:url value='/resources/global/images/logo@2x.png'/>" title="Pamodzi Tech Solutions" height="25px" style="padding-top:5px">
                     </a>
                 </li>
             </ul>

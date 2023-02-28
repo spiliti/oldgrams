@@ -72,7 +72,7 @@
                 <ul class="hr-menu text-right">
                     <li class="ico-menu">
                         <a href="http://www.zm4a.org" target="_blank">
-                            <img src="<cdn:url  value='/resources/global/images/logo@2x.png'/>" title="Powered by Pamodzi Tech" height="20px">
+                            <img src="<cdn:url  value='/resources/global/images/logo@2x.png'/>" title="Pamodzi Tech Solutions" height="20px">
                         </a>
                     </li>
 

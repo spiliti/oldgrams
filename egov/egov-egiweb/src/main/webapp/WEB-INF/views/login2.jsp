@@ -96,7 +96,7 @@
                     <ul class="hr-menu text-right">
                         <li class="ico-menu">
                             <a href="http://www.zm4a.org" data-strwindname="egovsite" class="open-popup">
-                                <img src="<cdn:url value='/resources/global/images/egov_logo_tr_h.png'/>" title="Powered by eGovernments" height="37" alt="">
+                                <img src="<cdn:url value='/resources/global/images/egov_logo_tr_h.png'/>" title=" A product of Pamodzi Technologies" height="37" alt="">
                             </a>
                         </li>
                     </ul>
@@ -305,7 +305,7 @@
         </div>
     </div>
     <footer class="main">
-        Powered by <a href="http://eGovernments.org" target="_blank">eGovernments Foundation</a>
+        A Product of  <a href="http://eGovernments.org" target="_blank">Pamodzi Technologies</a>
     </footer>
 </div>
 <div class="modal fade" id="fpassword" tabindex="-1" role="dialog"
