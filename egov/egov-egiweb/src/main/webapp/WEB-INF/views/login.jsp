@@ -108,7 +108,19 @@
                     You don't have javascript enabled. Make sure Javascript is enabled.
                 </noscript>
             </div>
+            <!-- Top row meesage -->
+            <div class="row text-center">
+                <!-- Insert message here -->
+                <h2>Welcome to the Public GRAMS Portal</h2>
+                <br> 
+                <p><b> A Digital Zambia Foundation Public Service</b></p>
+            </div>
+            
             <div class="col-md-6 side-space">
+               <h3>New design here</h3>
+               
+                <!-- Deleted  -->
+<!--                 
                 <div class="col-md-12 community-card">
                     <a href="/portal/citizen/signup" target="_blank">
                         <div class="rounded-circle"><i class="fa fa-user a"></i></div>&nbsp;
@@ -152,7 +164,8 @@
                             </div>
                         </a>
                     </div>
-                </c:if>
+                </c:if> -->
+                <!-- end of deleteiton -->
             </div>
             <div class="col-md-6 side-space">
 
@@ -254,6 +267,55 @@
                 </div>
             </div>
         </div>
+        <!-- Start Citizens Options -->
+        <div class="row text-center">
+            <div class="col-md-12 feature-top text-center"></div>
+            <div class="col-md-12 community-card">
+                <a href="/portal/citizen/signup" target="_blank">
+                    <div class="rounded-circle"><i class="fa fa-user a"></i></div>&nbsp;
+                    <div class="label-font">
+                        <spring:message code="lbl.create.ac"/><br>
+                        <span class="label-subfont"><spring:message code="lbl.create.ac.desc"/></span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-12 community-card">
+                <a href="/pgr/complaint/citizen/anonymous/show-reg-form" target="_blank">
+                    <div class="rounded-circle"><i class="fa fa-pencil b"></i></div>&nbsp;
+                    <div class="label-font">
+                        <spring:message code="lbl.reg.comp"/><br>
+                        <span class="label-subfont"><spring:message code="lbl.reg.comp.desc"/></span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-12 community-card">
+                <a href="/pgr/complaint/citizen/anonymous/search?isMore=true" target="_blank">
+                    <div class="rounded-circle"><i class="fa fa-search c"></i>
+                    </div>
+                    &nbsp;
+                </a>
+                <div class="label-font" style="vertical-align: sub">
+                    <spring:message code="lbl.check.comp.status"/>&nbsp;<br>
+                    <input type="text" placeholder="Grievance number" id="compsearchtxt"
+                           style="padding: 2px 5px; height: 30px;font-size: 14px;border: 0;padding-left: 0;border-bottom: 1px solid #D0D2D7;outline: none;box-shadow: none;">
+                    <button class="btn-custom" id="compsearch"
+                            style="padding: 4px 5px;border-radius: 4px;font-size: 14px;vertical-align: bottom;"><spring:message code="btn.lbl.search"/></button>
+                </div>
+                <div class="error-msg search-error-msg display-hide" style="padding-left: 65px;">Grievance number is mandatory</div>
+            </div>
+            <c:if test="${not empty sessionScope.corpCallCenterNo}">
+                <div class="col-md-12 community-card">
+                    <a href="tel:${sessionScope.corpCallCenterNo}">
+                        <div class="rounded-circle"><i class="fa fa-phone b"></i></div>&nbsp;
+                        <div class="label-font">
+                            <spring:message code="lbl.reg.via.grev.cell"/><br>
+                            <span class="label-subfont"><spring:message code="lbl.cal.desc.part1"/> ${sessionScope.corpCallCenterNo} <spring:message code="lbl.cal.desc.part2"/></span>
+                        </div>
+                    </a>
+                </div>
+            </c:if>
+        </div>
+        <!-- End citizen options -->
         <div class="row text-center">
             <div class="col-md-12 feature-top text-center"></div>
             <div class="col-md-4 top-community-space">
@@ -283,7 +345,7 @@
         </div>
     </div>
     <footer class="main">
-        Powered by <a href="http://eGovernments.org" target="_blank">eGovernments Foundation</a>
+        Brought to you by <a href="http://digitalzambia.org" target="_blank">Digital Zambia Foundation</a>
     </footer>
 </div>
 <div class="modal fade" id="fpassword" tabindex="-1" role="dialog"
