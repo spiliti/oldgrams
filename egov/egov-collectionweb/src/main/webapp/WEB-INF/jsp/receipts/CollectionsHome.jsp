@@ -98,6 +98,6 @@
 </div>
   </div>
 </div>
-<div class="buttonbottom">City Administration System Designed and Implemented by <a href="http://www.egovernments.org/">eGovernments Foundation</a> All Rights Reserved </div>
+<div class="buttonbottom">City Administration System Designed and Implemented by <a href="http://www.dzf.org/">Digial Zambia Foundation</a> All Rights Reserved </div>
 </body>
 </html>

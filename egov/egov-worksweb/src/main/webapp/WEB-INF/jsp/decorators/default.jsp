@@ -228,6 +228,6 @@ window.document.onkeydown = function(event) {
 			<div style="margin-top:10px"><decorator:title/> </div>
 		</div>
 	    <decorator:body/>
-	    <div class="urlwk"><div align>Works Management System Designed and Implemented by <a href="http://www.egovernments.org/">eGovernments Foundation</a> All Rights Reserved </div></div>
+	    <div class="urlwk"><div align>Works Management System Designed and Implemented by <a href="http://www.dzf.org/">Digial Zambia Foundation</a> All Rights Reserved </div></div>
     </body>
 </html> --%>
